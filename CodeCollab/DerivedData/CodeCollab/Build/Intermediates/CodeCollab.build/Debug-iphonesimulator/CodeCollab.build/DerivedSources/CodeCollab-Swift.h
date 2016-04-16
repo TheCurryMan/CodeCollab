@@ -107,11 +107,13 @@ SWIFT_CLASS("_TtC10CodeCollab11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class NSArray;
 @class NSBundle;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC10CodeCollab14ViewController")
 @interface ViewController : UIViewController
+@property (nonatomic, strong) NSArray * __nonnull hackathonData;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
