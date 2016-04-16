@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "cf64fcc03370eacb00d42f1928185f0e"
+build_time: [514149389, 383294000]
+inputs:
+  "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/CodeCollab/AppDelegate.swift": [514149386, 0]
+  "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/CodeCollab/ViewController.swift": [514149386, 0]
