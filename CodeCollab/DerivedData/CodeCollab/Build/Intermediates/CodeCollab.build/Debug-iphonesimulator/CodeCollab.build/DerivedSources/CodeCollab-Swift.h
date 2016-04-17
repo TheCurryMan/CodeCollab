@@ -235,6 +235,35 @@ SWIFT_CLASS("_TtC10CodeCollab21IdeaCardTableViewCell")
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIActivityIndicatorView;
+@class Firebase;
+
+SWIFT_CLASS("_TtC10CodeCollab21LoadingViewController")
+@interface LoadingViewController : UIViewController
+@property (nonatomic, strong) UIActivityIndicatorView * __nonnull activityIndicator;
+@property (nonatomic, readonly, strong) Firebase * __null_unspecified ref;
+- (void)viewDidLoad;
+- (void)nextpage;
+- (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UITextField;
+
+SWIFT_CLASS("_TtC10CodeCollab19LoginViewController")
+@interface LoginViewController : UIViewController
+@property (nonatomic, strong) IBOutlet UITextField * __null_unspecified email;
+@property (nonatomic, strong) IBOutlet UITextField * __null_unspecified password;
+@property (nonatomic) BOOL merchant;
+@property (nonatomic, strong) Firebase * __null_unspecified ref;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (IBAction)login:(UIButton * __nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC10CodeCollab6Member")
 @interface Member : NSObject
@@ -248,6 +277,30 @@ SWIFT_CLASS("_TtC10CodeCollab5Prize")
 @property (nonatomic, copy) NSString * __nonnull sponsor;
 @property (nonatomic, copy) NSString * __nonnull blurb;
 - (nonnull instancetype)initWithAmount:(NSInteger)amount sponsor:(NSString * __nonnull)sponsor blurb:(NSString * __nonnull)blurb OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UITouch;
+@class UIEvent;
+
+SWIFT_CLASS("_TtC10CodeCollab20SignUpViewController")
+@interface SignUpViewController : UIViewController <UITextFieldDelegate>
+@property (nonatomic, strong) IBOutlet UITextField * __null_unspecified email;
+@property (nonatomic, strong) IBOutlet UITextField * __null_unspecified username;
+@property (nonatomic, strong) IBOutlet UITextField * __null_unspecified password;
+@property (nonatomic, strong) IBOutlet UIButton * __null_unspecified signup;
+@property (nonatomic, strong) IBOutlet UIButton * __null_unspecified fbsignup;
+@property (nonatomic, strong) IBOutlet UIButton * __null_unspecified googsignup;
+@property (nonatomic, strong) Firebase * __null_unspecified ref;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (BOOL)textFieldShouldReturn:(UITextField * __nonnull)textField;
+- (void)touchesBegan:(NSSet<UITouch *> * __nonnull)touches withEvent:(UIEvent * __nullable)event;
+- (IBAction)signUp:(UIButton * __nonnull)sender;
+- (IBAction)fbLogin:(id __nonnull)sender;
+- (IBAction)merchantLogIn:(id __nonnull)sender;
+- (void)prepareForSegue:(UIStoryboardSegue * __nonnull)segue sender:(id __nullable)sender;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 

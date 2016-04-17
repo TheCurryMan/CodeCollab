@@ -1,0 +1,829 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AFHTTPRequestOperation.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFHTTPRequestOperationManager.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFHTTPSessionManager.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFNetworkActivityIndicatorManager.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFNetworkReachabilityManager.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFNetworking-Swift.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFNetworking-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFNetworking-umbrella.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/Target Support Files/AFNetworking/AFNetworking-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFNetworking.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/AFNetworking/AFNetworking/AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFSecurityPolicy.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFURLConnectionOperation.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFURLRequestSerialization.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFURLResponseSerialization.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFURLSessionManager.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIActivityIndicatorView+AFNetworking.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIAlertView+AFNetworking.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIButton+AFNetworking.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImage+AFNetworking.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/AFNetworking/UIKit+AFNetworking/UIImage+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImageView+AFNetworking.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIKit+AFNetworking.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/AFNetworking/UIKit+AFNetworking/UIKit+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIProgressView+AFNetworking.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIRefreshControl+AFNetworking.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIWebView+AFNetworking.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Intermediates/Pods.build/Debug-iphonesimulator/AFNetworking.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/BDBOAuth1Manager.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "BDBOAuth1Manager-Swift.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/BDBOAuth1Manager.framework/Headers/BDBOAuth1Manager-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "BDBOAuth1Manager-umbrella.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/Target Support Files/BDBOAuth1Manager/BDBOAuth1Manager-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "BDBOAuth1RequestOperationManager.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1RequestOperationManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "BDBOAuth1RequestSerializer.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1RequestSerializer.h"
+        },
+        {
+          'type': 'file',
+          'name': "BDBOAuth1SessionManager.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1SessionManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSDictionary+BDBOAuth1Manager.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/BDBOAuth1Manager/BDBOAuth1Manager/Categories/NSDictionary+BDBOAuth1Manager.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSString+BDBOAuth1Manager.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/BDBOAuth1Manager/BDBOAuth1Manager/Categories/NSString+BDBOAuth1Manager.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/BDBOAuth1Manager.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Intermediates/Pods.build/Debug-iphonesimulator/BDBOAuth1Manager.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "BFAppLink.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/Bolts/Bolts/iOS/BFAppLink.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFAppLinkNavigation.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/Bolts/Bolts/iOS/BFAppLinkNavigation.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFAppLinkResolving.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/Bolts/Bolts/iOS/BFAppLinkResolving.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFAppLinkReturnToRefererController.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/Bolts/Bolts/iOS/BFAppLinkReturnToRefererController.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFAppLinkReturnToRefererView.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/Bolts/Bolts/iOS/BFAppLinkReturnToRefererView.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFAppLinkReturnToRefererView_Internal.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/Bolts/Bolts/iOS/BFAppLinkReturnToRefererView_Internal.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFAppLinkTarget.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/Bolts/Bolts/iOS/BFAppLinkTarget.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFAppLink_Internal.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/Bolts/Bolts/iOS/BFAppLink_Internal.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFCancellationToken.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/Bolts/Bolts/Common/BFCancellationToken.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFCancellationTokenRegistration.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/Bolts/Bolts/Common/BFCancellationTokenRegistration.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFCancellationTokenSource.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/Bolts/Bolts/Common/BFCancellationTokenSource.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFExecutor.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/Bolts/Bolts/Common/BFExecutor.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFMeasurementEvent.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/Bolts/Bolts/iOS/BFMeasurementEvent.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFMeasurementEvent_Internal.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/Bolts/Bolts/iOS/BFMeasurementEvent_Internal.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFTask.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/Bolts/Bolts/Common/BFTask.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFTaskCompletionSource.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/Bolts/Bolts/Common/BFTaskCompletionSource.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFURL.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/Bolts/Bolts/iOS/BFURL.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFURL_Internal.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/Bolts/Bolts/iOS/BFURL_Internal.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFWebViewAppLinkResolver.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/Bolts/Bolts/iOS/BFWebViewAppLinkResolver.h"
+        },
+        {
+          'type': 'file',
+          'name': "Bolts-Swift.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/Bolts-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Bolts-umbrella.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/Target Support Files/Bolts/Bolts-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Bolts.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/Bolts/Bolts/Common/Bolts.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Bolts.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Intermediates/Pods.build/Debug-iphonesimulator/Bolts.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "FBSDKAccessToken.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAccessToken.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKAppEvents.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppEvents.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKAppLinkResolver.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkResolver.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKAppLinkUtility.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkUtility.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKApplicationDelegate.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKApplicationDelegate.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKButton.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKButton.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKConstants.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKConstants.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKCopying.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCopying.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKCoreKit-Swift.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKCoreKit-umbrella.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/Target Support Files/FBSDKCoreKit/FBSDKCoreKit-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKCoreKit.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKGraphErrorRecoveryProcessor.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphErrorRecoveryProcessor.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKGraphRequest.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequest.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKGraphRequestConnection.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestConnection.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKGraphRequestDataAttachment.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestDataAttachment.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKMacros.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMacros.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKMutableCopying.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMutableCopying.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKProfile.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfile.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKProfilePictureView.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfilePictureView.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKSettings.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKSettings.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKTestUsersManager.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKTestUsersManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKUtility.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKUtility.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Intermediates/Pods.build/Debug-iphonesimulator/FBSDKCoreKit.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "FBSDKLoginButton.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginButton.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKLoginConstants.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginConstants.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKLoginKit-Swift.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKLoginKit-umbrella.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/Target Support Files/FBSDKLoginKit/FBSDKLoginKit-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKLoginKit.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKLoginManager.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKLoginManagerLoginResult.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginManagerLoginResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKLoginTooltipView.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginTooltipView.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKTooltipView.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/FBSDKTooltipView.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Intermediates/Pods.build/Debug-iphonesimulator/FBSDKLoginKit.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "FBSDKAppGroupAddDialog.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKAppGroupAddDialog.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKAppGroupContent.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKAppGroupContent.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKAppGroupJoinDialog.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKAppGroupJoinDialog.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKAppInviteContent.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKAppInviteContent.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKAppInviteDialog.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKAppInviteDialog.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKGameRequestContent.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKGameRequestContent.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKGameRequestDialog.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKGameRequestDialog.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKHashtag.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKHashtag.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKLikeButton.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKLikeButton.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKLikeControl.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKLikeControl.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKLikeObjectType.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKLikeObjectType.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKLiking.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKLiking.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKMessageDialog.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKMessageDialog.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKSendButton.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSendButton.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKShareAPI.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareAPI.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKShareButton.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareButton.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKShareConstants.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareConstants.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKShareDialog.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareDialog.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKShareDialogMode.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareDialogMode.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKShareKit-Swift.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKShareKit-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKShareKit-umbrella.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/Target Support Files/FBSDKShareKit/FBSDKShareKit-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKShareKit.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKShareLinkContent.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareLinkContent.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKShareMediaContent.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareMediaContent.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKShareOpenGraphAction.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphAction.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKShareOpenGraphContent.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphContent.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKShareOpenGraphObject.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphObject.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKShareOpenGraphValueContainer.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphValueContainer.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKSharePhoto.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharePhoto.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKSharePhotoContent.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharePhotoContent.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKShareVideo.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareVideo.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKShareVideoContent.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareVideoContent.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKSharing.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharing.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKSharingButton.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharingButton.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKSharingContent.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharingContent.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Intermediates/Pods.build/Debug-iphonesimulator/FBSDKShareKit.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "FAuthData.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/Firebase/FAuthData.h"
+        },
+        {
+          'type': 'file',
+          'name': "FAuthType.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/Firebase/FAuthType.h"
+        },
+        {
+          'type': 'file',
+          'name': "FConfig.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/Firebase/FConfig.h"
+        },
+        {
+          'type': 'file',
+          'name': "FDataSnapshot.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/Firebase/FDataSnapshot.h"
+        },
+        {
+          'type': 'file',
+          'name': "FEventType.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/Firebase/FEventType.h"
+        },
+        {
+          'type': 'file',
+          'name': "FMutableData.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/Firebase/FMutableData.h"
+        },
+        {
+          'type': 'file',
+          'name': "FQuery.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/Firebase/FQuery.h"
+        },
+        {
+          'type': 'file',
+          'name': "FTransactionResult.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/Firebase/FTransactionResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "Firebase-Swift.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/Firebase-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Firebase-umbrella.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/Target Support Files/Firebase/Firebase-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Firebase.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/Firebase/Firebase.h"
+        },
+        {
+          'type': 'file',
+          'name': "FirebaseApp.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/Firebase/FirebaseApp.h"
+        },
+        {
+          'type': 'file',
+          'name': "FirebaseServerValue.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/Firebase/FirebaseServerValue.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Firebase.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Intermediates/Pods.build/Debug-iphonesimulator/Firebase.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Pods.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-Swift.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Pods.framework/Headers/Pods-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods-umbrella.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/Target Support Files/Pods/Pods-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Pods.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/SwiftQRCode.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SwiftQRCode-Swift.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/SwiftQRCode.framework/Headers/SwiftQRCode-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SwiftQRCode-umbrella.h",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/Pods/Target Support Files/SwiftQRCode/SwiftQRCode-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/SwiftQRCode.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Intermediates/Pods.build/Debug-iphonesimulator/SwiftQRCode.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

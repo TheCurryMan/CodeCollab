@@ -1,0 +1,1123 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SignUpViewController"
+provides-nominal:
+- "C10CodeCollab20SignUpViewController"
+provides-member:
+- ["C10CodeCollab20SignUpViewController", ""]
+provides-dynamic-lookup:
+- "fbsignup"
+- "signUp"
+- "username"
+- "merchantLogIn"
+- "ref"
+- "email"
+- "touchesBegan"
+- "didReceiveMemoryWarning"
+- "fbLogin"
+- "password"
+- "googsignup"
+- "prepareForSegue"
+- "signup"
+- "textFieldShouldReturn"
+- "viewDidLoad"
+depends-top-level:
+- "SignUpViewController"
+- !private "!="
+- !private "Void"
+- !private "LoginViewController"
+- !private "&&"
+- !private "Array"
+- "StringLiteralType"
+- "AnyObject"
+- "UIViewController"
+- "Bool"
+- !private "print"
+- !private "FBSDKAccessToken"
+- "Set"
+- !private "=="
+- "UIEvent"
+- !private "BooleanLiteralType"
+- "Dictionary"
+- "UITextField"
+- "UIButton"
+- "UITouch"
+- !private "FBSDKLoginManager"
+- "UIStoryboardSegue"
+- "Firebase"
+- "UITextFieldDelegate"
+- !private "NSError"
+depends-member:
+- !private ["PSs9AnyObject", "FBSDKAccessToken"]
+- !private ["PSs9AnyObject", "FBSDKLoginManager"]
+- ["PSs9AnyObject", "Firebase"]
+- !private ["PSs9AnyObject", "authUser"]
+- !private ["PSs9AnyObject", "authWithOAuthProvider"]
+- !private ["PSs9AnyObject", "childByAppendingPath"]
+- !private ["PSs9AnyObject", "cornerRadius"]
+- !private ["PSs9AnyObject", "createUser"]
+- !private ["PSs9AnyObject", "currentAccessToken"]
+- !private ["PSs9AnyObject", "deinit"]
+- !private ["PSs9AnyObject", "destinationViewController"]
+- ["PSs9AnyObject", "didReceiveMemoryWarning"]
+- ["PSs9AnyObject", "email"]
+- !private ["PSs9AnyObject", "endEditing"]
+- ["PSs9AnyObject", "fbLogin"]
+- ["PSs9AnyObject", "fbsignup"]
+- ["PSs9AnyObject", "googsignup"]
+- !private ["PSs9AnyObject", "identifier"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "isCancelled"]
+- !private ["PSs9AnyObject", "layer"]
+- !private ["PSs9AnyObject", "localizedDescription"]
+- !private ["PSs9AnyObject", "logInWithReadPermissions"]
+- !private ["PSs9AnyObject", "logOut"]
+- !private ["PSs9AnyObject", "merchant"]
+- ["PSs9AnyObject", "merchantLogIn"]
+- ["PSs9AnyObject", "password"]
+- !private ["PSs9AnyObject", "performSegueWithIdentifier"]
+- ["PSs9AnyObject", "prepareForSegue"]
+- !private ["PSs9AnyObject", "print"]
+- !private ["PSs9AnyObject", "provider"]
+- ["PSs9AnyObject", "ref"]
+- !private ["PSs9AnyObject", "resignFirstResponder"]
+- !private ["PSs9AnyObject", "setValue"]
+- ["PSs9AnyObject", "signUp"]
+- ["PSs9AnyObject", "signup"]
+- !private ["PSs9AnyObject", "text"]
+- ["PSs9AnyObject", "textField"]
+- ["PSs9AnyObject", "textFieldDidBeginEditing"]
+- ["PSs9AnyObject", "textFieldDidEndEditing"]
+- ["PSs9AnyObject", "textFieldShouldBeginEditing"]
+- ["PSs9AnyObject", "textFieldShouldClear"]
+- ["PSs9AnyObject", "textFieldShouldEndEditing"]
+- ["PSs9AnyObject", "textFieldShouldReturn"]
+- !private ["PSs9AnyObject", "tokenString"]
+- ["PSs9AnyObject", "touchesBegan"]
+- !private ["PSs9AnyObject", "uid"]
+- ["PSs9AnyObject", "username"]
+- !private ["PSs9AnyObject", "view"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", ""]
+- !private ["Sa", "Element"]
+- !private ["PSs23ArrayLiteralConvertible", "Element"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["CSo7CALayer", "cornerRadius"]
+- !private ["PSo13CAMediaTiming", "cornerRadius"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["PSs11CVarArgType", "FBSDKAccessToken"]
+- !private ["PSs11CVarArgType", "FBSDKLoginManager"]
+- ["PSs11CVarArgType", "Firebase"]
+- !private ["PSs11CVarArgType", "authUser"]
+- !private ["PSs11CVarArgType", "authWithOAuthProvider"]
+- !private ["PSs11CVarArgType", "childByAppendingPath"]
+- !private ["PSs11CVarArgType", "cornerRadius"]
+- !private ["PSs11CVarArgType", "createUser"]
+- !private ["PSs11CVarArgType", "currentAccessToken"]
+- !private ["PSs11CVarArgType", "destinationViewController"]
+- ["PSs11CVarArgType", "didReceiveMemoryWarning"]
+- ["PSs11CVarArgType", "email"]
+- !private ["PSs11CVarArgType", "endEditing"]
+- ["PSs11CVarArgType", "fbLogin"]
+- ["PSs11CVarArgType", "fbsignup"]
+- ["PSs11CVarArgType", "googsignup"]
+- !private ["PSs11CVarArgType", "identifier"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "isCancelled"]
+- !private ["PSs11CVarArgType", "layer"]
+- !private ["PSs11CVarArgType", "localizedDescription"]
+- !private ["PSs11CVarArgType", "logInWithReadPermissions"]
+- !private ["PSs11CVarArgType", "logOut"]
+- !private ["PSs11CVarArgType", "merchant"]
+- ["PSs11CVarArgType", "merchantLogIn"]
+- ["PSs11CVarArgType", "password"]
+- !private ["PSs11CVarArgType", "performSegueWithIdentifier"]
+- ["PSs11CVarArgType", "prepareForSegue"]
+- !private ["PSs11CVarArgType", "print"]
+- !private ["PSs11CVarArgType", "provider"]
+- ["PSs11CVarArgType", "ref"]
+- !private ["PSs11CVarArgType", "resignFirstResponder"]
+- !private ["PSs11CVarArgType", "setValue"]
+- ["PSs11CVarArgType", "signUp"]
+- ["PSs11CVarArgType", "signup"]
+- !private ["PSs11CVarArgType", "text"]
+- ["PSs11CVarArgType", "textField"]
+- ["PSs11CVarArgType", "textFieldDidBeginEditing"]
+- ["PSs11CVarArgType", "textFieldDidEndEditing"]
+- ["PSs11CVarArgType", "textFieldShouldBeginEditing"]
+- ["PSs11CVarArgType", "textFieldShouldClear"]
+- ["PSs11CVarArgType", "textFieldShouldEndEditing"]
+- ["PSs11CVarArgType", "textFieldShouldReturn"]
+- !private ["PSs11CVarArgType", "tokenString"]
+- ["PSs11CVarArgType", "touchesBegan"]
+- !private ["PSs11CVarArgType", "uid"]
+- ["PSs11CVarArgType", "username"]
+- !private ["PSs11CVarArgType", "view"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", ""]
+- !private ["VSs9Character", "deinit"]
+- !private ["PSs14CollectionType", "Element"]
+- !private ["PSs14CollectionType", "Key"]
+- !private ["PSs14CollectionType", "Value"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "Element"]
+- !private ["PSs28CustomDebugStringConvertible", "Key"]
+- !private ["PSs28CustomDebugStringConvertible", "Value"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "Element"]
+- !private ["PSs23CustomStringConvertible", "FBSDKAccessToken"]
+- !private ["PSs23CustomStringConvertible", "FBSDKLoginManager"]
+- ["PSs23CustomStringConvertible", "Firebase"]
+- !private ["PSs23CustomStringConvertible", "Key"]
+- !private ["PSs23CustomStringConvertible", "Value"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "authUser"]
+- !private ["PSs23CustomStringConvertible", "authWithOAuthProvider"]
+- !private ["PSs23CustomStringConvertible", "childByAppendingPath"]
+- !private ["PSs23CustomStringConvertible", "cornerRadius"]
+- !private ["PSs23CustomStringConvertible", "createUser"]
+- !private ["PSs23CustomStringConvertible", "currentAccessToken"]
+- !private ["PSs23CustomStringConvertible", "destinationViewController"]
+- ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
+- ["PSs23CustomStringConvertible", "email"]
+- !private ["PSs23CustomStringConvertible", "endEditing"]
+- ["PSs23CustomStringConvertible", "fbLogin"]
+- ["PSs23CustomStringConvertible", "fbsignup"]
+- ["PSs23CustomStringConvertible", "googsignup"]
+- !private ["PSs23CustomStringConvertible", "identifier"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "isCancelled"]
+- !private ["PSs23CustomStringConvertible", "layer"]
+- !private ["PSs23CustomStringConvertible", "localizedDescription"]
+- !private ["PSs23CustomStringConvertible", "logInWithReadPermissions"]
+- !private ["PSs23CustomStringConvertible", "logOut"]
+- !private ["PSs23CustomStringConvertible", "merchant"]
+- ["PSs23CustomStringConvertible", "merchantLogIn"]
+- ["PSs23CustomStringConvertible", "password"]
+- !private ["PSs23CustomStringConvertible", "performSegueWithIdentifier"]
+- ["PSs23CustomStringConvertible", "prepareForSegue"]
+- !private ["PSs23CustomStringConvertible", "print"]
+- !private ["PSs23CustomStringConvertible", "provider"]
+- ["PSs23CustomStringConvertible", "ref"]
+- !private ["PSs23CustomStringConvertible", "resignFirstResponder"]
+- !private ["PSs23CustomStringConvertible", "setValue"]
+- ["PSs23CustomStringConvertible", "signUp"]
+- ["PSs23CustomStringConvertible", "signup"]
+- !private ["PSs23CustomStringConvertible", "text"]
+- ["PSs23CustomStringConvertible", "textField"]
+- ["PSs23CustomStringConvertible", "textFieldDidBeginEditing"]
+- ["PSs23CustomStringConvertible", "textFieldDidEndEditing"]
+- ["PSs23CustomStringConvertible", "textFieldShouldBeginEditing"]
+- ["PSs23CustomStringConvertible", "textFieldShouldClear"]
+- ["PSs23CustomStringConvertible", "textFieldShouldEndEditing"]
+- ["PSs23CustomStringConvertible", "textFieldShouldReturn"]
+- !private ["PSs23CustomStringConvertible", "tokenString"]
+- ["PSs23CustomStringConvertible", "touchesBegan"]
+- !private ["PSs23CustomStringConvertible", "uid"]
+- ["PSs23CustomStringConvertible", "username"]
+- !private ["PSs23CustomStringConvertible", "view"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["VSs10Dictionary", "Key"]
+- !private ["VSs10Dictionary", "Value"]
+- !private ["VSs10Dictionary", "deinit"]
+- !private ["PSs28DictionaryLiteralConvertible", "Key"]
+- !private ["PSs28DictionaryLiteralConvertible", "Value"]
+- !private ["Sd", "deinit"]
+- !private ["PSs9Equatable", "FBSDKAccessToken"]
+- !private ["PSs9Equatable", "FBSDKLoginManager"]
+- ["PSs9Equatable", "Firebase"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "authUser"]
+- !private ["PSs9Equatable", "authWithOAuthProvider"]
+- !private ["PSs9Equatable", "childByAppendingPath"]
+- !private ["PSs9Equatable", "cornerRadius"]
+- !private ["PSs9Equatable", "createUser"]
+- !private ["PSs9Equatable", "currentAccessToken"]
+- !private ["PSs9Equatable", "destinationViewController"]
+- ["PSs9Equatable", "didReceiveMemoryWarning"]
+- ["PSs9Equatable", "email"]
+- !private ["PSs9Equatable", "endEditing"]
+- ["PSs9Equatable", "fbLogin"]
+- ["PSs9Equatable", "fbsignup"]
+- ["PSs9Equatable", "googsignup"]
+- !private ["PSs9Equatable", "identifier"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "isCancelled"]
+- !private ["PSs9Equatable", "layer"]
+- !private ["PSs9Equatable", "localizedDescription"]
+- !private ["PSs9Equatable", "logInWithReadPermissions"]
+- !private ["PSs9Equatable", "logOut"]
+- !private ["PSs9Equatable", "merchant"]
+- ["PSs9Equatable", "merchantLogIn"]
+- ["PSs9Equatable", "password"]
+- !private ["PSs9Equatable", "performSegueWithIdentifier"]
+- ["PSs9Equatable", "prepareForSegue"]
+- !private ["PSs9Equatable", "print"]
+- !private ["PSs9Equatable", "provider"]
+- ["PSs9Equatable", "ref"]
+- !private ["PSs9Equatable", "resignFirstResponder"]
+- !private ["PSs9Equatable", "setValue"]
+- ["PSs9Equatable", "signUp"]
+- ["PSs9Equatable", "signup"]
+- !private ["PSs9Equatable", "text"]
+- ["PSs9Equatable", "textField"]
+- ["PSs9Equatable", "textFieldDidBeginEditing"]
+- ["PSs9Equatable", "textFieldDidEndEditing"]
+- ["PSs9Equatable", "textFieldShouldBeginEditing"]
+- ["PSs9Equatable", "textFieldShouldClear"]
+- ["PSs9Equatable", "textFieldShouldEndEditing"]
+- ["PSs9Equatable", "textFieldShouldReturn"]
+- !private ["PSs9Equatable", "tokenString"]
+- ["PSs9Equatable", "touchesBegan"]
+- !private ["PSs9Equatable", "uid"]
+- ["PSs9Equatable", "username"]
+- !private ["PSs9Equatable", "view"]
+- ["PSs9Equatable", "viewDidLoad"]
+- ["PSs9Equatable", ""]
+- !private ["PSs9ErrorType", "localizedDescription"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["CSo9FAuthData", "provider"]
+- !private ["CSo9FAuthData", "uid"]
+- !private ["CSo16FBSDKAccessToken", "currentAccessToken"]
+- !private ["CSo16FBSDKAccessToken", "tokenString"]
+- !private ["PSo12FBSDKCopying", "currentAccessToken"]
+- !private ["PSo12FBSDKCopying", "tokenString"]
+- !private ["CSo17FBSDKLoginManager", "init"]
+- !private ["CSo17FBSDKLoginManager", "logInWithReadPermissions"]
+- !private ["CSo17FBSDKLoginManager", "logOut"]
+- !private ["CSo28FBSDKLoginManagerLoginResult", "isCancelled"]
+- !private ["CSo6FQuery", "authUser"]
+- !private ["CSo6FQuery", "authWithOAuthProvider"]
+- !private ["CSo6FQuery", "childByAppendingPath"]
+- !private ["CSo6FQuery", "createUser"]
+- ["CSo6FQuery", "init"]
+- !private ["CSo6FQuery", "setValue"]
+- !private ["CSo8Firebase", "authUser"]
+- !private ["CSo8Firebase", "authWithOAuthProvider"]
+- !private ["CSo8Firebase", "childByAppendingPath"]
+- !private ["CSo8Firebase", "createUser"]
+- ["CSo8Firebase", "init"]
+- !private ["CSo8Firebase", "setValue"]
+- !private ["Sf", "deinit"]
+- !private ["PSs8Hashable", "FBSDKAccessToken"]
+- !private ["PSs8Hashable", "FBSDKLoginManager"]
+- ["PSs8Hashable", "Firebase"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "authUser"]
+- !private ["PSs8Hashable", "authWithOAuthProvider"]
+- !private ["PSs8Hashable", "childByAppendingPath"]
+- !private ["PSs8Hashable", "cornerRadius"]
+- !private ["PSs8Hashable", "createUser"]
+- !private ["PSs8Hashable", "currentAccessToken"]
+- !private ["PSs8Hashable", "destinationViewController"]
+- ["PSs8Hashable", "didReceiveMemoryWarning"]
+- ["PSs8Hashable", "email"]
+- !private ["PSs8Hashable", "endEditing"]
+- ["PSs8Hashable", "fbLogin"]
+- ["PSs8Hashable", "fbsignup"]
+- ["PSs8Hashable", "googsignup"]
+- !private ["PSs8Hashable", "identifier"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "isCancelled"]
+- !private ["PSs8Hashable", "layer"]
+- !private ["PSs8Hashable", "localizedDescription"]
+- !private ["PSs8Hashable", "logInWithReadPermissions"]
+- !private ["PSs8Hashable", "logOut"]
+- !private ["PSs8Hashable", "merchant"]
+- ["PSs8Hashable", "merchantLogIn"]
+- ["PSs8Hashable", "password"]
+- !private ["PSs8Hashable", "performSegueWithIdentifier"]
+- ["PSs8Hashable", "prepareForSegue"]
+- !private ["PSs8Hashable", "print"]
+- !private ["PSs8Hashable", "provider"]
+- ["PSs8Hashable", "ref"]
+- !private ["PSs8Hashable", "resignFirstResponder"]
+- !private ["PSs8Hashable", "setValue"]
+- ["PSs8Hashable", "signUp"]
+- ["PSs8Hashable", "signup"]
+- !private ["PSs8Hashable", "text"]
+- ["PSs8Hashable", "textField"]
+- ["PSs8Hashable", "textFieldDidBeginEditing"]
+- ["PSs8Hashable", "textFieldDidEndEditing"]
+- ["PSs8Hashable", "textFieldShouldBeginEditing"]
+- ["PSs8Hashable", "textFieldShouldClear"]
+- ["PSs8Hashable", "textFieldShouldEndEditing"]
+- ["PSs8Hashable", "textFieldShouldReturn"]
+- !private ["PSs8Hashable", "tokenString"]
+- ["PSs8Hashable", "touchesBegan"]
+- !private ["PSs8Hashable", "uid"]
+- ["PSs8Hashable", "username"]
+- !private ["PSs8Hashable", "view"]
+- ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", ""]
+- ["SQ", "deinit"]
+- !private ["PSs9Indexable", "Element"]
+- !private ["PSs9Indexable", "Key"]
+- !private ["PSs9Indexable", "Value"]
+- !private ["Si", "deinit"]
+- !private ["VSs5Int16", "deinit"]
+- !private ["VSs5Int32", "deinit"]
+- !private ["VSs5Int64", "deinit"]
+- !private ["VSs4Int8", "deinit"]
+- !private ["C10CodeCollab19LoginViewController", "merchant"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["PSs21MutableCollectionType", "Element"]
+- !private ["PSs16MutableIndexable", "Element"]
+- !private ["PSs16MutableSliceable", "Element"]
+- !private ["PSo8NSCoding", "FBSDKAccessToken"]
+- !private ["PSo8NSCoding", "FBSDKLoginManager"]
+- ["PSo8NSCoding", "Firebase"]
+- !private ["PSo8NSCoding", "cornerRadius"]
+- !private ["PSo8NSCoding", "currentAccessToken"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- ["PSo8NSCoding", "email"]
+- !private ["PSo8NSCoding", "endEditing"]
+- ["PSo8NSCoding", "fbLogin"]
+- ["PSo8NSCoding", "fbsignup"]
+- ["PSo8NSCoding", "googsignup"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "layer"]
+- !private ["PSo8NSCoding", "localizedDescription"]
+- !private ["PSo8NSCoding", "merchant"]
+- ["PSo8NSCoding", "merchantLogIn"]
+- ["PSo8NSCoding", "password"]
+- !private ["PSo8NSCoding", "performSegueWithIdentifier"]
+- ["PSo8NSCoding", "prepareForSegue"]
+- !private ["PSo8NSCoding", "print"]
+- ["PSo8NSCoding", "ref"]
+- !private ["PSo8NSCoding", "resignFirstResponder"]
+- ["PSo8NSCoding", "signUp"]
+- ["PSo8NSCoding", "signup"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "textField"]
+- ["PSo8NSCoding", "textFieldDidBeginEditing"]
+- ["PSo8NSCoding", "textFieldDidEndEditing"]
+- ["PSo8NSCoding", "textFieldShouldBeginEditing"]
+- ["PSo8NSCoding", "textFieldShouldClear"]
+- ["PSo8NSCoding", "textFieldShouldEndEditing"]
+- ["PSo8NSCoding", "textFieldShouldReturn"]
+- !private ["PSo8NSCoding", "tokenString"]
+- ["PSo8NSCoding", "touchesBegan"]
+- ["PSo8NSCoding", "username"]
+- !private ["PSo8NSCoding", "view"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "currentAccessToken"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "localizedDescription"]
+- !private ["PSo9NSCopying", "tokenString"]
+- !private ["CSo7NSError", "deinit"]
+- !private ["CSo7NSError", "localizedDescription"]
+- !private ["PSo26NSExtensionRequestHandling", "FBSDKAccessToken"]
+- !private ["PSo26NSExtensionRequestHandling", "FBSDKLoginManager"]
+- ["PSo26NSExtensionRequestHandling", "Firebase"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "email"]
+- ["PSo26NSExtensionRequestHandling", "fbLogin"]
+- ["PSo26NSExtensionRequestHandling", "fbsignup"]
+- ["PSo26NSExtensionRequestHandling", "googsignup"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "merchant"]
+- ["PSo26NSExtensionRequestHandling", "merchantLogIn"]
+- ["PSo26NSExtensionRequestHandling", "password"]
+- !private ["PSo26NSExtensionRequestHandling", "performSegueWithIdentifier"]
+- ["PSo26NSExtensionRequestHandling", "prepareForSegue"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "ref"]
+- ["PSo26NSExtensionRequestHandling", "signUp"]
+- ["PSo26NSExtensionRequestHandling", "signup"]
+- ["PSo26NSExtensionRequestHandling", "textField"]
+- ["PSo26NSExtensionRequestHandling", "textFieldDidBeginEditing"]
+- ["PSo26NSExtensionRequestHandling", "textFieldDidEndEditing"]
+- ["PSo26NSExtensionRequestHandling", "textFieldShouldBeginEditing"]
+- ["PSo26NSExtensionRequestHandling", "textFieldShouldClear"]
+- ["PSo26NSExtensionRequestHandling", "textFieldShouldEndEditing"]
+- ["PSo26NSExtensionRequestHandling", "textFieldShouldReturn"]
+- ["PSo26NSExtensionRequestHandling", "touchesBegan"]
+- ["PSo26NSExtensionRequestHandling", "username"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "FBSDKAccessToken"]
+- !private ["CSo8NSObject", "FBSDKLoginManager"]
+- ["CSo8NSObject", "Firebase"]
+- !private ["CSo8NSObject", "LoginViewController"]
+- !private ["CSo8NSObject", "NSError"]
+- ["CSo8NSObject", "Set"]
+- ["CSo8NSObject", "UIButton"]
+- ["CSo8NSObject", "UIEvent"]
+- ["CSo8NSObject", "UIStoryboardSegue"]
+- ["CSo8NSObject", "UITextField"]
+- ["CSo8NSObject", "UITouch"]
+- !private ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "authUser"]
+- !private ["CSo8NSObject", "authWithOAuthProvider"]
+- !private ["CSo8NSObject", "childByAppendingPath"]
+- !private ["CSo8NSObject", "cornerRadius"]
+- !private ["CSo8NSObject", "createUser"]
+- !private ["CSo8NSObject", "currentAccessToken"]
+- !private ["CSo8NSObject", "deinit"]
+- !private ["CSo8NSObject", "destinationViewController"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "email"]
+- !private ["CSo8NSObject", "endEditing"]
+- ["CSo8NSObject", "fbLogin"]
+- ["CSo8NSObject", "fbsignup"]
+- ["CSo8NSObject", "googsignup"]
+- !private ["CSo8NSObject", "identifier"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isCancelled"]
+- !private ["CSo8NSObject", "layer"]
+- !private ["CSo8NSObject", "localizedDescription"]
+- !private ["CSo8NSObject", "logInWithReadPermissions"]
+- !private ["CSo8NSObject", "logOut"]
+- !private ["CSo8NSObject", "merchant"]
+- ["CSo8NSObject", "merchantLogIn"]
+- ["CSo8NSObject", "password"]
+- !private ["CSo8NSObject", "performSegueWithIdentifier"]
+- ["CSo8NSObject", "prepareForSegue"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "provider"]
+- ["CSo8NSObject", "ref"]
+- !private ["CSo8NSObject", "resignFirstResponder"]
+- !private ["CSo8NSObject", "setValue"]
+- ["CSo8NSObject", "signUp"]
+- ["CSo8NSObject", "signup"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "textField"]
+- ["CSo8NSObject", "textFieldDidBeginEditing"]
+- ["CSo8NSObject", "textFieldDidEndEditing"]
+- ["CSo8NSObject", "textFieldShouldBeginEditing"]
+- ["CSo8NSObject", "textFieldShouldClear"]
+- ["CSo8NSObject", "textFieldShouldEndEditing"]
+- ["CSo8NSObject", "textFieldShouldReturn"]
+- !private ["CSo8NSObject", "tokenString"]
+- ["CSo8NSObject", "touchesBegan"]
+- !private ["CSo8NSObject", "uid"]
+- ["CSo8NSObject", "username"]
+- !private ["CSo8NSObject", "view"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "FBSDKAccessToken"]
+- !private ["PSo16NSObjectProtocol", "FBSDKLoginManager"]
+- ["PSo16NSObjectProtocol", "Firebase"]
+- !private ["PSo16NSObjectProtocol", "authUser"]
+- !private ["PSo16NSObjectProtocol", "authWithOAuthProvider"]
+- !private ["PSo16NSObjectProtocol", "childByAppendingPath"]
+- !private ["PSo16NSObjectProtocol", "cornerRadius"]
+- !private ["PSo16NSObjectProtocol", "createUser"]
+- !private ["PSo16NSObjectProtocol", "currentAccessToken"]
+- !private ["PSo16NSObjectProtocol", "destinationViewController"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "email"]
+- !private ["PSo16NSObjectProtocol", "endEditing"]
+- ["PSo16NSObjectProtocol", "fbLogin"]
+- ["PSo16NSObjectProtocol", "fbsignup"]
+- ["PSo16NSObjectProtocol", "googsignup"]
+- !private ["PSo16NSObjectProtocol", "identifier"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isCancelled"]
+- !private ["PSo16NSObjectProtocol", "layer"]
+- !private ["PSo16NSObjectProtocol", "localizedDescription"]
+- !private ["PSo16NSObjectProtocol", "logInWithReadPermissions"]
+- !private ["PSo16NSObjectProtocol", "logOut"]
+- !private ["PSo16NSObjectProtocol", "merchant"]
+- ["PSo16NSObjectProtocol", "merchantLogIn"]
+- ["PSo16NSObjectProtocol", "password"]
+- !private ["PSo16NSObjectProtocol", "performSegueWithIdentifier"]
+- ["PSo16NSObjectProtocol", "prepareForSegue"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "provider"]
+- ["PSo16NSObjectProtocol", "ref"]
+- !private ["PSo16NSObjectProtocol", "resignFirstResponder"]
+- !private ["PSo16NSObjectProtocol", "setValue"]
+- ["PSo16NSObjectProtocol", "signUp"]
+- ["PSo16NSObjectProtocol", "signup"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", "textField"]
+- ["PSo16NSObjectProtocol", "textFieldDidBeginEditing"]
+- ["PSo16NSObjectProtocol", "textFieldDidEndEditing"]
+- ["PSo16NSObjectProtocol", "textFieldShouldBeginEditing"]
+- ["PSo16NSObjectProtocol", "textFieldShouldClear"]
+- ["PSo16NSObjectProtocol", "textFieldShouldEndEditing"]
+- ["PSo16NSObjectProtocol", "textFieldShouldReturn"]
+- !private ["PSo16NSObjectProtocol", "tokenString"]
+- ["PSo16NSObjectProtocol", "touchesBegan"]
+- !private ["PSo16NSObjectProtocol", "uid"]
+- ["PSo16NSObjectProtocol", "username"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "currentAccessToken"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "localizedDescription"]
+- !private ["PSo14NSSecureCoding", "tokenString"]
+- !private ["CSo8NSString", "deinit"]
+- !private ["CSo8NSString", "init"]
+- !private ["Sq", "deinit"]
+- !private ["PSs16OutputStreamType", "init"]
+- !private ["PSs30RangeReplaceableCollectionType", "Element"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Key"]
+- !private ["PSs12SequenceType", "Value"]
+- ["C10CodeCollab20SignUpViewController", "AnyObject"]
+- ["C10CodeCollab20SignUpViewController", "Bool"]
+- !private ["C10CodeCollab20SignUpViewController", "FBSDKAccessToken"]
+- !private ["C10CodeCollab20SignUpViewController", "FBSDKLoginManager"]
+- ["C10CodeCollab20SignUpViewController", "Firebase"]
+- !private ["C10CodeCollab20SignUpViewController", "LoginViewController"]
+- !private ["C10CodeCollab20SignUpViewController", "NSError"]
+- ["C10CodeCollab20SignUpViewController", "Set"]
+- ["C10CodeCollab20SignUpViewController", "UIButton"]
+- ["C10CodeCollab20SignUpViewController", "UIEvent"]
+- ["C10CodeCollab20SignUpViewController", "UIStoryboardSegue"]
+- ["C10CodeCollab20SignUpViewController", "UITextField"]
+- ["C10CodeCollab20SignUpViewController", "UITouch"]
+- !private ["C10CodeCollab20SignUpViewController", "Void"]
+- ["C10CodeCollab20SignUpViewController", "deinit"]
+- ["C10CodeCollab20SignUpViewController", "didReceiveMemoryWarning"]
+- ["C10CodeCollab20SignUpViewController", "email"]
+- ["C10CodeCollab20SignUpViewController", "fbLogin"]
+- ["C10CodeCollab20SignUpViewController", "fbsignup"]
+- ["C10CodeCollab20SignUpViewController", "googsignup"]
+- ["C10CodeCollab20SignUpViewController", "init"]
+- ["C10CodeCollab20SignUpViewController", "merchantLogIn"]
+- ["C10CodeCollab20SignUpViewController", "password"]
+- !private ["C10CodeCollab20SignUpViewController", "performSegueWithIdentifier"]
+- ["C10CodeCollab20SignUpViewController", "prepareForSegue"]
+- !private ["C10CodeCollab20SignUpViewController", "print"]
+- ["C10CodeCollab20SignUpViewController", "ref"]
+- ["C10CodeCollab20SignUpViewController", "signUp"]
+- ["C10CodeCollab20SignUpViewController", "signup"]
+- ["C10CodeCollab20SignUpViewController", "textField"]
+- ["C10CodeCollab20SignUpViewController", "textFieldDidBeginEditing"]
+- ["C10CodeCollab20SignUpViewController", "textFieldDidEndEditing"]
+- ["C10CodeCollab20SignUpViewController", "textFieldShouldBeginEditing"]
+- ["C10CodeCollab20SignUpViewController", "textFieldShouldClear"]
+- ["C10CodeCollab20SignUpViewController", "textFieldShouldEndEditing"]
+- ["C10CodeCollab20SignUpViewController", "textFieldShouldReturn"]
+- ["C10CodeCollab20SignUpViewController", "touchesBegan"]
+- ["C10CodeCollab20SignUpViewController", "username"]
+- !private ["C10CodeCollab20SignUpViewController", "view"]
+- ["C10CodeCollab20SignUpViewController", "viewDidLoad"]
+- !private ["PSs10Streamable", "init"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "endEditing"]
+- !private ["PSo29UIAccessibilityIdentification", "layer"]
+- !private ["PSo29UIAccessibilityIdentification", "resignFirstResponder"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "endEditing"]
+- !private ["PSo12UIAppearance", "layer"]
+- !private ["PSo12UIAppearance", "resignFirstResponder"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "FBSDKAccessToken"]
+- !private ["PSo21UIAppearanceContainer", "FBSDKLoginManager"]
+- ["PSo21UIAppearanceContainer", "Firebase"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- ["PSo21UIAppearanceContainer", "email"]
+- !private ["PSo21UIAppearanceContainer", "endEditing"]
+- ["PSo21UIAppearanceContainer", "fbLogin"]
+- ["PSo21UIAppearanceContainer", "fbsignup"]
+- ["PSo21UIAppearanceContainer", "googsignup"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "layer"]
+- !private ["PSo21UIAppearanceContainer", "merchant"]
+- ["PSo21UIAppearanceContainer", "merchantLogIn"]
+- ["PSo21UIAppearanceContainer", "password"]
+- !private ["PSo21UIAppearanceContainer", "performSegueWithIdentifier"]
+- ["PSo21UIAppearanceContainer", "prepareForSegue"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- ["PSo21UIAppearanceContainer", "ref"]
+- !private ["PSo21UIAppearanceContainer", "resignFirstResponder"]
+- ["PSo21UIAppearanceContainer", "signUp"]
+- ["PSo21UIAppearanceContainer", "signup"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "textField"]
+- ["PSo21UIAppearanceContainer", "textFieldDidBeginEditing"]
+- ["PSo21UIAppearanceContainer", "textFieldDidEndEditing"]
+- ["PSo21UIAppearanceContainer", "textFieldShouldBeginEditing"]
+- ["PSo21UIAppearanceContainer", "textFieldShouldClear"]
+- ["PSo21UIAppearanceContainer", "textFieldShouldEndEditing"]
+- ["PSo21UIAppearanceContainer", "textFieldShouldReturn"]
+- ["PSo21UIAppearanceContainer", "touchesBegan"]
+- ["PSo21UIAppearanceContainer", "username"]
+- !private ["PSo21UIAppearanceContainer", "view"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo8UIButton", "layer"]
+- !private ["PSo18UIContentContainer", "FBSDKAccessToken"]
+- !private ["PSo18UIContentContainer", "FBSDKLoginManager"]
+- ["PSo18UIContentContainer", "Firebase"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "email"]
+- ["PSo18UIContentContainer", "fbLogin"]
+- ["PSo18UIContentContainer", "fbsignup"]
+- ["PSo18UIContentContainer", "googsignup"]
+- ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "merchant"]
+- ["PSo18UIContentContainer", "merchantLogIn"]
+- ["PSo18UIContentContainer", "password"]
+- !private ["PSo18UIContentContainer", "performSegueWithIdentifier"]
+- ["PSo18UIContentContainer", "prepareForSegue"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "ref"]
+- ["PSo18UIContentContainer", "signUp"]
+- ["PSo18UIContentContainer", "signup"]
+- ["PSo18UIContentContainer", "textField"]
+- ["PSo18UIContentContainer", "textFieldDidBeginEditing"]
+- ["PSo18UIContentContainer", "textFieldDidEndEditing"]
+- ["PSo18UIContentContainer", "textFieldShouldBeginEditing"]
+- ["PSo18UIContentContainer", "textFieldShouldClear"]
+- ["PSo18UIContentContainer", "textFieldShouldEndEditing"]
+- ["PSo18UIContentContainer", "textFieldShouldReturn"]
+- ["PSo18UIContentContainer", "touchesBegan"]
+- ["PSo18UIContentContainer", "username"]
+- !private ["PSo18UIContentContainer", "view"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["CSo9UIControl", "layer"]
+- !private ["CSo9UIControl", "resignFirstResponder"]
+- !private ["CSo9UIControl", "text"]
+- !private ["PSo17UICoordinateSpace", "endEditing"]
+- !private ["PSo17UICoordinateSpace", "layer"]
+- !private ["PSo17UICoordinateSpace", "resignFirstResponder"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "endEditing"]
+- !private ["PSo13UIDynamicItem", "layer"]
+- !private ["PSo13UIDynamicItem", "resignFirstResponder"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "FBSDKAccessToken"]
+- !private ["PSo18UIFocusEnvironment", "FBSDKLoginManager"]
+- ["PSo18UIFocusEnvironment", "Firebase"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UIFocusEnvironment", "email"]
+- !private ["PSo18UIFocusEnvironment", "endEditing"]
+- ["PSo18UIFocusEnvironment", "fbLogin"]
+- ["PSo18UIFocusEnvironment", "fbsignup"]
+- ["PSo18UIFocusEnvironment", "googsignup"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "layer"]
+- !private ["PSo18UIFocusEnvironment", "merchant"]
+- ["PSo18UIFocusEnvironment", "merchantLogIn"]
+- ["PSo18UIFocusEnvironment", "password"]
+- !private ["PSo18UIFocusEnvironment", "performSegueWithIdentifier"]
+- ["PSo18UIFocusEnvironment", "prepareForSegue"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- ["PSo18UIFocusEnvironment", "ref"]
+- !private ["PSo18UIFocusEnvironment", "resignFirstResponder"]
+- ["PSo18UIFocusEnvironment", "signUp"]
+- ["PSo18UIFocusEnvironment", "signup"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "textField"]
+- ["PSo18UIFocusEnvironment", "textFieldDidBeginEditing"]
+- ["PSo18UIFocusEnvironment", "textFieldDidEndEditing"]
+- ["PSo18UIFocusEnvironment", "textFieldShouldBeginEditing"]
+- ["PSo18UIFocusEnvironment", "textFieldShouldClear"]
+- ["PSo18UIFocusEnvironment", "textFieldShouldEndEditing"]
+- ["PSo18UIFocusEnvironment", "textFieldShouldReturn"]
+- ["PSo18UIFocusEnvironment", "touchesBegan"]
+- ["PSo18UIFocusEnvironment", "username"]
+- !private ["PSo18UIFocusEnvironment", "view"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo10UIKeyInput", "resignFirstResponder"]
+- !private ["PSo10UIKeyInput", "text"]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "FBSDKAccessToken"]
+- !private ["CSo11UIResponder", "FBSDKLoginManager"]
+- ["CSo11UIResponder", "Firebase"]
+- !private ["CSo11UIResponder", "LoginViewController"]
+- !private ["CSo11UIResponder", "NSError"]
+- ["CSo11UIResponder", "Set"]
+- ["CSo11UIResponder", "UIButton"]
+- ["CSo11UIResponder", "UIEvent"]
+- ["CSo11UIResponder", "UIStoryboardSegue"]
+- ["CSo11UIResponder", "UITextField"]
+- ["CSo11UIResponder", "UITouch"]
+- !private ["CSo11UIResponder", "Void"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "email"]
+- !private ["CSo11UIResponder", "endEditing"]
+- ["CSo11UIResponder", "fbLogin"]
+- ["CSo11UIResponder", "fbsignup"]
+- ["CSo11UIResponder", "googsignup"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "layer"]
+- !private ["CSo11UIResponder", "merchant"]
+- ["CSo11UIResponder", "merchantLogIn"]
+- ["CSo11UIResponder", "password"]
+- !private ["CSo11UIResponder", "performSegueWithIdentifier"]
+- ["CSo11UIResponder", "prepareForSegue"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "ref"]
+- !private ["CSo11UIResponder", "resignFirstResponder"]
+- ["CSo11UIResponder", "signUp"]
+- ["CSo11UIResponder", "signup"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "textField"]
+- ["CSo11UIResponder", "textFieldDidBeginEditing"]
+- ["CSo11UIResponder", "textFieldDidEndEditing"]
+- ["CSo11UIResponder", "textFieldShouldBeginEditing"]
+- ["CSo11UIResponder", "textFieldShouldClear"]
+- ["CSo11UIResponder", "textFieldShouldEndEditing"]
+- ["CSo11UIResponder", "textFieldShouldReturn"]
+- ["CSo11UIResponder", "touchesBegan"]
+- ["CSo11UIResponder", "username"]
+- !private ["CSo11UIResponder", "view"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "FBSDKAccessToken"]
+- !private ["PSo16UIStateRestoring", "FBSDKLoginManager"]
+- ["PSo16UIStateRestoring", "Firebase"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "email"]
+- ["PSo16UIStateRestoring", "fbLogin"]
+- ["PSo16UIStateRestoring", "fbsignup"]
+- ["PSo16UIStateRestoring", "googsignup"]
+- ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "merchant"]
+- ["PSo16UIStateRestoring", "merchantLogIn"]
+- ["PSo16UIStateRestoring", "password"]
+- !private ["PSo16UIStateRestoring", "performSegueWithIdentifier"]
+- ["PSo16UIStateRestoring", "prepareForSegue"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "ref"]
+- ["PSo16UIStateRestoring", "signUp"]
+- ["PSo16UIStateRestoring", "signup"]
+- ["PSo16UIStateRestoring", "textField"]
+- ["PSo16UIStateRestoring", "textFieldDidBeginEditing"]
+- ["PSo16UIStateRestoring", "textFieldDidEndEditing"]
+- ["PSo16UIStateRestoring", "textFieldShouldBeginEditing"]
+- ["PSo16UIStateRestoring", "textFieldShouldClear"]
+- ["PSo16UIStateRestoring", "textFieldShouldEndEditing"]
+- ["PSo16UIStateRestoring", "textFieldShouldReturn"]
+- ["PSo16UIStateRestoring", "touchesBegan"]
+- ["PSo16UIStateRestoring", "username"]
+- !private ["PSo16UIStateRestoring", "view"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo17UIStoryboardSegue", "destinationViewController"]
+- !private ["CSo17UIStoryboardSegue", "identifier"]
+- !private ["CSo11UITextField", "resignFirstResponder"]
+- !private ["CSo11UITextField", "text"]
+- !private ["PSo19UITextFieldDelegate", "FBSDKAccessToken"]
+- !private ["PSo19UITextFieldDelegate", "FBSDKLoginManager"]
+- ["PSo19UITextFieldDelegate", "Firebase"]
+- !private ["PSo19UITextFieldDelegate", "email"]
+- !private ["PSo19UITextFieldDelegate", "fbsignup"]
+- !private ["PSo19UITextFieldDelegate", "googsignup"]
+- !private ["PSo19UITextFieldDelegate", "password"]
+- !private ["PSo19UITextFieldDelegate", "performSegueWithIdentifier"]
+- !private ["PSo19UITextFieldDelegate", "print"]
+- !private ["PSo19UITextFieldDelegate", "ref"]
+- !private ["PSo19UITextFieldDelegate", "signup"]
+- ["PSo19UITextFieldDelegate", "textField"]
+- ["PSo19UITextFieldDelegate", "textFieldDidBeginEditing"]
+- ["PSo19UITextFieldDelegate", "textFieldDidEndEditing"]
+- ["PSo19UITextFieldDelegate", "textFieldShouldBeginEditing"]
+- ["PSo19UITextFieldDelegate", "textFieldShouldClear"]
+- ["PSo19UITextFieldDelegate", "textFieldShouldEndEditing"]
+- ["PSo19UITextFieldDelegate", "textFieldShouldReturn"]
+- !private ["PSo19UITextFieldDelegate", "username"]
+- !private ["PSo19UITextFieldDelegate", "view"]
+- ["PSo19UITextFieldDelegate", ""]
+- !private ["PSo11UITextInput", "resignFirstResponder"]
+- !private ["PSo11UITextInput", "text"]
+- !private ["PSo17UITextInputTraits", "resignFirstResponder"]
+- !private ["PSo17UITextInputTraits", "text"]
+- !private ["PSo18UITraitEnvironment", "FBSDKAccessToken"]
+- !private ["PSo18UITraitEnvironment", "FBSDKLoginManager"]
+- ["PSo18UITraitEnvironment", "Firebase"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UITraitEnvironment", "email"]
+- !private ["PSo18UITraitEnvironment", "endEditing"]
+- ["PSo18UITraitEnvironment", "fbLogin"]
+- ["PSo18UITraitEnvironment", "fbsignup"]
+- ["PSo18UITraitEnvironment", "googsignup"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "layer"]
+- !private ["PSo18UITraitEnvironment", "merchant"]
+- ["PSo18UITraitEnvironment", "merchantLogIn"]
+- ["PSo18UITraitEnvironment", "password"]
+- !private ["PSo18UITraitEnvironment", "performSegueWithIdentifier"]
+- ["PSo18UITraitEnvironment", "prepareForSegue"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- ["PSo18UITraitEnvironment", "ref"]
+- !private ["PSo18UITraitEnvironment", "resignFirstResponder"]
+- ["PSo18UITraitEnvironment", "signUp"]
+- ["PSo18UITraitEnvironment", "signup"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "textField"]
+- ["PSo18UITraitEnvironment", "textFieldDidBeginEditing"]
+- ["PSo18UITraitEnvironment", "textFieldDidEndEditing"]
+- ["PSo18UITraitEnvironment", "textFieldShouldBeginEditing"]
+- ["PSo18UITraitEnvironment", "textFieldShouldClear"]
+- ["PSo18UITraitEnvironment", "textFieldShouldEndEditing"]
+- ["PSo18UITraitEnvironment", "textFieldShouldReturn"]
+- ["PSo18UITraitEnvironment", "touchesBegan"]
+- ["PSo18UITraitEnvironment", "username"]
+- !private ["PSo18UITraitEnvironment", "view"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "endEditing"]
+- !private ["CSo6UIView", "layer"]
+- !private ["CSo6UIView", "resignFirstResponder"]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "AnyObject"]
+- ["CSo16UIViewController", "Bool"]
+- !private ["CSo16UIViewController", "FBSDKAccessToken"]
+- !private ["CSo16UIViewController", "FBSDKLoginManager"]
+- ["CSo16UIViewController", "Firebase"]
+- !private ["CSo16UIViewController", "LoginViewController"]
+- !private ["CSo16UIViewController", "NSError"]
+- ["CSo16UIViewController", "Set"]
+- ["CSo16UIViewController", "UIButton"]
+- ["CSo16UIViewController", "UIEvent"]
+- ["CSo16UIViewController", "UIStoryboardSegue"]
+- ["CSo16UIViewController", "UITextField"]
+- ["CSo16UIViewController", "UITouch"]
+- !private ["CSo16UIViewController", "Void"]
+- !private ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "email"]
+- ["CSo16UIViewController", "fbLogin"]
+- ["CSo16UIViewController", "fbsignup"]
+- ["CSo16UIViewController", "googsignup"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "merchant"]
+- ["CSo16UIViewController", "merchantLogIn"]
+- ["CSo16UIViewController", "password"]
+- !private ["CSo16UIViewController", "performSegueWithIdentifier"]
+- ["CSo16UIViewController", "prepareForSegue"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "ref"]
+- ["CSo16UIViewController", "signUp"]
+- ["CSo16UIViewController", "signup"]
+- ["CSo16UIViewController", "textField"]
+- ["CSo16UIViewController", "textFieldDidBeginEditing"]
+- ["CSo16UIViewController", "textFieldDidEndEditing"]
+- ["CSo16UIViewController", "textFieldShouldBeginEditing"]
+- ["CSo16UIViewController", "textFieldShouldClear"]
+- ["CSo16UIViewController", "textFieldShouldEndEditing"]
+- ["CSo16UIViewController", "textFieldShouldReturn"]
+- ["CSo16UIViewController", "touchesBegan"]
+- ["CSo16UIViewController", "username"]
+- !private ["CSo16UIViewController", "view"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["Su", "deinit"]
+- !private ["VSs6UInt16", "deinit"]
+- !private ["VSs6UInt32", "deinit"]
+- !private ["VSs6UInt64", "deinit"]
+- !private ["VSs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs10_ArrayType", "Element"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs16_CocoaStringType", "init"]
+- !private ["PSs24_DestructorSafeContainer", "Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "Key"]
+- !private ["PSs21_ObjectiveCBridgeable", "Value"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- !private ["PSs12_Reflectable", "Element"]
+- !private ["PSs12_Reflectable", "Key"]
+- !private ["PSs12_Reflectable", "Value"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "endEditing"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "layer"]
+- !private ["PSs12_Reflectable", "resignFirstResponder"]
+- !private ["PSs12_Reflectable", "text"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "Sa"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- !private "CSo7CALayer"
+- !private "PSo13CAMediaTiming"
+- !private "V12CoreGraphics7CGFloat"
+- "PSs11CVarArgType"
+- !private "VSs9Character"
+- !private "PSs14CollectionType"
+- !private "PSs10Comparable"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "VSs10Dictionary"
+- !private "PSs28DictionaryLiteralConvertible"
+- !private "Sd"
+- "PSs9Equatable"
+- !private "PSs9ErrorType"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "CSo9FAuthData"
+- !private "CSo16FBSDKAccessToken"
+- !private "PSo12FBSDKCopying"
+- !private "CSo17FBSDKLoginManager"
+- !private "CSo28FBSDKLoginManagerLoginResult"
+- "CSo6FQuery"
+- "CSo8Firebase"
+- !private "Sf"
+- "PSs8Hashable"
+- "SQ"
+- !private "PSs9Indexable"
+- !private "Si"
+- !private "VSs5Int16"
+- !private "VSs5Int32"
+- !private "VSs5Int64"
+- !private "VSs4Int8"
+- !private "C10CodeCollab19LoginViewController"
+- !private "PSs14MirrorPathType"
+- !private "PSs21MutableCollectionType"
+- !private "PSs16MutableIndexable"
+- !private "PSs16MutableSliceable"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo7NSError"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Sq"
+- !private "PSs16OutputStreamType"
+- !private "PSs30RangeReplaceableCollectionType"
+- !private "PSs12SequenceType"
+- "C10CodeCollab20SignUpViewController"
+- !private "PSs10Streamable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo8UIButton"
+- "PSo18UIContentContainer"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo10UIKeyInput"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- !private "CSo17UIStoryboardSegue"
+- !private "CSo11UITextField"
+- "PSo19UITextFieldDelegate"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Su"
+- !private "VSs6UInt16"
+- !private "VSs6UInt32"
+- !private "VSs6UInt64"
+- !private "VSs5UInt8"
+- !private "Sc"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- !private "PSs10_ArrayType"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs16_CocoaStringType"
+- !private "PSs24_DestructorSafeContainer"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FirebaseServerValue.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FTransactionResult.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FMutableData.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FirebaseApp.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FQuery.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/Firebase.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FEventType.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FDataSnapshot.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FConfig.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FAuthType.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FAuthData.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/Firebase-umbrella.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Firebase.framework/Modules/module.modulemap"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/Bolts.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFTask.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFURL_Internal.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFURL.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFMeasurementEvent_Internal.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererView_Internal.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLink_Internal.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/Bolts.framework/Modules/module.modulemap"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab/DerivedData/CodeCollab/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+interface-hash: "ce7a8d35c29098c470853b8f57da4f7f"

@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "c25f931b1259f2300c9b50d05464b309"
+build_time: [514201708, 131305000]
+inputs:
+  "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/Pods/SwiftQRCode/QRCode/Source/QRCode.swift": [514201613, 0]

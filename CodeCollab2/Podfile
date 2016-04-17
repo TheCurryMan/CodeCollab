@@ -1,0 +1,29 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+# use_frameworks!
+
+
+use_frameworks!
+
+pod 'AFNetworking', '~> 2.5'
+pod 'BDBOAuth1Manager'
+pod 'Firebase', '>= 2.5.0'
+pod 'SwiftQRCode'
+pod 'FBSDKCoreKit'
+pod 'FBSDKLoginKit'
+pod 'FBSDKShareKit'
+
+
+#target 'CodeCollab2' do
+
+#end
+
+#target 'CodeCollab2Tests' do
+
+#end
+
+#target 'CodeCollab2UITests' do
+
+#end
+

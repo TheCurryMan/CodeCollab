@@ -1,0 +1,15 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "c0977ddd8ff87994d52793e871b32f8f"
+build_time: [514201774, 704663000]
+inputs:
+  "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/CodeCollab2/HackathonViewController.swift": [9223372036854775807, 0]
+  "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/CodeCollab2/ChatViewController.swift": [9223372036854775807, 0]
+  "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/CodeCollab2/Classes.swift": [9223372036854775807, 0]
+  "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/CodeCollab2/LoginViewController.swift": [9223372036854775807, 0]
+  "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/CodeCollab2/HackLeftTableViewCell.swift": [9223372036854775807, 0]
+  "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/CodeCollab2/SignUpViewController.swift": [9223372036854775807, 0]
+  "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/CodeCollab2/AppDelegate.swift": [514201497, 0]
+  "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/CodeCollab2/ViewController.swift": [514201629, 0]
+  "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/CodeCollab2/LoadingViewController.swift": [9223372036854775807, 0]
+  "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/CodeCollab2/HackCardTableViewCell.swift": [9223372036854775807, 0]
+  "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/CodeCollab2/DetailedHackathonViewController.swift": [9223372036854775807, 0]
