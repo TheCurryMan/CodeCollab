@@ -48,24 +48,7 @@ class LoadingViewController: UIViewController {
         if ref.authData != nil {
             // user authenticated
             print(ref.authData.uid)
-            var baseref = Firebase(url: "https://punch-it.firebaseio.com/users/\(ref.authData.uid)")
-            
-            baseref.observeEventType(.Value, withBlock: { snapshot in
-                
-                
-                
-                var phone = snapshot.value["phone"]
-                if phone != nil {
-                    print(phone)
-                    self.performSegueWithIdentifier("merch", sender: self) }
-                else {
-                    self.performSegueWithIdentifier("restaurant", sender: self) }
-                
-                
-                }, withCancelBlock: { error in
-                    print(error.description)
-            })
-
+            performSegueWithIdentifier("goinghome", sender: self)
             
             //performSegueWithIdentifier("restaurant", sender: self)
             print(ref.authData)

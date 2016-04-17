@@ -1,0 +1,329 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "IdeaCardTableViewCell"
+provides-nominal:
+- "C11CodeCollab221IdeaCardTableViewCell"
+provides-member:
+- ["C11CodeCollab221IdeaCardTableViewCell", ""]
+provides-dynamic-lookup:
+- "awakeFromNib"
+- "join"
+- "profile"
+- "idea"
+- "setSelected"
+- "name"
+- "group"
+depends-top-level:
+- "AnyObject"
+- "UIImageView"
+- "Bool"
+- "IdeaCardTableViewCell"
+- "UILabel"
+- "UITableViewCell"
+depends-member:
+- ["PSs9AnyObject", "awakeFromNib"]
+- ["PSs9AnyObject", "group"]
+- ["PSs9AnyObject", "idea"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "join"]
+- ["PSs9AnyObject", "name"]
+- ["PSs9AnyObject", "profile"]
+- ["PSs9AnyObject", "setSelected"]
+- ["PSs9AnyObject", ""]
+- ["PSs11CVarArgType", "awakeFromNib"]
+- ["PSs11CVarArgType", "group"]
+- ["PSs11CVarArgType", "idea"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "join"]
+- ["PSs11CVarArgType", "name"]
+- ["PSs11CVarArgType", "profile"]
+- ["PSs11CVarArgType", "setSelected"]
+- ["PSs11CVarArgType", ""]
+- ["PSs23CustomStringConvertible", "awakeFromNib"]
+- ["PSs23CustomStringConvertible", "group"]
+- ["PSs23CustomStringConvertible", "idea"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "join"]
+- ["PSs23CustomStringConvertible", "name"]
+- ["PSs23CustomStringConvertible", "profile"]
+- ["PSs23CustomStringConvertible", "setSelected"]
+- ["PSs23CustomStringConvertible", ""]
+- ["PSs9Equatable", "awakeFromNib"]
+- ["PSs9Equatable", "group"]
+- ["PSs9Equatable", "idea"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "join"]
+- ["PSs9Equatable", "name"]
+- ["PSs9Equatable", "profile"]
+- ["PSs9Equatable", "setSelected"]
+- ["PSs9Equatable", ""]
+- ["PSs8Hashable", "awakeFromNib"]
+- ["PSs8Hashable", "group"]
+- ["PSs8Hashable", "idea"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "join"]
+- ["PSs8Hashable", "name"]
+- ["PSs8Hashable", "profile"]
+- ["PSs8Hashable", "setSelected"]
+- ["PSs8Hashable", ""]
+- ["C11CodeCollab221IdeaCardTableViewCell", "AnyObject"]
+- ["C11CodeCollab221IdeaCardTableViewCell", "Bool"]
+- ["C11CodeCollab221IdeaCardTableViewCell", "UIImageView"]
+- ["C11CodeCollab221IdeaCardTableViewCell", "UILabel"]
+- ["C11CodeCollab221IdeaCardTableViewCell", "awakeFromNib"]
+- ["C11CodeCollab221IdeaCardTableViewCell", "deinit"]
+- ["C11CodeCollab221IdeaCardTableViewCell", "group"]
+- ["C11CodeCollab221IdeaCardTableViewCell", "idea"]
+- ["C11CodeCollab221IdeaCardTableViewCell", "init"]
+- ["C11CodeCollab221IdeaCardTableViewCell", "join"]
+- ["C11CodeCollab221IdeaCardTableViewCell", "name"]
+- ["C11CodeCollab221IdeaCardTableViewCell", "profile"]
+- ["C11CodeCollab221IdeaCardTableViewCell", "setSelected"]
+- ["PSo8NSCoding", "awakeFromNib"]
+- ["PSo8NSCoding", "group"]
+- ["PSo8NSCoding", "idea"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "join"]
+- ["PSo8NSCoding", "name"]
+- ["PSo8NSCoding", "profile"]
+- ["PSo8NSCoding", "setSelected"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "awakeFromNib"]
+- ["CSo8NSObject", "group"]
+- ["CSo8NSObject", "idea"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "join"]
+- ["CSo8NSObject", "name"]
+- ["CSo8NSObject", "profile"]
+- ["CSo8NSObject", "setSelected"]
+- ["PSo16NSObjectProtocol", "awakeFromNib"]
+- ["PSo16NSObjectProtocol", "group"]
+- ["PSo16NSObjectProtocol", "idea"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "join"]
+- ["PSo16NSObjectProtocol", "name"]
+- ["PSo16NSObjectProtocol", "profile"]
+- ["PSo16NSObjectProtocol", "setSelected"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo29UIAccessibilityIdentification", "awakeFromNib"]
+- ["PSo29UIAccessibilityIdentification", "group"]
+- ["PSo29UIAccessibilityIdentification", "idea"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "join"]
+- ["PSo29UIAccessibilityIdentification", "name"]
+- ["PSo29UIAccessibilityIdentification", "profile"]
+- ["PSo29UIAccessibilityIdentification", "setSelected"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- ["PSo12UIAppearance", "awakeFromNib"]
+- ["PSo12UIAppearance", "group"]
+- ["PSo12UIAppearance", "idea"]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "join"]
+- ["PSo12UIAppearance", "name"]
+- ["PSo12UIAppearance", "profile"]
+- ["PSo12UIAppearance", "setSelected"]
+- ["PSo12UIAppearance", ""]
+- ["PSo21UIAppearanceContainer", "awakeFromNib"]
+- ["PSo21UIAppearanceContainer", "group"]
+- ["PSo21UIAppearanceContainer", "idea"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "join"]
+- ["PSo21UIAppearanceContainer", "name"]
+- ["PSo21UIAppearanceContainer", "profile"]
+- ["PSo21UIAppearanceContainer", "setSelected"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo17UICoordinateSpace", "awakeFromNib"]
+- ["PSo17UICoordinateSpace", "group"]
+- ["PSo17UICoordinateSpace", "idea"]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "join"]
+- ["PSo17UICoordinateSpace", "name"]
+- ["PSo17UICoordinateSpace", "profile"]
+- ["PSo17UICoordinateSpace", "setSelected"]
+- ["PSo17UICoordinateSpace", ""]
+- ["PSo13UIDynamicItem", "awakeFromNib"]
+- ["PSo13UIDynamicItem", "group"]
+- ["PSo13UIDynamicItem", "idea"]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "join"]
+- ["PSo13UIDynamicItem", "name"]
+- ["PSo13UIDynamicItem", "profile"]
+- ["PSo13UIDynamicItem", "setSelected"]
+- ["PSo13UIDynamicItem", ""]
+- ["PSo18UIFocusEnvironment", "awakeFromNib"]
+- ["PSo18UIFocusEnvironment", "group"]
+- ["PSo18UIFocusEnvironment", "idea"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "join"]
+- ["PSo18UIFocusEnvironment", "name"]
+- ["PSo18UIFocusEnvironment", "profile"]
+- ["PSo18UIFocusEnvironment", "setSelected"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["PSo27UIGestureRecognizerDelegate", "awakeFromNib"]
+- ["PSo27UIGestureRecognizerDelegate", "group"]
+- ["PSo27UIGestureRecognizerDelegate", "idea"]
+- ["PSo27UIGestureRecognizerDelegate", "init"]
+- ["PSo27UIGestureRecognizerDelegate", "join"]
+- ["PSo27UIGestureRecognizerDelegate", "name"]
+- ["PSo27UIGestureRecognizerDelegate", "profile"]
+- ["PSo27UIGestureRecognizerDelegate", "setSelected"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "awakeFromNib"]
+- ["CSo11UIResponder", "group"]
+- ["CSo11UIResponder", "idea"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "join"]
+- ["CSo11UIResponder", "name"]
+- ["CSo11UIResponder", "profile"]
+- ["CSo11UIResponder", "setSelected"]
+- ["CSo15UITableViewCell", "AnyObject"]
+- ["CSo15UITableViewCell", "Bool"]
+- ["CSo15UITableViewCell", "UIImageView"]
+- ["CSo15UITableViewCell", "UILabel"]
+- ["CSo15UITableViewCell", "awakeFromNib"]
+- ["CSo15UITableViewCell", "group"]
+- ["CSo15UITableViewCell", "idea"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "join"]
+- ["CSo15UITableViewCell", "name"]
+- ["CSo15UITableViewCell", "profile"]
+- ["CSo15UITableViewCell", "setSelected"]
+- ["CSo15UITableViewCell", ""]
+- ["PSo18UITraitEnvironment", "awakeFromNib"]
+- ["PSo18UITraitEnvironment", "group"]
+- ["PSo18UITraitEnvironment", "idea"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "join"]
+- ["PSo18UITraitEnvironment", "name"]
+- ["PSo18UITraitEnvironment", "profile"]
+- ["PSo18UITraitEnvironment", "setSelected"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "AnyObject"]
+- ["CSo6UIView", "Bool"]
+- ["CSo6UIView", "UIImageView"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "awakeFromNib"]
+- ["CSo6UIView", "group"]
+- ["CSo6UIView", "idea"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "join"]
+- ["CSo6UIView", "name"]
+- ["CSo6UIView", "profile"]
+- ["CSo6UIView", "setSelected"]
+- ["PSs12_Reflectable", "awakeFromNib"]
+- ["PSs12_Reflectable", "group"]
+- ["PSs12_Reflectable", "idea"]
+- ["PSs12_Reflectable", "init"]
+- ["PSs12_Reflectable", "join"]
+- ["PSs12_Reflectable", "name"]
+- ["PSs12_Reflectable", "profile"]
+- ["PSs12_Reflectable", "setSelected"]
+- ["PSs12_Reflectable", ""]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "C11CodeCollab221IdeaCardTableViewCell"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo27UIGestureRecognizerDelegate"
+- "CSo11UIResponder"
+- "CSo15UITableViewCell"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FirebaseServerValue.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FTransactionResult.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FMutableData.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FirebaseApp.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FQuery.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/Firebase.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FEventType.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FDataSnapshot.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FConfig.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FAuthType.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FAuthData.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/Firebase-umbrella.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/Firebase.framework/Modules/module.modulemap"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/Bolts.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFTask.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFURL_Internal.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFURL.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFMeasurementEvent_Internal.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererView_Internal.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLink_Internal.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/Bolts.framework/Modules/module.modulemap"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Modules/module.modulemap"
+interface-hash: "0b3714bd8e1f55cf830e731911b56089"

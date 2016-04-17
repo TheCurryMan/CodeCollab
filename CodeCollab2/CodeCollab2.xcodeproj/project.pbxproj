@@ -24,6 +24,8 @@
 		E1847D5E1CC393AD00A7C471 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1847D541CC393AD00A7C471 /* Main.storyboard */; };
 		E1847D5F1CC393AD00A7C471 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1847D551CC393AD00A7C471 /* ChatViewController.swift */; };
 		E1847D601CC393AD00A7C471 /* HackCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1847D561CC393AD00A7C471 /* HackCardTableViewCell.swift */; };
+		E1847D631CC3B02000A7C471 /* IdeaCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1847D611CC3B02000A7C471 /* IdeaCardTableViewCell.swift */; };
+		E1847D641CC3B02000A7C471 /* IdeaCardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1847D621CC3B02000A7C471 /* IdeaCardTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		E1847D541CC393AD00A7C471 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		E1847D551CC393AD00A7C471 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		E1847D561CC393AD00A7C471 /* HackCardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HackCardTableViewCell.swift; sourceTree = "<group>"; };
+		E1847D611CC3B02000A7C471 /* IdeaCardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdeaCardTableViewCell.swift; sourceTree = "<group>"; };
+		E1847D621CC3B02000A7C471 /* IdeaCardTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IdeaCardTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +158,8 @@
 				E1847D541CC393AD00A7C471 /* Main.storyboard */,
 				E1847D551CC393AD00A7C471 /* ChatViewController.swift */,
 				E1847D561CC393AD00A7C471 /* HackCardTableViewCell.swift */,
+				E1847D611CC3B02000A7C471 /* IdeaCardTableViewCell.swift */,
+				E1847D621CC3B02000A7C471 /* IdeaCardTableViewCell.xib */,
 			);
 			path = CodeCollab2;
 			sourceTree = "<group>";
@@ -285,6 +291,7 @@
 			files = (
 				E1847D2A1CC3929900A7C471 /* LaunchScreen.storyboard in Resources */,
 				E1847D271CC3929900A7C471 /* Assets.xcassets in Resources */,
+				E1847D641CC3B02000A7C471 /* IdeaCardTableViewCell.xib in Resources */,
 				E1847D5E1CC393AD00A7C471 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,6 +367,7 @@
 			files = (
 				E1847D5C1CC393AD00A7C471 /* HackathonViewController.swift in Sources */,
 				E1847D221CC3929900A7C471 /* ViewController.swift in Sources */,
+				E1847D631CC3B02000A7C471 /* IdeaCardTableViewCell.swift in Sources */,
 				E1847D201CC3929900A7C471 /* AppDelegate.swift in Sources */,
 				E1847D5A1CC393AD00A7C471 /* Classes.swift in Sources */,
 				E1847D5D1CC393AD00A7C471 /* DetailedHackathonViewController.swift in Sources */,

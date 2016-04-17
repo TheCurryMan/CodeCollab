@@ -88,6 +88,7 @@ typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
 @import ObjectiveC;
+@import CoreGraphics;
 @import CoreLocation;
 #endif
 
@@ -131,23 +132,36 @@ SWIFT_CLASS("_TtC11CodeCollab210Connection")
 @end
 
 @class UIImageView;
+@class NSString;
+@class Firebase;
 @class UITableView;
+@class NSIndexPath;
+@class UITableViewCell;
 
 SWIFT_CLASS("_TtC11CodeCollab231DetailedHackathonViewController")
-@interface DetailedHackathonViewController : UIViewController
+@interface DetailedHackathonViewController : UIViewController <UIScrollViewDelegate, UITableViewDataSource, UITableViewDelegate>
 @property (nonatomic, strong) IBOutlet UIImageView * __null_unspecified bgimg;
 @property (nonatomic, strong) IBOutlet UIImageView * __null_unspecified mainimg;
 @property (nonatomic, copy) NSString * __nullable ideatext;
 @property (nonatomic, copy) NSString * __nullable groupnumber;
 @property (nonatomic, copy) NSString * __nullable currentAmount;
+@property (nonatomic, copy) NSString * __nullable name;
+@property (nonatomic, strong) NSString * __nullable dataStr;
 - (IBAction)controlbutton:(id __nonnull)sender;
+@property (nonatomic, copy) NSArray<NSArray<NSString *> *> * __nonnull firebaseData;
 @property (nonatomic, strong) Hackathon * __nullable hackathon;
+@property (nonatomic, strong) Firebase * __null_unspecified ref;
 @property (nonatomic, strong) IBOutlet UITableView * __null_unspecified tableView;
 - (void)viewDidLoad;
 - (IBAction)addIdea:(id __nonnull)sender;
+- (void)showAlert0;
 - (void)showAlert1;
 - (void)showAlert2;
 - (void)showAlert3;
+- (UITableViewCell * __nonnull)tableView:(UITableView * __nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;
+- (void)tableView:(UITableView * __nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;
+- (NSInteger)tableView:(UITableView * __nonnull)tableView numberOfRowsInSection:(NSInteger)section;
+- (CGFloat)tableView:(UITableView * __nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -197,7 +211,6 @@ SWIFT_CLASS("_TtC11CodeCollab29Hackathon")
 - (nonnull instancetype)initWithName:(NSString * __nonnull)name image:(UIImage * __nonnull)image date:(NSString * __nonnull)date blurb:(NSString * __nonnull)blurb location:(CLLocationCoordinate2D)location teamSize:(NSInteger)teamSize prizes:(NSArray<Prize *> * __nonnull)prizes members:(NSArray<Member *> * __nonnull)members address:(NSString * __nonnull)address bgimg:(UIImage * __nonnull)bgimg OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSIndexPath;
 @class UIStoryboardSegue;
 
 SWIFT_CLASS("_TtC11CodeCollab223HackathonViewController")
@@ -221,8 +234,21 @@ SWIFT_CLASS("_TtC11CodeCollab223HackathonViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+SWIFT_CLASS("_TtC11CodeCollab221IdeaCardTableViewCell")
+@interface IdeaCardTableViewCell : UITableViewCell
+@property (nonatomic, strong) IBOutlet UIImageView * __null_unspecified profile;
+@property (nonatomic, strong) IBOutlet UILabel * __null_unspecified name;
+@property (nonatomic, strong) IBOutlet UILabel * __null_unspecified idea;
+- (IBAction)join:(id __nonnull)sender;
+@property (nonatomic, strong) IBOutlet UILabel * __null_unspecified group;
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * __nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UIActivityIndicatorView;
-@class Firebase;
 
 SWIFT_CLASS("_TtC11CodeCollab221LoadingViewController")
 @interface LoadingViewController : UIViewController
@@ -283,8 +309,6 @@ SWIFT_CLASS("_TtC11CodeCollab220SignUpViewController")
 - (void)touchesBegan:(NSSet<UITouch *> * __nonnull)touches withEvent:(UIEvent * __nullable)event;
 - (IBAction)signUp:(UIButton * __nonnull)sender;
 - (IBAction)fbLogin:(id __nonnull)sender;
-- (IBAction)merchantLogIn:(id __nonnull)sender;
-- (void)prepareForSegue:(UIStoryboardSegue * __nonnull)segue sender:(id __nullable)sender;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

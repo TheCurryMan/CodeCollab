@@ -11,7 +11,7 @@
 import UIKit
 import Firebase
 
-class DetailedHackathonViewController: UIViewController {
+class DetailedHackathonViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet var bgimg: UIImageView!
     
@@ -23,13 +23,21 @@ class DetailedHackathonViewController: UIViewController {
     
     var currentAmount: String?
     
+    var name: String?
+    
+    var dataStr: NSString?
+    
     @IBAction func controlbutton(sender: AnyObject) {
         
         
     }
+    
+    var firebaseData = [[String]]()
     var hackathonIndex : Int?
     
     var hackathon : Hackathon?
+    
+    var ref = Firebase(url:"https://codecollab1.firebaseio.com/")
     
     @IBOutlet var tableView: UITableView!
     /*
@@ -45,6 +53,9 @@ class DetailedHackathonViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        tableView.delegate = self
+        tableView.dataSource = self
+        
         var nib = UINib(nibName: "IdeaCardTableViewCell", bundle: nil)
         
         tableView.registerNib(nib, forCellReuseIdentifier: "custom")
@@ -58,6 +69,33 @@ class DetailedHackathonViewController: UIViewController {
         bgimg.image = hackathon?.bgimage
         mainimg.image = hackathon?.image
         
+        var ideaRef = ref.childByAppendingPath(hackathon!.name)
+        
+        ideaRef.observeEventType(.Value, withBlock: { snapshot in
+            
+            var data = snapshot.value.objectForKey("Ideas") as! NSString
+            
+            self.dataStr = data
+            
+            var info = data.componentsSeparatedByString("|")
+            
+            
+            
+            for i in info {
+                var item = i.componentsSeparatedByString(",")
+                self.firebaseData.append(item)
+                
+            }
+            print(self.firebaseData)
+            self.tableView.reloadData()
+            
+            }, withCancelBlock: { error in
+                print(error.description)
+        })
+        
+        tableView.reloadData()
+
+        
     }
     
    
@@ -70,8 +108,29 @@ class DetailedHackathonViewController: UIViewController {
     
     @IBAction func addIdea(sender: AnyObject) {
         
-        showAlert1()
+        showAlert0()
 
+    }
+    
+    func showAlert0() {
+        var alert = UIAlertController(title: "New Idea", message: "What's your name?", preferredStyle: .Alert)
+        
+        //2. Add the text field. You can configure it however you need.
+        alert.addTextFieldWithConfigurationHandler({ (textField) -> Void in
+            textField.text = ""
+        })
+        
+        //3. Grab the value from the text field, and print it when the user clicks OK.
+        alert.addAction(UIAlertAction(title: "OK", style: .Default, handler: { (action) -> Void in
+            let textField = alert.textFields![0] as UITextField
+            self.name = textField.text!
+            self.showAlert1()
+        }))
+        
+        // 4. Present the alert.
+        self.presentViewController(alert, animated: true, completion: nil)
+        
+        
     }
     
     
@@ -129,10 +188,37 @@ class DetailedHackathonViewController: UIViewController {
             
             print(self.ideatext! + self.groupnumber! + self.currentAmount!)
             
+            var hackRef = self.ref.childByAppendingPath(self.hackathon!.name)
+            hackRef.updateChildValues(["Ideas":String(self.dataStr) + "|" + "\(self.name!),\(self.ideatext!),\(self.currentAmount!),\(self.groupnumber!)"])
+            
         }))
         
         // 4. Present the alert.
         self.presentViewController(alert, animated: true, completion: nil)
+    }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        var cell:IdeaCardTableViewCell = self.tableView.dequeueReusableCellWithIdentifier("custom") as! IdeaCardTableViewCell
+        
+        if firebaseData.count > 1 {
+        var info = firebaseData[indexPath.row]
+        cell.name.text = info[0]
+        cell.idea.text = info[1]
+            cell.group.text = info[2] + "/" + info[3] + "Members" }
+        
+        return cell
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        print(indexPath.row)
+    }
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return firebaseData.count
+    }
+    
+    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        return 120.0
     }
 
 }

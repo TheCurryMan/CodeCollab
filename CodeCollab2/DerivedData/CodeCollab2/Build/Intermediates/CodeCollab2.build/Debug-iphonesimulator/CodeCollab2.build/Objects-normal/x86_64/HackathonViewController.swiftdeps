@@ -6,57 +6,57 @@ provides-nominal:
 provides-member:
 - ["C11CodeCollab223HackathonViewController", ""]
 provides-dynamic-lookup:
-- "hackathonData"
-- "leftTable"
-- "didReceiveMemoryWarning"
-- "chosenHackathon"
-- "prepareForSegue"
-- "getHackathons"
-- "viewDidLoad"
-- "chosenIndex"
-- "tableView"
-- "tableView"
-- "tableView"
+- "hackathons"
 - "viewWillDisappear"
 - "numberOfSectionsInTableView"
-- "hackathons"
+- "tableView"
+- "tableView"
+- "tableView"
+- "viewDidLoad"
+- "didReceiveMemoryWarning"
+- "leftTable"
+- "chosenIndex"
+- "chosenHackathon"
+- "getHackathons"
+- "prepareForSegue"
+- "hackathonData"
 - "viewWillAppear"
 depends-top-level:
-- "UITableViewDataSource"
-- "StringLiteralType"
-- !private "+"
-- "UITableViewDelegate"
-- !private "dispatch_get_global_queue"
-- "UITableView"
-- "UIStoryboardSegue"
 - !private "dispatch_get_main_queue"
-- !private "NSData"
+- !private "<"
+- "UITableView"
+- !private "CLLocationCoordinate2D"
 - "Array"
+- !private "NSURL"
+- !private "String"
+- !private "UIImage"
+- !private "DetailedHackathonViewController"
+- !private "DISPATCH_QUEUE_PRIORITY_DEFAULT"
+- "Hackathon"
+- !private "dispatch_get_global_queue"
+- "Int"
+- !private "BooleanLiteralType"
+- !private "print"
+- !private "NSData"
+- "NSIndexPath"
+- !private "HackLeftTableViewCell"
+- !private "=="
+- "Bool"
+- !private "+"
+- "HackathonViewController"
+- "UITableViewCell"
+- !private "NSString"
+- !private "Void"
+- !private "NSURLSession"
+- !private "NSUTF8StringEncoding"
 - "UIViewController"
 - !private "dispatch_async"
-- "Int"
-- "NSIndexPath"
-- "UITableViewCell"
-- "HackathonViewController"
-- !private "String"
-- !private "NSURLSession"
-- !private "=="
-- "UnicodeScalarType"
-- !private "Void"
-- !private "DISPATCH_QUEUE_PRIORITY_DEFAULT"
-- !private "print"
-- !private "<"
-- !private "UIImage"
-- !private "HackLeftTableViewCell"
+- "UITableViewDataSource"
+- "UIStoryboardSegue"
 - "AnyObject"
-- "Bool"
-- !private "BooleanLiteralType"
-- !private "NSString"
-- !private "NSURL"
-- !private "NSUTF8StringEncoding"
-- "Hackathon"
-- !private "DetailedHackathonViewController"
-- !private "CLLocationCoordinate2D"
+- "UnicodeScalarType"
+- "UITableViewDelegate"
+- "StringLiteralType"
 depends-member:
 - !private ["PSs9AnyObject", "CLLocationCoordinate2D"]
 - !private ["PSs9AnyObject", "DISPATCH_QUEUE_PRIORITY_DEFAULT"]
@@ -1265,7 +1265,9 @@ depends-member:
 - !private ["PSo20UIScrollViewDelegate", "dispatch_get_global_queue"]
 - !private ["PSo20UIScrollViewDelegate", "dispatch_get_main_queue"]
 - !private ["PSo20UIScrollViewDelegate", "getHackathons"]
+- !private ["PSo20UIScrollViewDelegate", "hackathon"]
 - !private ["PSo20UIScrollViewDelegate", "hackathonData"]
+- !private ["PSo20UIScrollViewDelegate", "hackathonIndex"]
 - !private ["PSo20UIScrollViewDelegate", "hackathons"]
 - ["PSo20UIScrollViewDelegate", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["PSo20UIScrollViewDelegate", "leftTable"]
@@ -1365,7 +1367,9 @@ depends-member:
 - !private ["PSo21UITableViewDataSource", "dispatch_get_global_queue"]
 - !private ["PSo21UITableViewDataSource", "dispatch_get_main_queue"]
 - !private ["PSo21UITableViewDataSource", "getHackathons"]
+- !private ["PSo21UITableViewDataSource", "hackathon"]
 - !private ["PSo21UITableViewDataSource", "hackathonData"]
+- !private ["PSo21UITableViewDataSource", "hackathonIndex"]
 - !private ["PSo21UITableViewDataSource", "hackathons"]
 - ["PSo21UITableViewDataSource", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["PSo21UITableViewDataSource", "leftTable"]
@@ -1406,7 +1410,9 @@ depends-member:
 - !private ["PSo19UITableViewDelegate", "dispatch_get_global_queue"]
 - !private ["PSo19UITableViewDelegate", "dispatch_get_main_queue"]
 - !private ["PSo19UITableViewDelegate", "getHackathons"]
+- !private ["PSo19UITableViewDelegate", "hackathon"]
 - !private ["PSo19UITableViewDelegate", "hackathonData"]
+- !private ["PSo19UITableViewDelegate", "hackathonIndex"]
 - !private ["PSo19UITableViewDelegate", "hackathons"]
 - ["PSo19UITableViewDelegate", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["PSo19UITableViewDelegate", "leftTable"]
