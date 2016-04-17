@@ -109,6 +109,17 @@ SWIFT_CLASS("_TtC10CodeCollab11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class NSBundle;
+@class NSCoder;
+
+SWIFT_CLASS("_TtC10CodeCollab18ChatViewController")
+@interface ChatViewController : UIViewController
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class Team;
 @class Hackathon;
 
@@ -121,17 +132,22 @@ SWIFT_CLASS("_TtC10CodeCollab10Connection")
 
 @class UIImageView;
 @class UITableView;
-@class NSBundle;
-@class NSCoder;
 
 SWIFT_CLASS("_TtC10CodeCollab31DetailedHackathonViewController")
 @interface DetailedHackathonViewController : UIViewController
 @property (nonatomic, strong) IBOutlet UIImageView * __null_unspecified bgimg;
 @property (nonatomic, strong) IBOutlet UIImageView * __null_unspecified mainimg;
+@property (nonatomic, copy) NSString * __nullable ideatext;
+@property (nonatomic, copy) NSString * __nullable groupnumber;
+@property (nonatomic, copy) NSString * __nullable currentAmount;
 - (IBAction)controlbutton:(id __nonnull)sender;
 @property (nonatomic, strong) Hackathon * __nullable hackathon;
 @property (nonatomic, strong) IBOutlet UITableView * __null_unspecified tableView;
 - (void)viewDidLoad;
+- (IBAction)addIdea:(id __nonnull)sender;
+- (void)showAlert1;
+- (void)showAlert2;
+- (void)showAlert3;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

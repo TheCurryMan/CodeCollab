@@ -13,6 +13,7 @@
 		E11489A51CC2C70A002DD35D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11489A31CC2C70A002DD35D /* LaunchScreen.storyboard */; };
 		E11489B01CC2C70A002DD35D /* CodeCollabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11489AF1CC2C70A002DD35D /* CodeCollabTests.swift */; };
 		E11489BB1CC2C70A002DD35D /* CodeCollabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11489BA1CC2C70A002DD35D /* CodeCollabUITests.swift */; };
+		E18B701A1CC37B5600CB92F5 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18B70191CC37B5600CB92F5 /* ChatViewController.swift */; };
 		E1B07D3D1CC31CB6007963BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1B07D3C1CC31CB6007963BE /* Main.storyboard */; };
 		E1B07D3E1CC31CB6007963BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1B07D3C1CC31CB6007963BE /* Main.storyboard */; };
 		E1B07D3F1CC31CB6007963BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1B07D3C1CC31CB6007963BE /* Main.storyboard */; };
@@ -57,6 +58,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		50BDF79EADE5F584FF835C94 /* Pods-CodeCollab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeCollab.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodeCollab/Pods-CodeCollab.debug.xcconfig"; sourceTree = "<group>"; };
+		B34EFEBEF499A8BF7AF4548A /* Pods-CodeCollab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeCollab.release.xcconfig"; path = "Pods/Target Support Files/Pods-CodeCollab/Pods-CodeCollab.release.xcconfig"; sourceTree = "<group>"; };
 		E11489971CC2C70A002DD35D /* CodeCollab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeCollab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E114899A1CC2C70A002DD35D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E114899C1CC2C70A002DD35D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +72,7 @@
 		E11489B61CC2C70A002DD35D /* CodeCollabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeCollabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11489BA1CC2C70A002DD35D /* CodeCollabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeCollabUITests.swift; sourceTree = "<group>"; };
 		E11489BC1CC2C70A002DD35D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E18B70191CC37B5600CB92F5 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		E1B07D3C1CC31CB6007963BE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
 		E1B07D401CC31CD7007963BE /* Classes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Classes.swift; sourceTree = "<group>"; };
 		E1B07D411CC31CD7007963BE /* HackathonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HackathonViewController.swift; sourceTree = "<group>"; };
@@ -104,12 +108,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31BA995031007D5ABCDB7841 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50BDF79EADE5F584FF835C94 /* Pods-CodeCollab.debug.xcconfig */,
+				B34EFEBEF499A8BF7AF4548A /* Pods-CodeCollab.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7798F72ADFFDB27957C138BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E114898E1CC2C70A002DD35D = {
 			isa = PBXGroup;
 			children = (
 				E11489991CC2C70A002DD35D /* CodeCollab */,
 				E11489B91CC2C70A002DD35D /* CodeCollabUITests */,
 				E11489981CC2C70A002DD35D /* Products */,
+				31BA995031007D5ABCDB7841 /* Pods */,
+				7798F72ADFFDB27957C138BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,6 +155,7 @@
 				E1B07D411CC31CD7007963BE /* HackathonViewController.swift */,
 				E1B07D5C1CC35BD0007963BE /* DetailedHackathonViewController.swift */,
 				E1B07D3C1CC31CB6007963BE /* Main.storyboard */,
+				E18B70191CC37B5600CB92F5 /* ChatViewController.swift */,
 				E1B07D4C1CC34746007963BE /* HackCardTableViewCell.swift */,
 				E11489A11CC2C70A002DD35D /* Assets.xcassets */,
 				E11489A31CC2C70A002DD35D /* LaunchScreen.storyboard */,
@@ -305,6 +328,7 @@
 				E1B07D5D1CC35BD0007963BE /* DetailedHackathonViewController.swift in Sources */,
 				E114899D1CC2C70A002DD35D /* ViewController.swift in Sources */,
 				E114899B1CC2C70A002DD35D /* AppDelegate.swift in Sources */,
+				E18B701A1CC37B5600CB92F5 /* ChatViewController.swift in Sources */,
 				E1B07D431CC31CD7007963BE /* Classes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,6 +471,7 @@
 		};
 		E11489C01CC2C70A002DD35D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50BDF79EADE5F584FF835C94 /* Pods-CodeCollab.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CodeCollab/Info.plist;
@@ -458,6 +483,7 @@
 		};
 		E11489C11CC2C70A002DD35D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B34EFEBEF499A8BF7AF4548A /* Pods-CodeCollab.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CodeCollab/Info.plist;
