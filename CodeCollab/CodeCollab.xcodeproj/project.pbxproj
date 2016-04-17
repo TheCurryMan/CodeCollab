@@ -9,11 +9,34 @@
 /* Begin PBXBuildFile section */
 		E114899B1CC2C70A002DD35D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E114899A1CC2C70A002DD35D /* AppDelegate.swift */; };
 		E114899D1CC2C70A002DD35D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E114899C1CC2C70A002DD35D /* ViewController.swift */; };
-		E11489A01CC2C70A002DD35D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E114899E1CC2C70A002DD35D /* Main.storyboard */; };
 		E11489A21CC2C70A002DD35D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E11489A11CC2C70A002DD35D /* Assets.xcassets */; };
 		E11489A51CC2C70A002DD35D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11489A31CC2C70A002DD35D /* LaunchScreen.storyboard */; };
 		E11489B01CC2C70A002DD35D /* CodeCollabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11489AF1CC2C70A002DD35D /* CodeCollabTests.swift */; };
 		E11489BB1CC2C70A002DD35D /* CodeCollabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11489BA1CC2C70A002DD35D /* CodeCollabUITests.swift */; };
+		E1B07D3D1CC31CB6007963BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1B07D3C1CC31CB6007963BE /* Main.storyboard */; };
+		E1B07D3E1CC31CB6007963BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1B07D3C1CC31CB6007963BE /* Main.storyboard */; };
+		E1B07D3F1CC31CB6007963BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1B07D3C1CC31CB6007963BE /* Main.storyboard */; };
+		E1B07D431CC31CD7007963BE /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B07D401CC31CD7007963BE /* Classes.swift */; };
+		E1B07D441CC31CD7007963BE /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B07D401CC31CD7007963BE /* Classes.swift */; };
+		E1B07D451CC31CD7007963BE /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B07D401CC31CD7007963BE /* Classes.swift */; };
+		E1B07D461CC31CD7007963BE /* HackathonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B07D411CC31CD7007963BE /* HackathonViewController.swift */; };
+		E1B07D471CC31CD7007963BE /* HackathonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B07D411CC31CD7007963BE /* HackathonViewController.swift */; };
+		E1B07D481CC31CD7007963BE /* HackathonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B07D411CC31CD7007963BE /* HackathonViewController.swift */; };
+		E1B07D491CC31CD7007963BE /* HackLeftTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B07D421CC31CD7007963BE /* HackLeftTableViewCell.swift */; };
+		E1B07D4A1CC31CD7007963BE /* HackLeftTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B07D421CC31CD7007963BE /* HackLeftTableViewCell.swift */; };
+		E1B07D4B1CC31CD7007963BE /* HackLeftTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B07D421CC31CD7007963BE /* HackLeftTableViewCell.swift */; };
+		E1B07D4D1CC34746007963BE /* HackCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B07D4C1CC34746007963BE /* HackCardTableViewCell.swift */; };
+		E1B07D4E1CC34746007963BE /* HackCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B07D4C1CC34746007963BE /* HackCardTableViewCell.swift */; };
+		E1B07D4F1CC34746007963BE /* HackCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B07D4C1CC34746007963BE /* HackCardTableViewCell.swift */; };
+		E1B07D511CC34873007963BE /* IdeaCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B07D501CC34873007963BE /* IdeaCardTableViewCell.swift */; };
+		E1B07D521CC34873007963BE /* IdeaCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B07D501CC34873007963BE /* IdeaCardTableViewCell.swift */; };
+		E1B07D531CC34873007963BE /* IdeaCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B07D501CC34873007963BE /* IdeaCardTableViewCell.swift */; };
+		E1B07D551CC348A3007963BE /* IdeaCardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1B07D541CC348A3007963BE /* IdeaCardTableViewCell.xib */; };
+		E1B07D561CC348A3007963BE /* IdeaCardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1B07D541CC348A3007963BE /* IdeaCardTableViewCell.xib */; };
+		E1B07D571CC348A3007963BE /* IdeaCardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1B07D541CC348A3007963BE /* IdeaCardTableViewCell.xib */; };
+		E1B07D5D1CC35BD0007963BE /* DetailedHackathonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B07D5C1CC35BD0007963BE /* DetailedHackathonViewController.swift */; };
+		E1B07D5E1CC35BD0007963BE /* DetailedHackathonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B07D5C1CC35BD0007963BE /* DetailedHackathonViewController.swift */; };
+		E1B07D5F1CC35BD0007963BE /* DetailedHackathonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B07D5C1CC35BD0007963BE /* DetailedHackathonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +60,6 @@
 		E11489971CC2C70A002DD35D /* CodeCollab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeCollab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E114899A1CC2C70A002DD35D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E114899C1CC2C70A002DD35D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E114899F1CC2C70A002DD35D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E11489A11CC2C70A002DD35D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E11489A41CC2C70A002DD35D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E11489A61CC2C70A002DD35D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +69,14 @@
 		E11489B61CC2C70A002DD35D /* CodeCollabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeCollabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11489BA1CC2C70A002DD35D /* CodeCollabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeCollabUITests.swift; sourceTree = "<group>"; };
 		E11489BC1CC2C70A002DD35D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1B07D3C1CC31CB6007963BE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		E1B07D401CC31CD7007963BE /* Classes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Classes.swift; sourceTree = "<group>"; };
+		E1B07D411CC31CD7007963BE /* HackathonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HackathonViewController.swift; sourceTree = "<group>"; };
+		E1B07D421CC31CD7007963BE /* HackLeftTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HackLeftTableViewCell.swift; sourceTree = "<group>"; };
+		E1B07D4C1CC34746007963BE /* HackCardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HackCardTableViewCell.swift; sourceTree = "<group>"; };
+		E1B07D501CC34873007963BE /* IdeaCardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdeaCardTableViewCell.swift; sourceTree = "<group>"; };
+		E1B07D541CC348A3007963BE /* IdeaCardTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IdeaCardTableViewCell.xib; sourceTree = "<group>"; };
+		E1B07D5C1CC35BD0007963BE /* DetailedHackathonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedHackathonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +108,6 @@
 			isa = PBXGroup;
 			children = (
 				E11489991CC2C70A002DD35D /* CodeCollab */,
-				E11489AE1CC2C70A002DD35D /* CodeCollabTests */,
 				E11489B91CC2C70A002DD35D /* CodeCollabUITests */,
 				E11489981CC2C70A002DD35D /* Products */,
 			);
@@ -99,10 +128,18 @@
 			children = (
 				E114899A1CC2C70A002DD35D /* AppDelegate.swift */,
 				E114899C1CC2C70A002DD35D /* ViewController.swift */,
-				E114899E1CC2C70A002DD35D /* Main.storyboard */,
+				E1B07D401CC31CD7007963BE /* Classes.swift */,
+				E1B07D421CC31CD7007963BE /* HackLeftTableViewCell.swift */,
+				E1B07D411CC31CD7007963BE /* HackathonViewController.swift */,
+				E1B07D5C1CC35BD0007963BE /* DetailedHackathonViewController.swift */,
+				E1B07D3C1CC31CB6007963BE /* Main.storyboard */,
+				E1B07D4C1CC34746007963BE /* HackCardTableViewCell.swift */,
 				E11489A11CC2C70A002DD35D /* Assets.xcassets */,
 				E11489A31CC2C70A002DD35D /* LaunchScreen.storyboard */,
+				E11489AE1CC2C70A002DD35D /* CodeCollabTests */,
 				E11489A61CC2C70A002DD35D /* Info.plist */,
+				E1B07D501CC34873007963BE /* IdeaCardTableViewCell.swift */,
+				E1B07D541CC348A3007963BE /* IdeaCardTableViewCell.xib */,
 			);
 			path = CodeCollab;
 			sourceTree = "<group>";
@@ -114,7 +151,7 @@
 				E11489B11CC2C70A002DD35D /* Info.plist */,
 			);
 			path = CodeCollabTests;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		E11489B91CC2C70A002DD35D /* CodeCollabUITests */ = {
 			isa = PBXGroup;
@@ -229,9 +266,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1B07D3D1CC31CB6007963BE /* Main.storyboard in Resources */,
 				E11489A51CC2C70A002DD35D /* LaunchScreen.storyboard in Resources */,
+				E1B07D551CC348A3007963BE /* IdeaCardTableViewCell.xib in Resources */,
 				E11489A21CC2C70A002DD35D /* Assets.xcassets in Resources */,
-				E11489A01CC2C70A002DD35D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +277,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1B07D561CC348A3007963BE /* IdeaCardTableViewCell.xib in Resources */,
+				E1B07D3E1CC31CB6007963BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +286,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1B07D571CC348A3007963BE /* IdeaCardTableViewCell.xib in Resources */,
+				E1B07D3F1CC31CB6007963BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +298,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1B07D4D1CC34746007963BE /* HackCardTableViewCell.swift in Sources */,
+				E1B07D461CC31CD7007963BE /* HackathonViewController.swift in Sources */,
+				E1B07D491CC31CD7007963BE /* HackLeftTableViewCell.swift in Sources */,
+				E1B07D511CC34873007963BE /* IdeaCardTableViewCell.swift in Sources */,
+				E1B07D5D1CC35BD0007963BE /* DetailedHackathonViewController.swift in Sources */,
 				E114899D1CC2C70A002DD35D /* ViewController.swift in Sources */,
 				E114899B1CC2C70A002DD35D /* AppDelegate.swift in Sources */,
+				E1B07D431CC31CD7007963BE /* Classes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +313,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1B07D441CC31CD7007963BE /* Classes.swift in Sources */,
+				E1B07D471CC31CD7007963BE /* HackathonViewController.swift in Sources */,
+				E1B07D5E1CC35BD0007963BE /* DetailedHackathonViewController.swift in Sources */,
+				E1B07D521CC34873007963BE /* IdeaCardTableViewCell.swift in Sources */,
 				E11489B01CC2C70A002DD35D /* CodeCollabTests.swift in Sources */,
+				E1B07D4A1CC31CD7007963BE /* HackLeftTableViewCell.swift in Sources */,
+				E1B07D4E1CC34746007963BE /* HackCardTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +327,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1B07D451CC31CD7007963BE /* Classes.swift in Sources */,
+				E1B07D481CC31CD7007963BE /* HackathonViewController.swift in Sources */,
+				E1B07D5F1CC35BD0007963BE /* DetailedHackathonViewController.swift in Sources */,
+				E1B07D531CC34873007963BE /* IdeaCardTableViewCell.swift in Sources */,
 				E11489BB1CC2C70A002DD35D /* CodeCollabUITests.swift in Sources */,
+				E1B07D4B1CC31CD7007963BE /* HackLeftTableViewCell.swift in Sources */,
+				E1B07D4F1CC34746007963BE /* HackCardTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +353,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E114899E1CC2C70A002DD35D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E114899F1CC2C70A002DD35D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E11489A31CC2C70A002DD35D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -482,6 +534,7 @@
 				E11489C11CC2C70A002DD35D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E11489C21CC2C70A002DD35D /* Build configuration list for PBXNativeTarget "CodeCollabTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +543,7 @@
 				E11489C41CC2C70A002DD35D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E11489C51CC2C70A002DD35D /* Build configuration list for PBXNativeTarget "CodeCollabUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +552,7 @@
 				E11489C71CC2C70A002DD35D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

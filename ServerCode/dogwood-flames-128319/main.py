@@ -43,15 +43,14 @@ class MLH(webapp2.RequestHandler):
                 if line.name == "img":
                     info.append(line.get("src"))
                 elif line.name == "a":
-                   body.append(info)
-                   info = []
+                   info.append("|")
                    info.append(line.get("href"))
                 else:
                     info.append(line.string)
             except:
                 body.append("Error")
-        del body[0]
-        self.response.write(body)
+        del info[0]
+        self.response.write(', '.join(info))
 
 
 

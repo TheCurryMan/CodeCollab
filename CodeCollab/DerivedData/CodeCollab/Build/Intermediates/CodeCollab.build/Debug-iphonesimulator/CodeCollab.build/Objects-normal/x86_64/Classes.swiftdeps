@@ -1,0 +1,276 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Hackathon"
+- "Connection"
+- "Prize"
+- "Member"
+- "Team"
+provides-nominal:
+- "C10CodeCollab9Hackathon"
+- "C10CodeCollab10Connection"
+- "C10CodeCollab5Prize"
+- "C10CodeCollab6Member"
+- "C10CodeCollab4Team"
+provides-member:
+- ["C10CodeCollab9Hackathon", ""]
+- ["C10CodeCollab10Connection", ""]
+- ["C10CodeCollab5Prize", ""]
+- ["C10CodeCollab6Member", ""]
+- ["C10CodeCollab4Team", ""]
+provides-dynamic-lookup:
+- "fromTeam"
+- "date"
+- "image"
+- "blurb"
+- "blurb"
+- "bgimage"
+- "amount"
+- "prizes"
+- "toHack"
+- "name"
+- "members"
+- "members"
+- "forHack"
+- "address"
+- "sponsor"
+depends-top-level:
+- "UIImage"
+- !private "Array"
+- "Connection"
+- "Hackathon"
+- !private "StringLiteralType"
+- "NSObject"
+- "CLLocationCoordinate2D"
+- "String"
+- "Member"
+- "Team"
+- !private "??"
+- "Prize"
+- "Int"
+depends-member:
+- ["PSs9AnyObject", "address"]
+- ["PSs9AnyObject", "amount"]
+- ["PSs9AnyObject", "bgimage"]
+- ["PSs9AnyObject", "blurb"]
+- ["PSs9AnyObject", "date"]
+- ["PSs9AnyObject", "forHack"]
+- ["PSs9AnyObject", "fromTeam"]
+- ["PSs9AnyObject", "image"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "location"]
+- ["PSs9AnyObject", "members"]
+- ["PSs9AnyObject", "name"]
+- ["PSs9AnyObject", "prizes"]
+- ["PSs9AnyObject", "sponsor"]
+- ["PSs9AnyObject", "teamSize"]
+- ["PSs9AnyObject", "toHack"]
+- ["PSs9AnyObject", ""]
+- !private ["Sa", "Element"]
+- !private ["PSs23ArrayLiteralConvertible", "Element"]
+- ["PSs11CVarArgType", "address"]
+- ["PSs11CVarArgType", "amount"]
+- ["PSs11CVarArgType", "bgimage"]
+- ["PSs11CVarArgType", "blurb"]
+- ["PSs11CVarArgType", "date"]
+- ["PSs11CVarArgType", "forHack"]
+- ["PSs11CVarArgType", "fromTeam"]
+- ["PSs11CVarArgType", "image"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "location"]
+- ["PSs11CVarArgType", "members"]
+- ["PSs11CVarArgType", "name"]
+- ["PSs11CVarArgType", "prizes"]
+- ["PSs11CVarArgType", "sponsor"]
+- ["PSs11CVarArgType", "teamSize"]
+- ["PSs11CVarArgType", "toHack"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs14CollectionType", "Element"]
+- ["C10CodeCollab10Connection", "Hackathon"]
+- ["C10CodeCollab10Connection", "Team"]
+- ["C10CodeCollab10Connection", "deinit"]
+- ["C10CodeCollab10Connection", "fromTeam"]
+- ["C10CodeCollab10Connection", "init"]
+- ["C10CodeCollab10Connection", "toHack"]
+- !private ["PSs28CustomDebugStringConvertible", "Element"]
+- !private ["PSs23CustomStringConvertible", "Element"]
+- ["PSs23CustomStringConvertible", "address"]
+- ["PSs23CustomStringConvertible", "amount"]
+- ["PSs23CustomStringConvertible", "bgimage"]
+- ["PSs23CustomStringConvertible", "blurb"]
+- ["PSs23CustomStringConvertible", "date"]
+- ["PSs23CustomStringConvertible", "forHack"]
+- ["PSs23CustomStringConvertible", "fromTeam"]
+- ["PSs23CustomStringConvertible", "image"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "location"]
+- ["PSs23CustomStringConvertible", "members"]
+- ["PSs23CustomStringConvertible", "name"]
+- ["PSs23CustomStringConvertible", "prizes"]
+- ["PSs23CustomStringConvertible", "sponsor"]
+- ["PSs23CustomStringConvertible", "teamSize"]
+- ["PSs23CustomStringConvertible", "toHack"]
+- ["PSs23CustomStringConvertible", ""]
+- ["PSs9Equatable", "address"]
+- ["PSs9Equatable", "amount"]
+- ["PSs9Equatable", "bgimage"]
+- ["PSs9Equatable", "blurb"]
+- ["PSs9Equatable", "date"]
+- ["PSs9Equatable", "forHack"]
+- ["PSs9Equatable", "fromTeam"]
+- ["PSs9Equatable", "image"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "location"]
+- ["PSs9Equatable", "members"]
+- ["PSs9Equatable", "name"]
+- ["PSs9Equatable", "prizes"]
+- ["PSs9Equatable", "sponsor"]
+- ["PSs9Equatable", "teamSize"]
+- ["PSs9Equatable", "toHack"]
+- ["PSs9Equatable", ""]
+- ["C10CodeCollab9Hackathon", "CLLocationCoordinate2D"]
+- ["C10CodeCollab9Hackathon", "Int"]
+- ["C10CodeCollab9Hackathon", "Member"]
+- ["C10CodeCollab9Hackathon", "Prize"]
+- ["C10CodeCollab9Hackathon", "String"]
+- ["C10CodeCollab9Hackathon", "UIImage"]
+- ["C10CodeCollab9Hackathon", "address"]
+- ["C10CodeCollab9Hackathon", "bgimage"]
+- ["C10CodeCollab9Hackathon", "blurb"]
+- ["C10CodeCollab9Hackathon", "date"]
+- ["C10CodeCollab9Hackathon", "deinit"]
+- ["C10CodeCollab9Hackathon", "image"]
+- ["C10CodeCollab9Hackathon", "init"]
+- ["C10CodeCollab9Hackathon", "location"]
+- ["C10CodeCollab9Hackathon", "members"]
+- ["C10CodeCollab9Hackathon", "name"]
+- ["C10CodeCollab9Hackathon", "prizes"]
+- ["C10CodeCollab9Hackathon", "teamSize"]
+- ["PSs8Hashable", "address"]
+- ["PSs8Hashable", "amount"]
+- ["PSs8Hashable", "bgimage"]
+- ["PSs8Hashable", "blurb"]
+- ["PSs8Hashable", "date"]
+- ["PSs8Hashable", "forHack"]
+- ["PSs8Hashable", "fromTeam"]
+- ["PSs8Hashable", "image"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "location"]
+- ["PSs8Hashable", "members"]
+- ["PSs8Hashable", "name"]
+- ["PSs8Hashable", "prizes"]
+- ["PSs8Hashable", "sponsor"]
+- ["PSs8Hashable", "teamSize"]
+- ["PSs8Hashable", "toHack"]
+- ["PSs8Hashable", ""]
+- !private ["SQ", "deinit"]
+- !private ["PSs9Indexable", "Element"]
+- ["C10CodeCollab6Member", "deinit"]
+- ["C10CodeCollab6Member", "init"]
+- !private ["PSs21MutableCollectionType", "Element"]
+- !private ["PSs16MutableIndexable", "Element"]
+- !private ["PSs16MutableSliceable", "Element"]
+- ["CSo8NSObject", "CLLocationCoordinate2D"]
+- ["CSo8NSObject", "Hackathon"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "Member"]
+- ["CSo8NSObject", "Prize"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "Team"]
+- ["CSo8NSObject", "UIImage"]
+- ["CSo8NSObject", "address"]
+- ["CSo8NSObject", "amount"]
+- ["CSo8NSObject", "bgimage"]
+- ["CSo8NSObject", "blurb"]
+- ["CSo8NSObject", "date"]
+- ["CSo8NSObject", "forHack"]
+- ["CSo8NSObject", "fromTeam"]
+- ["CSo8NSObject", "image"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "location"]
+- ["CSo8NSObject", "members"]
+- ["CSo8NSObject", "name"]
+- ["CSo8NSObject", "prizes"]
+- ["CSo8NSObject", "sponsor"]
+- ["CSo8NSObject", "teamSize"]
+- ["CSo8NSObject", "toHack"]
+- ["CSo8NSObject", ""]
+- ["PSo16NSObjectProtocol", "address"]
+- ["PSo16NSObjectProtocol", "amount"]
+- ["PSo16NSObjectProtocol", "bgimage"]
+- ["PSo16NSObjectProtocol", "blurb"]
+- ["PSo16NSObjectProtocol", "date"]
+- ["PSo16NSObjectProtocol", "forHack"]
+- ["PSo16NSObjectProtocol", "fromTeam"]
+- ["PSo16NSObjectProtocol", "image"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "location"]
+- ["PSo16NSObjectProtocol", "members"]
+- ["PSo16NSObjectProtocol", "name"]
+- ["PSo16NSObjectProtocol", "prizes"]
+- ["PSo16NSObjectProtocol", "sponsor"]
+- ["PSo16NSObjectProtocol", "teamSize"]
+- ["PSo16NSObjectProtocol", "toHack"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Sq", "deinit"]
+- ["C10CodeCollab5Prize", "Int"]
+- ["C10CodeCollab5Prize", "String"]
+- ["C10CodeCollab5Prize", "amount"]
+- ["C10CodeCollab5Prize", "blurb"]
+- ["C10CodeCollab5Prize", "deinit"]
+- ["C10CodeCollab5Prize", "init"]
+- ["C10CodeCollab5Prize", "sponsor"]
+- !private ["PSs30RangeReplaceableCollectionType", "Element"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["VSs12StaticString", "deinit"]
+- ["C10CodeCollab4Team", "Hackathon"]
+- ["C10CodeCollab4Team", "Member"]
+- ["C10CodeCollab4Team", "deinit"]
+- ["C10CodeCollab4Team", "forHack"]
+- ["C10CodeCollab4Team", "init"]
+- ["C10CodeCollab4Team", "members"]
+- !private ["PSs10_ArrayType", "Element"]
+- !private ["PSs24_DestructorSafeContainer", "Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "Element"]
+- !private ["PSs12_Reflectable", "Element"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "Sa"
+- !private "PSs23ArrayLiteralConvertible"
+- "PSs11CVarArgType"
+- !private "PSs14CollectionType"
+- "C10CodeCollab10Connection"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "C10CodeCollab9Hackathon"
+- "PSs8Hashable"
+- !private "SQ"
+- !private "PSs9Indexable"
+- "C10CodeCollab6Member"
+- !private "PSs21MutableCollectionType"
+- !private "PSs16MutableIndexable"
+- !private "PSs16MutableSliceable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Sq"
+- "C10CodeCollab5Prize"
+- !private "PSs30RangeReplaceableCollectionType"
+- !private "PSs12SequenceType"
+- !private "VSs12StaticString"
+- "C10CodeCollab4Team"
+- !private "PSs10_ArrayType"
+- !private "PSs24_DestructorSafeContainer"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+interface-hash: "89958b2b6a3ec3afefd017cf7240e396"

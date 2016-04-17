@@ -87,6 +87,8 @@ typedef int swift_int3  __attribute__((__ext_vector_type__(3)));
 typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
+@import ObjectiveC;
+@import CoreLocation;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -107,13 +109,142 @@ SWIFT_CLASS("_TtC10CodeCollab11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSArray;
+@class Team;
+@class Hackathon;
+
+SWIFT_CLASS("_TtC10CodeCollab10Connection")
+@interface Connection : NSObject
+@property (nonatomic, strong) Team * __nonnull fromTeam;
+@property (nonatomic, strong) Hackathon * __nonnull toHack;
+- (nonnull instancetype)initFromTeam:(Team * __nonnull)fromTeam toHack:(Hackathon * __nonnull)toHack OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIImageView;
+@class UITableView;
 @class NSBundle;
 @class NSCoder;
 
+SWIFT_CLASS("_TtC10CodeCollab31DetailedHackathonViewController")
+@interface DetailedHackathonViewController : UIViewController
+@property (nonatomic, strong) IBOutlet UIImageView * __null_unspecified bgimg;
+@property (nonatomic, strong) IBOutlet UIImageView * __null_unspecified mainimg;
+- (IBAction)controlbutton:(id __nonnull)sender;
+@property (nonatomic, strong) Hackathon * __nullable hackathon;
+@property (nonatomic, strong) IBOutlet UITableView * __null_unspecified tableView;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC10CodeCollab21HackCardTableViewCell")
+@interface HackCardTableViewCell : UITableViewCell
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * __nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIButton;
+@class UIImage;
+@class UILabel;
+
+SWIFT_CLASS("_TtC10CodeCollab21HackLeftTableViewCell")
+@interface HackLeftTableViewCell : UITableViewCell
+@property (nonatomic, copy) NSString * __null_unspecified title;
+@property (nonatomic, copy) NSString * __null_unspecified date;
+@property (nonatomic, copy) NSString * __null_unspecified address;
+@property (nonatomic, weak) IBOutlet UILabel * __null_unspecified cellName;
+@property (nonatomic, weak) IBOutlet UILabel * __null_unspecified cellAddress;
+@property (nonatomic, weak) IBOutlet UILabel * __null_unspecified cellDate;
+@property (nonatomic, strong) IBOutlet UIButton * __null_unspecified button;
+- (void)loadItems:(NSString * __nonnull)name address:(NSString * __nonnull)address date:(NSString * __nonnull)date image:(UIImage * __nonnull)image;
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * __nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class Member;
+@class Prize;
+
+SWIFT_CLASS("_TtC10CodeCollab9Hackathon")
+@interface Hackathon : NSObject
+@property (nonatomic, copy) NSString * __nonnull name;
+@property (nonatomic, copy) NSString * __nonnull date;
+@property (nonatomic, copy) NSString * __null_unspecified blurb;
+@property (nonatomic, copy) NSString * __nonnull address;
+@property (nonatomic, copy) NSArray<Member *> * __null_unspecified members;
+@property (nonatomic, strong) UIImage * __nonnull image;
+@property (nonatomic, strong) UIImage * __nonnull bgimage;
+@property (nonatomic, copy) NSArray<Prize *> * __null_unspecified prizes;
+- (nonnull instancetype)initWithName:(NSString * __nonnull)name image:(UIImage * __nonnull)image date:(NSString * __nonnull)date blurb:(NSString * __nonnull)blurb location:(CLLocationCoordinate2D)location teamSize:(NSInteger)teamSize prizes:(NSArray<Prize *> * __nonnull)prizes members:(NSArray<Member *> * __nonnull)members address:(NSString * __nonnull)address bgimg:(UIImage * __nonnull)bgimg OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class NSIndexPath;
+@class UIStoryboardSegue;
+
+SWIFT_CLASS("_TtC10CodeCollab23HackathonViewController")
+@interface HackathonViewController : UIViewController <UIScrollViewDelegate, UITableViewDelegate, UITableViewDataSource>
+@property (nonatomic, copy) NSArray<Hackathon *> * __nonnull hackathons;
+@property (nonatomic, strong) Hackathon * __nullable chosenHackathon;
+@property (nonatomic, copy) NSArray<NSArray<NSString *> *> * __nonnull hackathonData;
+@property (nonatomic) NSInteger chosenIndex;
+@property (nonatomic, weak) IBOutlet UITableView * __null_unspecified leftTable;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewWillDisappear:(BOOL)animated;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (void)getHackathons;
+- (NSInteger)numberOfSectionsInTableView:(UITableView * __nonnull)tableView;
+- (NSInteger)tableView:(UITableView * __nonnull)tableView numberOfRowsInSection:(NSInteger)section;
+- (void)tableView:(UITableView * __nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;
+- (UITableViewCell * __nonnull)tableView:(UITableView * __nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;
+- (void)prepareForSegue:(UIStoryboardSegue * __nonnull)segue sender:(id __nullable)sender;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC10CodeCollab21IdeaCardTableViewCell")
+@interface IdeaCardTableViewCell : UITableViewCell
+@property (nonatomic, strong) IBOutlet UIImageView * __null_unspecified profile;
+@property (nonatomic, strong) IBOutlet UILabel * __null_unspecified name;
+@property (nonatomic, strong) IBOutlet UILabel * __null_unspecified idea;
+- (IBAction)join:(id __nonnull)sender;
+@property (nonatomic, strong) IBOutlet UILabel * __null_unspecified group;
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * __nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC10CodeCollab6Member")
+@interface Member : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC10CodeCollab5Prize")
+@interface Prize : NSObject
+@property (nonatomic) NSInteger amount;
+@property (nonatomic, copy) NSString * __nonnull sponsor;
+@property (nonatomic, copy) NSString * __nonnull blurb;
+- (nonnull instancetype)initWithAmount:(NSInteger)amount sponsor:(NSString * __nonnull)sponsor blurb:(NSString * __nonnull)blurb OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC10CodeCollab4Team")
+@interface Team : NSObject
+@property (nonatomic, copy) NSArray<Member *> * __nonnull members;
+@property (nonatomic, strong) Hackathon * __nonnull forHack;
+- (nonnull instancetype)initWithMembers:(NSArray<Member *> * __nonnull)members forHack:(Hackathon * __nonnull)forHack OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC10CodeCollab14ViewController")
 @interface ViewController : UIViewController
-@property (nonatomic, strong) NSArray * __nonnull hackathonData;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
