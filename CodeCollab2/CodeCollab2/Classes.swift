@@ -118,8 +118,27 @@ class Prize: NSObject {
 
 class Member: NSObject {
     
+    var profilePic: UIImage
+    var location: CLLocationCoordinate2D
+    var name: String
+    var username: String
+    var password: String
+    var email: String
+    var phone: String
     
-    
+    init(profilePic: UIImage, location: CLLocationCoordinate2D, name: String, username: String, password: String, email: String, phone: String){
+        
+        self.profilePic = profilePic
+        self.location = location
+        self.name = name
+        self.username = username
+        self.password = password
+        self.email = email
+        self.phone = phone
+        
+        super.init()
+        
+    }
 }
 
 
@@ -140,6 +159,21 @@ class Team: NSObject {
         
         super.init()
         
+    }
+    
+}
+
+import Foundation
+import MapKit
+
+class Person : NSObject, MKAnnotation {
+    
+    var coordinate: CLLocationCoordinate2D
+    var title: String?
+    
+    init(coordinate: CLLocationCoordinate2D, title: String) {
+        self.coordinate = coordinate
+        self.title = title
     }
     
 }

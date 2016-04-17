@@ -9,9 +9,9 @@ provides-dynamic-lookup:
 - "setSelected"
 - "awakeFromNib"
 depends-top-level:
+- "UITableViewCell"
 - "HackCardTableViewCell"
 - "Bool"
-- "UITableViewCell"
 depends-member:
 - ["PSs9AnyObject", "awakeFromNib"]
 - ["PSs9AnyObject", "init"]

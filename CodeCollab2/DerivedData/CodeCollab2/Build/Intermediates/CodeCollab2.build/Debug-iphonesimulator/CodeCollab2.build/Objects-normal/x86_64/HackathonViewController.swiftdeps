@@ -6,58 +6,58 @@ provides-nominal:
 provides-member:
 - ["C11CodeCollab223HackathonViewController", ""]
 provides-dynamic-lookup:
-- "hackathons"
-- "leftTable"
-- "viewWillDisappear"
-- "tableView"
-- "tableView"
-- "tableView"
-- "prepareForSegue"
 - "viewDidLoad"
-- "numberOfSectionsInTableView"
-- "chosenHackathon"
-- "didReceiveMemoryWarning"
-- "getHackathons"
-- "hackathonData"
-- "viewWillAppear"
 - "chosenIndex"
+- "getHackathons"
+- "hackathons"
+- "viewWillAppear"
+- "hackathonData"
+- "tableView"
+- "tableView"
+- "tableView"
+- "didReceiveMemoryWarning"
+- "viewWillDisappear"
+- "chosenHackathon"
+- "numberOfSectionsInTableView"
+- "leftTable"
+- "prepareForSegue"
 depends-top-level:
-- !private "..."
-- "UITableViewDelegate"
-- !private "HackLeftTableViewCell"
-- "UITableViewDataSource"
-- !private "NSUTF8StringEncoding"
-- "UIViewController"
-- "Hackathon"
-- !private "NSURL"
-- "UnicodeScalarType"
-- !private "String"
-- !private "NSString"
-- !private "print"
-- "UIStoryboardSegue"
-- "UITableView"
-- !private "BooleanLiteralType"
-- !private "+"
-- "HackathonViewController"
-- !private "DISPATCH_QUEUE_PRIORITY_DEFAULT"
-- "Bool"
-- "AnyObject"
-- "Int"
-- !private "NSURLSession"
-- !private "Void"
-- !private "<"
 - !private "UIImage"
-- !private "dispatch_get_global_queue"
+- !private "DetailedHackathonViewController"
+- "Bool"
+- !private "=="
+- "Int"
+- "AnyObject"
+- !private "NSString"
+- !private "NSUTF8StringEncoding"
+- "StringLiteralType"
+- !private "<"
+- !private "NSURL"
+- !private "NSData"
+- "Hackathon"
+- "UnicodeScalarType"
+- !private "dispatch_get_main_queue"
+- !private "CLLocationCoordinate2D"
+- !private "dispatch_async"
+- "UITableView"
+- "UIViewController"
+- !private "..."
 - "NSIndexPath"
 - "UITableViewCell"
-- !private "CLLocationCoordinate2D"
-- "StringLiteralType"
-- !private "dispatch_async"
+- "UITableViewDataSource"
+- !private "print"
+- !private "HackLeftTableViewCell"
 - "Array"
-- !private "=="
-- !private "dispatch_get_main_queue"
-- !private "DetailedHackathonViewController"
-- !private "NSData"
+- "UITableViewDelegate"
+- !private "NSURLSession"
+- "UIStoryboardSegue"
+- "HackathonViewController"
+- !private "dispatch_get_global_queue"
+- !private "Void"
+- !private "+"
+- !private "BooleanLiteralType"
+- !private "String"
+- !private "DISPATCH_QUEUE_PRIORITY_DEFAULT"
 depends-member:
 - !private ["PSs9AnyObject", "CLLocationCoordinate2D"]
 - !private ["PSs9AnyObject", "DISPATCH_QUEUE_PRIORITY_DEFAULT"]
@@ -163,6 +163,8 @@ depends-member:
 - !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
 - !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
 - !private ["VSC22CLLocationCoordinate2D", "init"]
+- !private ["PSo25CLLocationManagerDelegate", "hackathon"]
+- !private ["PSo25CLLocationManagerDelegate", "hackathonIndex"]
 - !private ["PSs11CVarArgType", "CLLocationCoordinate2D"]
 - !private ["PSs11CVarArgType", "DISPATCH_QUEUE_PRIORITY_DEFAULT"]
 - !private ["PSs11CVarArgType", "Distance"]
@@ -605,6 +607,8 @@ depends-member:
 - !private ["PSs11IntegerType", "Distance"]
 - !private ["PSs11IntegerType", "IntegerLiteralType"]
 - !private ["PSs11IntegerType", "_DisabledRangeIndex"]
+- !private ["PSo17MKMapViewDelegate", "hackathon"]
+- !private ["PSo17MKMapViewDelegate", "hackathonIndex"]
 - !private ["PSs14MirrorPathType", "Distance"]
 - !private ["PSs14MirrorPathType", "IntegerLiteralType"]
 - !private ["PSs14MirrorPathType", "_DisabledRangeIndex"]
@@ -1674,6 +1678,7 @@ depends-nominal:
 - !private "PSs25BooleanLiteralConvertible"
 - !private "PSs11BooleanType"
 - !private "VSC22CLLocationCoordinate2D"
+- !private "PSo25CLLocationManagerDelegate"
 - "PSs11CVarArgType"
 - !private "VSS13CharacterView"
 - !private "VSs14ClosedInterval"
@@ -1698,6 +1703,7 @@ depends-nominal:
 - !private "PSs21IntegerArithmeticType"
 - !private "PSs25IntegerLiteralConvertible"
 - !private "PSs11IntegerType"
+- !private "PSo17MKMapViewDelegate"
 - !private "PSs14MirrorPathType"
 - "PSs21MutableCollectionType"
 - "PSs16MutableIndexable"

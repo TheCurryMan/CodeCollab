@@ -12,7 +12,7 @@ import UIKit
 import MapKit
 import Firebase
 
-class DetailedHackathonViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, CLLocationManagerDelegate {
+class DetailedHackathonViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, CLLocationManagerDelegate, MKMapViewDelegate {
 
     @IBOutlet var bgimg: UIImageView!
     
@@ -52,18 +52,20 @@ class DetailedHackathonViewController: UIViewController, UITableViewDelegate, UI
     override func viewDidLoad() {
         super.viewDidLoad()
     
-        locationManager.requestWhenInUseAuthorization();
-        if CLLocationManager.locationServicesEnabled() {
+            mapView.delegate = self
+        
+        
             locationManager.delegate = self
-            locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
+            locationManager.desiredAccuracy = kCLLocationAccuracyBest
+            locationManager.requestWhenInUseAuthorization()
             locationManager.startUpdatingLocation()
             
-        }
-        else{
-            print("Location service disabled");
-        }
+            mapView.showsUserLocation = true
         
-        mapView.hidden = true
+            getCoordinatePoints()
+        
+        
+        //mapView.hidden = true
         
         tableView.delegate = self
         tableView.dataSource = self
@@ -110,8 +112,52 @@ class DetailedHackathonViewController: UIViewController, UITableViewDelegate, UI
         
     }
     
-   
+    var points: [Person] = []
     
+    func getCoordinatePoints() {
+        points.append(Person(coordinate: CLLocationCoordinate2D(latitude: 37.2941120, longitude: -122.0361800), title: "Raj Vermouth"))
+        points.append(Person(coordinate: CLLocationCoordinate2D(latitude: 37.2982090, longitude: -122.0563500), title: "Bob Adams"))
+        points.append(Person(coordinate: CLLocationCoordinate2D(latitude: 37.2638320, longitude: -122.0230150), title: "Peeta Bread"))
+        points.append(Person(coordinate: CLLocationCoordinate2D(latitude: 37.2971120, longitude: -122.0341800), title: "John Jacob"))
+        points.append(Person(coordinate: CLLocationCoordinate2D(latitude: 37.3922090, longitude: -122.0583500), title: "Elizabeth Warden"))
+        points.append(Person(coordinate: CLLocationCoordinate2D(latitude: 37.4698320, longitude: -122.0239150), title: "Vishal Ramu"))
+        points.append(Person(coordinate: CLLocationCoordinate2D(latitude: 38.2141120, longitude: -122.0361800), title: "Richard Head"))
+        points.append(Person(coordinate: CLLocationCoordinate2D(latitude: 37.3912090, longitude: -122.2563500), title: "Mack Miller"))
+        points.append(Person(coordinate: CLLocationCoordinate2D(latitude: 37.2138320, longitude: -122.0239150), title: "Dan Davy"))
+        
+        mapView.addAnnotations(points)
+        
+    }
+    
+    func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation])
+    {
+        
+        let location = locations.last! as CLLocation
+        var location2 = CLLocationCoordinate2D(latitude: 37.2941120, longitude: -122.0361800)
+        var location3 = CLLocationCoordinate2D(latitude: 37.3382080, longitude: -121.8863290)
+        
+        let center = CLLocationCoordinate2D(latitude: location.coordinate.latitude, longitude: location.coordinate.longitude)
+        let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1))
+        createAnnotation(location2, title: "", subtitle: "")
+        
+        self.mapView.setRegion(region, animated: true)
+        
+        self.locationManager.stopUpdatingLocation()
+        
+    }
+    
+    func locationManager(manager: CLLocationManager, didFailWithError error: NSError) {
+        print("Errors : " + error.localizedDescription)
+    }
+    
+    func createAnnotation(location: CLLocationCoordinate2D, title: String, subtitle: String) {
+        var anotation = MKPointAnnotation()
+        anotation.coordinate = location
+        anotation.title = title
+        anotation.subtitle = subtitle
+        self.mapView.addAnnotation(anotation)
+        
+    }
     
     
     
@@ -219,6 +265,30 @@ class DetailedHackathonViewController: UIViewController, UITableViewDelegate, UI
             cell.group.text = info[2] + "/" + info[3]}
         
         return cell
+    }
+    
+    func mapView(mapView: MKMapView!,
+        viewForAnnotation annotation: MKAnnotation!) -> MKAnnotationView! {
+            
+            if annotation is MKUserLocation {
+                //return nil so map view draws "blue dot" for standard user location
+                return nil
+            }
+            
+            let reuseId = "pin"
+            
+            var pinView = mapView.dequeueReusableAnnotationViewWithIdentifier(reuseId) as? MKPinAnnotationView
+            if pinView == nil {
+                pinView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: reuseId)
+                pinView!.canShowCallout = true
+                pinView!.animatesDrop = true
+                pinView!.pinColor = .Purple
+            }
+            else {
+                pinView!.annotation = annotation
+            }
+            
+            return pinView
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {

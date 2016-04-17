@@ -92,7 +92,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yqs-km-H1S" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="840" y="31"/>
+            <point key="canvasLocation" x="232" y="491"/>
         </scene>
         <!--Detailed Hackathon View Controller-->
         <scene sceneID="S0N-LS-1XB">
@@ -193,7 +193,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wr9-sF-GqF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="455" y="17"/>
+            <point key="canvasLocation" x="659" y="-15"/>
         </scene>
         <!--Loading View Controller-->
         <scene sceneID="7v9-et-svk">
@@ -356,7 +356,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ymv-sx-WBZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="108" y="442"/>
+            <point key="canvasLocation" x="324" y="1706"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="QFv-Hj-3Ha">
@@ -439,7 +439,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3gw-k0-hmu" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="108" y="-205"/>
+            <point key="canvasLocation" x="1060" y="915"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="yjF-dd-gh3">
@@ -465,10 +465,10 @@
         <image name="blurrybg2" width="618" height="957"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="30J-Oj-QTl"/>
-        <segue reference="04L-V7-Ed5"/>
-        <segue reference="s1S-h9-nKE"/>
+        <segue reference="47O-Qg-B1X"/>
         <segue reference="tJ5-JR-HfO"/>
+        <segue reference="Ykj-ty-x9B"/>
+        <segue reference="s1S-h9-nKE"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>

@@ -1,65 +1,11 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
-- "RideShareViewController"
 provides-nominal:
-- "C11CodeCollab223RideShareViewController"
 provides-member:
-- ["C11CodeCollab223RideShareViewController", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "RideShareViewController"
-- "UIViewController"
 depends-member:
-- ["PSs9AnyObject", "init"]
-- ["PSs9AnyObject", ""]
-- ["PSs11CVarArgType", "init"]
-- ["PSs11CVarArgType", ""]
-- ["PSs23CustomStringConvertible", "init"]
-- ["PSs23CustomStringConvertible", ""]
-- ["PSs9Equatable", "init"]
-- ["PSs9Equatable", ""]
-- ["PSs8Hashable", "init"]
-- ["PSs8Hashable", ""]
-- ["PSo8NSCoding", "init"]
-- ["PSo8NSCoding", ""]
-- ["PSo26NSExtensionRequestHandling", "init"]
-- ["PSo26NSExtensionRequestHandling", ""]
-- ["CSo8NSObject", "init"]
-- ["PSo16NSObjectProtocol", "init"]
-- ["PSo16NSObjectProtocol", ""]
-- ["C11CodeCollab223RideShareViewController", "deinit"]
-- ["C11CodeCollab223RideShareViewController", "init"]
-- ["PSo21UIAppearanceContainer", "init"]
-- ["PSo21UIAppearanceContainer", ""]
-- ["PSo18UIContentContainer", "init"]
-- ["PSo18UIContentContainer", ""]
-- ["PSo18UIFocusEnvironment", "init"]
-- ["PSo18UIFocusEnvironment", ""]
-- ["CSo11UIResponder", "init"]
-- ["PSo16UIStateRestoring", "init"]
-- ["PSo16UIStateRestoring", ""]
-- ["PSo18UITraitEnvironment", "init"]
-- ["PSo18UITraitEnvironment", ""]
-- ["CSo16UIViewController", "init"]
-- ["CSo16UIViewController", ""]
 depends-nominal:
-- "PSs9AnyObject"
-- "PSs11CVarArgType"
-- "PSs23CustomStringConvertible"
-- "PSs9Equatable"
-- "PSs8Hashable"
-- "PSo8NSCoding"
-- "PSo26NSExtensionRequestHandling"
-- "CSo8NSObject"
-- "PSo16NSObjectProtocol"
-- "C11CodeCollab223RideShareViewController"
-- "PSo21UIAppearanceContainer"
-- "PSo18UIContentContainer"
-- "PSo18UIFocusEnvironment"
-- "CSo11UIResponder"
-- "PSo16UIStateRestoring"
-- "PSo18UITraitEnvironment"
-- "CSo16UIViewController"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
@@ -137,4 +83,4 @@ depends-external:
 - "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
 - "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
 - "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Modules/module.modulemap"
-interface-hash: "a7a34aeebbea33275a3725ded08e1a7a"
+interface-hash: "d253678615f4df77a0ec27495ad0e6a7"

@@ -6,11 +6,11 @@ provides-nominal:
 provides-member:
 - ["C11CodeCollab214ViewController", ""]
 provides-dynamic-lookup:
-- "viewDidLoad"
 - "didReceiveMemoryWarning"
+- "viewDidLoad"
 depends-top-level:
-- "ViewController"
 - "UIViewController"
+- "ViewController"
 depends-member:
 - ["PSs9AnyObject", "didReceiveMemoryWarning"]
 - ["PSs9AnyObject", "init"]

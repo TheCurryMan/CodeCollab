@@ -8,9 +8,9 @@
 
 import UIKit
 import MapKit
-
+/*
 class RideShareViewController: UIViewController {
- /*
+ 
     var profile: Member!
     var carpools: [Carpool] = []
     var members: [Member] = []
@@ -121,6 +121,7 @@ class RideShareViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-*/
+
 
 }
+*/
