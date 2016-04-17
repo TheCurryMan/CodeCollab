@@ -143,8 +143,10 @@ SWIFT_CLASS("_TtC11CodeCollab210Connection")
 @class NSError;
 @class NSIndexPath;
 @class UITableViewCell;
+@class UIButton;
 @protocol MKAnnotation;
 @class MKAnnotationView;
+@class UIControl;
 @class UISegmentedControl;
 
 SWIFT_CLASS("_TtC11CodeCollab231DetailedHackathonViewController")
@@ -174,8 +176,10 @@ SWIFT_CLASS("_TtC11CodeCollab231DetailedHackathonViewController")
 - (void)showAlert2;
 - (void)showAlert3;
 - (UITableViewCell * __nonnull)tableView:(UITableView * __nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;
+@property (nonatomic, strong) UIButton * __nullable button;
 - (MKAnnotationView * __null_unspecified)mapView:(MKMapView * __null_unspecified)mapView viewForAnnotation:(id <MKAnnotation> __null_unspecified)annotation;
 - (void)tableView:(UITableView * __nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;
+- (void)mapView:(MKMapView * __nonnull)mapView annotationView:(MKAnnotationView * __nonnull)view calloutAccessoryControlTapped:(UIControl * __nonnull)control;
 - (NSInteger)tableView:(UITableView * __nonnull)tableView numberOfRowsInSection:(NSInteger)section;
 - (CGFloat)tableView:(UITableView * __nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;
 @property (nonatomic, strong) IBOutlet UISegmentedControl * __null_unspecified segmentedControl;
@@ -193,7 +197,6 @@ SWIFT_CLASS("_TtC11CodeCollab221HackCardTableViewCell")
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIButton;
 @class UIImage;
 @class UILabel;
 

@@ -267,8 +267,15 @@ class DetailedHackathonViewController: UIViewController, UITableViewDelegate, UI
         return cell
     }
     
+    var button : UIButton?
+    
+//    button.type(UIButtonType.DetailDisclosure) as UIButton
+    
     func mapView(mapView: MKMapView!,
         viewForAnnotation annotation: MKAnnotation!) -> MKAnnotationView! {
+            
+            button = UIButton(type: UIButtonType.DetailDisclosure)
+            button?.setTitle("Join", forState: UIControlState.Normal)
             
             if annotation is MKUserLocation {
                 //return nil so map view draws "blue dot" for standard user location
@@ -283,6 +290,7 @@ class DetailedHackathonViewController: UIViewController, UITableViewDelegate, UI
                 pinView!.canShowCallout = true
                 pinView!.animatesDrop = true
                 pinView!.pinColor = .Purple
+                pinView!.leftCalloutAccessoryView = button
             }
             else {
                 pinView!.annotation = annotation
@@ -293,6 +301,13 @@ class DetailedHackathonViewController: UIViewController, UITableViewDelegate, UI
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         print(indexPath.row)
+    }
+    
+    func mapView(mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
+        let alertController = UIAlertController(title: "Would you like to join this carpool?", message: "", preferredStyle: UIAlertControllerStyle.Alert)
+        alertController.addAction(UIAlertAction(title: "No", style: UIAlertActionStyle.Cancel, handler: nil ))
+        alertController.addAction(UIAlertAction(title: "Yes", style: UIAlertActionStyle.Default, handler: nil))
+        self.presentViewController(alertController, animated: true, completion: nil)
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

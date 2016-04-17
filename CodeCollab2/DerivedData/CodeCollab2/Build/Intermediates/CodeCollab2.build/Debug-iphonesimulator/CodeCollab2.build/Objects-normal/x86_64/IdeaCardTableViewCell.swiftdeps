@@ -9,17 +9,17 @@ provides-dynamic-lookup:
 - "idea"
 - "setSelected"
 - "profile"
+- "name"
 - "join"
 - "group"
 - "awakeFromNib"
-- "name"
 depends-top-level:
 - "UILabel"
-- "AnyObject"
 - "IdeaCardTableViewCell"
 - "UITableViewCell"
-- "UIImageView"
+- "AnyObject"
 - "Bool"
+- "UIImageView"
 depends-member:
 - ["PSs9AnyObject", "awakeFromNib"]
 - ["PSs9AnyObject", "group"]

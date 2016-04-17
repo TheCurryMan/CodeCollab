@@ -6,88 +6,96 @@ provides-nominal:
 provides-member:
 - ["C11CodeCollab231DetailedHackathonViewController", ""]
 provides-dynamic-lookup:
-- "dataStr"
-- "showAlert1"
-- "points"
 - "bgimg"
-- "viewDidLoad"
-- "ideatext"
-- "showAlert2"
-- "segmentedControl"
-- "tableView"
-- "tableView"
-- "tableView"
-- "tableView"
-- "tableView"
-- "getCoordinatePoints"
-- "showAlert3"
-- "mainimg"
-- "locationManager"
-- "locationManager"
-- "locationManager"
-- "firebaseData"
-- "currentAmount"
-- "hackathon"
-- "mapView"
-- "mapView"
-- "ref"
-- "showAlert0"
-- "name"
-- "createAnnotation"
-- "indexChanged"
 - "groupnumber"
+- "showAlert2"
+- "indexChanged"
+- "currentAmount"
+- "viewDidLoad"
+- "mapView"
+- "mapView"
+- "mapView"
+- "tableView"
+- "tableView"
+- "tableView"
+- "tableView"
+- "tableView"
+- "hackathon"
+- "mainimg"
+- "getCoordinatePoints"
+- "showAlert0"
+- "firebaseData"
+- "ref"
+- "showAlert3"
+- "locationManager"
+- "locationManager"
+- "locationManager"
+- "segmentedControl"
+- "ideatext"
+- "createAnnotation"
+- "points"
 - "addIdea"
+- "button"
+- "showAlert1"
+- "dataStr"
+- "name"
 depends-top-level:
-- "MKMapViewDelegate"
-- !private "UIAlertController"
-- "CLLocationCoordinate2D"
-- "StringLiteralType"
 - !private "kCLLocationAccuracyBest"
-- "String"
+- !private "UIControlState"
 - "Person"
-- "DetailedHackathonViewController"
-- !private "UIAlertAction"
-- "UnicodeScalarType"
-- "Dictionary"
-- "MKAnnotationView"
-- "NSString"
-- !private "MKUserLocation"
-- !private "print"
-- !private "IdeaCardTableViewCell"
-- !private "Void"
-- !private "MKCoordinateRegion"
-- "MKAnnotation"
-- !private "MKPointAnnotation"
-- "CLLocationManagerDelegate"
-- !private "UIImage"
+- "String"
 - "MKMapView"
-- "UITableView"
-- "CGFloat"
-- "NSError"
-- "UITableViewCell"
-- "UISegmentedControl"
-- !private "UIBarMetrics"
-- !private "UINib"
+- "CLLocationCoordinate2D"
 - "Hackathon"
-- !private ">"
+- "MKAnnotation"
+- "NSString"
+- "UnicodeScalarType"
+- !private "UIAlertAction"
+- "NSError"
+- "Dictionary"
+- "UISegmentedControl"
+- !private "MKPointAnnotation"
+- "UITableView"
+- !private "print"
+- !private "Void"
+- !private "MKUserLocation"
+- "MKAnnotationView"
 - !private "UIColor"
+- !private "UINib"
+- !private "UIImage"
+- "CLLocation"
+- "DetailedHackathonViewController"
+- "StringLiteralType"
+- "UITableViewCell"
+- "UIImageView"
+- !private ">"
+- "CGFloat"
+- !private "BooleanLiteralType"
+- !private "UITextField"
+- !private "UIAlertControllerStyle"
+- !private "UIAlertController"
+- "Firebase"
+- "UIControl"
+- !private "MKCoordinateSpan"
+- !private "MKPinAnnotationView"
+- !private "UIButtonType"
+- "AnyObject"
+- !private "UIBarMetrics"
+- "CLLocationManager"
+- !private "MKCoordinateRegion"
+- "UITableViewDataSource"
+- "UITableViewDelegate"
+- "CLLocationManagerDelegate"
+- !private "UIAlertActionStyle"
+- !private "+"
+- "UIViewController"
+- "UIButton"
 - !private "~="
 - !private "=="
-- "Firebase"
-- !private "MKCoordinateSpan"
-- "UIImageView"
-- "AnyObject"
-- !private "BooleanLiteralType"
 - "NSIndexPath"
-- "CLLocationManager"
-- !private "MKPinAnnotationView"
-- !private "+"
-- "CLLocation"
-- !private "UITextField"
-- "UIViewController"
-- "UITableViewDataSource"
+- "MKMapViewDelegate"
+- !private "IdeaCardTableViewCell"
 - "Int"
-- "UITableViewDelegate"
 depends-member:
 - !private ["PSs16AbsoluteValuable", "IntegerLiteralType"]
 - !private ["PSs16AbsoluteValuable", "Stride"]
@@ -102,9 +110,14 @@ depends-member:
 - !private ["PSs9AnyObject", "Person"]
 - ["PSs9AnyObject", "String"]
 - !private ["PSs9AnyObject", "UIAlertAction"]
+- !private ["PSs9AnyObject", "UIAlertActionStyle"]
 - !private ["PSs9AnyObject", "UIAlertController"]
+- !private ["PSs9AnyObject", "UIAlertControllerStyle"]
 - !private ["PSs9AnyObject", "UIBarMetrics"]
+- !private ["PSs9AnyObject", "UIButton"]
+- !private ["PSs9AnyObject", "UIButtonType"]
 - !private ["PSs9AnyObject", "UIColor"]
+- !private ["PSs9AnyObject", "UIControlState"]
 - !private ["PSs9AnyObject", "UIImage"]
 - !private ["PSs9AnyObject", "UINib"]
 - !private ["PSs9AnyObject", "addAction"]
@@ -117,6 +130,7 @@ depends-member:
 - !private ["PSs9AnyObject", "backgroundColor"]
 - !private ["PSs9AnyObject", "bgimage"]
 - ["PSs9AnyObject", "bgimg"]
+- ["PSs9AnyObject", "button"]
 - !private ["PSs9AnyObject", "canShowCallout"]
 - !private ["PSs9AnyObject", "childByAppendingPath"]
 - !private ["PSs9AnyObject", "clearColor"]
@@ -146,6 +160,7 @@ depends-member:
 - ["PSs9AnyObject", "indexPathForPreferredFocusedViewInTableView"]
 - ["PSs9AnyObject", "init"]
 - !private ["PSs9AnyObject", "kCLLocationAccuracyBest"]
+- !private ["PSs9AnyObject", "leftCalloutAccessoryView"]
 - !private ["PSs9AnyObject", "localizedDescription"]
 - ["PSs9AnyObject", "locationManager"]
 - ["PSs9AnyObject", "locationManagerDidPauseLocationUpdates"]
@@ -192,6 +207,7 @@ depends-member:
 - !private ["PSs9AnyObject", "selectedSegmentIndex"]
 - !private ["PSs9AnyObject", "setBackgroundImage"]
 - !private ["PSs9AnyObject", "setRegion"]
+- !private ["PSs9AnyObject", "setTitle"]
 - !private ["PSs9AnyObject", "shadowImage"]
 - ["PSs9AnyObject", "showAlert0"]
 - ["PSs9AnyObject", "showAlert1"]
@@ -224,6 +240,7 @@ depends-member:
 - !private ["Sa", "subscript"]
 - !private ["PSs23ArrayLiteralConvertible", "Generator"]
 - !private ["PSs23ArrayLiteralConvertible", "Index"]
+- !private ["PSs23ArrayLiteralConvertible", "Normal"]
 - !private ["PSs23ArrayLiteralConvertible", "SubSequence"]
 - !private ["PSs23ArrayLiteralConvertible", "_Element"]
 - !private ["PSs23ArrayLiteralConvertible", "append"]
@@ -271,12 +288,18 @@ depends-member:
 - !private ["PSo25CLLocationManagerDelegate", "Person"]
 - ["PSo25CLLocationManagerDelegate", "String"]
 - !private ["PSo25CLLocationManagerDelegate", "UIAlertAction"]
+- !private ["PSo25CLLocationManagerDelegate", "UIAlertActionStyle"]
 - !private ["PSo25CLLocationManagerDelegate", "UIAlertController"]
+- !private ["PSo25CLLocationManagerDelegate", "UIAlertControllerStyle"]
 - !private ["PSo25CLLocationManagerDelegate", "UIBarMetrics"]
+- !private ["PSo25CLLocationManagerDelegate", "UIButton"]
+- !private ["PSo25CLLocationManagerDelegate", "UIButtonType"]
 - !private ["PSo25CLLocationManagerDelegate", "UIColor"]
+- !private ["PSo25CLLocationManagerDelegate", "UIControlState"]
 - !private ["PSo25CLLocationManagerDelegate", "UIImage"]
 - !private ["PSo25CLLocationManagerDelegate", "UINib"]
 - !private ["PSo25CLLocationManagerDelegate", "bgimg"]
+- !private ["PSo25CLLocationManagerDelegate", "button"]
 - !private ["PSo25CLLocationManagerDelegate", "createAnnotation"]
 - !private ["PSo25CLLocationManagerDelegate", "currentAmount"]
 - !private ["PSo25CLLocationManagerDelegate", "dataStr"]
@@ -341,9 +364,14 @@ depends-member:
 - !private ["PSs11CVarArgType", "Stride"]
 - ["PSs11CVarArgType", "String"]
 - !private ["PSs11CVarArgType", "UIAlertAction"]
+- !private ["PSs11CVarArgType", "UIAlertActionStyle"]
 - !private ["PSs11CVarArgType", "UIAlertController"]
+- !private ["PSs11CVarArgType", "UIAlertControllerStyle"]
 - !private ["PSs11CVarArgType", "UIBarMetrics"]
+- !private ["PSs11CVarArgType", "UIButton"]
+- !private ["PSs11CVarArgType", "UIButtonType"]
 - !private ["PSs11CVarArgType", "UIColor"]
+- !private ["PSs11CVarArgType", "UIControlState"]
 - !private ["PSs11CVarArgType", "UIImage"]
 - !private ["PSs11CVarArgType", "UINib"]
 - !private ["PSs11CVarArgType", "_DisallowMixedSignArithmetic"]
@@ -357,6 +385,7 @@ depends-member:
 - !private ["PSs11CVarArgType", "backgroundColor"]
 - !private ["PSs11CVarArgType", "bgimage"]
 - ["PSs11CVarArgType", "bgimg"]
+- ["PSs11CVarArgType", "button"]
 - !private ["PSs11CVarArgType", "canShowCallout"]
 - !private ["PSs11CVarArgType", "childByAppendingPath"]
 - !private ["PSs11CVarArgType", "clearColor"]
@@ -385,6 +414,7 @@ depends-member:
 - ["PSs11CVarArgType", "indexPathForPreferredFocusedViewInTableView"]
 - ["PSs11CVarArgType", "init"]
 - !private ["PSs11CVarArgType", "kCLLocationAccuracyBest"]
+- !private ["PSs11CVarArgType", "leftCalloutAccessoryView"]
 - !private ["PSs11CVarArgType", "localizedDescription"]
 - ["PSs11CVarArgType", "locationManager"]
 - ["PSs11CVarArgType", "locationManagerDidPauseLocationUpdates"]
@@ -430,6 +460,7 @@ depends-member:
 - !private ["PSs11CVarArgType", "selectedSegmentIndex"]
 - !private ["PSs11CVarArgType", "setBackgroundImage"]
 - !private ["PSs11CVarArgType", "setRegion"]
+- !private ["PSs11CVarArgType", "setTitle"]
 - !private ["PSs11CVarArgType", "shadowImage"]
 - ["PSs11CVarArgType", "showAlert0"]
 - ["PSs11CVarArgType", "showAlert1"]
@@ -498,9 +529,14 @@ depends-member:
 - ["PSs23CustomStringConvertible", "String"]
 - !private ["PSs23CustomStringConvertible", "SubSequence"]
 - !private ["PSs23CustomStringConvertible", "UIAlertAction"]
+- !private ["PSs23CustomStringConvertible", "UIAlertActionStyle"]
 - !private ["PSs23CustomStringConvertible", "UIAlertController"]
+- !private ["PSs23CustomStringConvertible", "UIAlertControllerStyle"]
 - !private ["PSs23CustomStringConvertible", "UIBarMetrics"]
+- !private ["PSs23CustomStringConvertible", "UIButton"]
+- !private ["PSs23CustomStringConvertible", "UIButtonType"]
 - !private ["PSs23CustomStringConvertible", "UIColor"]
+- !private ["PSs23CustomStringConvertible", "UIControlState"]
 - !private ["PSs23CustomStringConvertible", "UIImage"]
 - !private ["PSs23CustomStringConvertible", "UINib"]
 - !private ["PSs23CustomStringConvertible", "Value"]
@@ -518,6 +554,7 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "backgroundColor"]
 - !private ["PSs23CustomStringConvertible", "bgimage"]
 - ["PSs23CustomStringConvertible", "bgimg"]
+- ["PSs23CustomStringConvertible", "button"]
 - !private ["PSs23CustomStringConvertible", "canShowCallout"]
 - !private ["PSs23CustomStringConvertible", "childByAppendingPath"]
 - !private ["PSs23CustomStringConvertible", "clearColor"]
@@ -548,6 +585,7 @@ depends-member:
 - ["PSs23CustomStringConvertible", "init"]
 - !private ["PSs23CustomStringConvertible", "kCLLocationAccuracyBest"]
 - !private ["PSs23CustomStringConvertible", "last"]
+- !private ["PSs23CustomStringConvertible", "leftCalloutAccessoryView"]
 - !private ["PSs23CustomStringConvertible", "localizedDescription"]
 - ["PSs23CustomStringConvertible", "locationManager"]
 - ["PSs23CustomStringConvertible", "locationManagerDidPauseLocationUpdates"]
@@ -593,6 +631,7 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "selectedSegmentIndex"]
 - !private ["PSs23CustomStringConvertible", "setBackgroundImage"]
 - !private ["PSs23CustomStringConvertible", "setRegion"]
+- !private ["PSs23CustomStringConvertible", "setTitle"]
 - !private ["PSs23CustomStringConvertible", "shadowImage"]
 - ["PSs23CustomStringConvertible", "showAlert0"]
 - ["PSs23CustomStringConvertible", "showAlert1"]
@@ -637,9 +676,15 @@ depends-member:
 - ["C11CodeCollab231DetailedHackathonViewController", "Person"]
 - ["C11CodeCollab231DetailedHackathonViewController", "String"]
 - !private ["C11CodeCollab231DetailedHackathonViewController", "UIAlertAction"]
+- !private ["C11CodeCollab231DetailedHackathonViewController", "UIAlertActionStyle"]
 - !private ["C11CodeCollab231DetailedHackathonViewController", "UIAlertController"]
+- !private ["C11CodeCollab231DetailedHackathonViewController", "UIAlertControllerStyle"]
 - !private ["C11CodeCollab231DetailedHackathonViewController", "UIBarMetrics"]
+- ["C11CodeCollab231DetailedHackathonViewController", "UIButton"]
+- !private ["C11CodeCollab231DetailedHackathonViewController", "UIButtonType"]
 - !private ["C11CodeCollab231DetailedHackathonViewController", "UIColor"]
+- ["C11CodeCollab231DetailedHackathonViewController", "UIControl"]
+- !private ["C11CodeCollab231DetailedHackathonViewController", "UIControlState"]
 - !private ["C11CodeCollab231DetailedHackathonViewController", "UIImage"]
 - ["C11CodeCollab231DetailedHackathonViewController", "UIImageView"]
 - !private ["C11CodeCollab231DetailedHackathonViewController", "UINib"]
@@ -650,6 +695,7 @@ depends-member:
 - !private ["C11CodeCollab231DetailedHackathonViewController", "Void"]
 - ["C11CodeCollab231DetailedHackathonViewController", "addIdea"]
 - ["C11CodeCollab231DetailedHackathonViewController", "bgimg"]
+- ["C11CodeCollab231DetailedHackathonViewController", "button"]
 - ["C11CodeCollab231DetailedHackathonViewController", "createAnnotation"]
 - ["C11CodeCollab231DetailedHackathonViewController", "currentAmount"]
 - ["C11CodeCollab231DetailedHackathonViewController", "dataStr"]
@@ -716,7 +762,9 @@ depends-member:
 - !private ["PSs9Equatable", "Alert"]
 - !private ["PSs9Equatable", "CLLocationCoordinate2D"]
 - ["PSs9Equatable", "CLLocationManager"]
+- !private ["PSs9Equatable", "Cancel"]
 - !private ["PSs9Equatable", "Default"]
+- !private ["PSs9Equatable", "DetailDisclosure"]
 - !private ["PSs9Equatable", "Distance"]
 - ["PSs9Equatable", "Firebase"]
 - !private ["PSs9Equatable", "IntegerLiteralType"]
@@ -724,14 +772,20 @@ depends-member:
 - !private ["PSs9Equatable", "MKCoordinateSpan"]
 - !private ["PSs9Equatable", "MKPinAnnotationView"]
 - !private ["PSs9Equatable", "MKPointAnnotation"]
+- !private ["PSs9Equatable", "Normal"]
 - !private ["PSs9Equatable", "Person"]
 - !private ["PSs9Equatable", "Purple"]
 - !private ["PSs9Equatable", "Stride"]
 - ["PSs9Equatable", "String"]
 - !private ["PSs9Equatable", "UIAlertAction"]
+- !private ["PSs9Equatable", "UIAlertActionStyle"]
 - !private ["PSs9Equatable", "UIAlertController"]
+- !private ["PSs9Equatable", "UIAlertControllerStyle"]
 - !private ["PSs9Equatable", "UIBarMetrics"]
+- !private ["PSs9Equatable", "UIButton"]
+- !private ["PSs9Equatable", "UIButtonType"]
 - !private ["PSs9Equatable", "UIColor"]
+- !private ["PSs9Equatable", "UIControlState"]
 - !private ["PSs9Equatable", "UIImage"]
 - !private ["PSs9Equatable", "UINib"]
 - !private ["PSs9Equatable", "Value"]
@@ -747,6 +801,7 @@ depends-member:
 - !private ["PSs9Equatable", "backgroundColor"]
 - !private ["PSs9Equatable", "bgimage"]
 - ["PSs9Equatable", "bgimg"]
+- ["PSs9Equatable", "button"]
 - !private ["PSs9Equatable", "canShowCallout"]
 - !private ["PSs9Equatable", "childByAppendingPath"]
 - !private ["PSs9Equatable", "clearColor"]
@@ -775,6 +830,7 @@ depends-member:
 - ["PSs9Equatable", "indexPathForPreferredFocusedViewInTableView"]
 - ["PSs9Equatable", "init"]
 - !private ["PSs9Equatable", "kCLLocationAccuracyBest"]
+- !private ["PSs9Equatable", "leftCalloutAccessoryView"]
 - !private ["PSs9Equatable", "localizedDescription"]
 - ["PSs9Equatable", "locationManager"]
 - ["PSs9Equatable", "locationManagerDidPauseLocationUpdates"]
@@ -820,6 +876,7 @@ depends-member:
 - !private ["PSs9Equatable", "selectedSegmentIndex"]
 - !private ["PSs9Equatable", "setBackgroundImage"]
 - !private ["PSs9Equatable", "setRegion"]
+- !private ["PSs9Equatable", "setTitle"]
 - !private ["PSs9Equatable", "shadowImage"]
 - ["PSs9Equatable", "showAlert0"]
 - ["PSs9Equatable", "showAlert1"]
@@ -881,7 +938,9 @@ depends-member:
 - !private ["PSs8Hashable", "Alert"]
 - !private ["PSs8Hashable", "CLLocationCoordinate2D"]
 - ["PSs8Hashable", "CLLocationManager"]
+- !private ["PSs8Hashable", "Cancel"]
 - !private ["PSs8Hashable", "Default"]
+- !private ["PSs8Hashable", "DetailDisclosure"]
 - !private ["PSs8Hashable", "Distance"]
 - ["PSs8Hashable", "Firebase"]
 - !private ["PSs8Hashable", "IntegerLiteralType"]
@@ -894,9 +953,14 @@ depends-member:
 - !private ["PSs8Hashable", "Stride"]
 - ["PSs8Hashable", "String"]
 - !private ["PSs8Hashable", "UIAlertAction"]
+- !private ["PSs8Hashable", "UIAlertActionStyle"]
 - !private ["PSs8Hashable", "UIAlertController"]
+- !private ["PSs8Hashable", "UIAlertControllerStyle"]
 - !private ["PSs8Hashable", "UIBarMetrics"]
+- !private ["PSs8Hashable", "UIButton"]
+- !private ["PSs8Hashable", "UIButtonType"]
 - !private ["PSs8Hashable", "UIColor"]
+- !private ["PSs8Hashable", "UIControlState"]
 - !private ["PSs8Hashable", "UIImage"]
 - !private ["PSs8Hashable", "UINib"]
 - !private ["PSs8Hashable", "Value"]
@@ -912,6 +976,7 @@ depends-member:
 - !private ["PSs8Hashable", "backgroundColor"]
 - !private ["PSs8Hashable", "bgimage"]
 - ["PSs8Hashable", "bgimg"]
+- ["PSs8Hashable", "button"]
 - !private ["PSs8Hashable", "canShowCallout"]
 - !private ["PSs8Hashable", "childByAppendingPath"]
 - !private ["PSs8Hashable", "clearColor"]
@@ -940,6 +1005,7 @@ depends-member:
 - ["PSs8Hashable", "indexPathForPreferredFocusedViewInTableView"]
 - ["PSs8Hashable", "init"]
 - !private ["PSs8Hashable", "kCLLocationAccuracyBest"]
+- !private ["PSs8Hashable", "leftCalloutAccessoryView"]
 - !private ["PSs8Hashable", "localizedDescription"]
 - ["PSs8Hashable", "locationManager"]
 - ["PSs8Hashable", "locationManagerDidPauseLocationUpdates"]
@@ -985,6 +1051,7 @@ depends-member:
 - !private ["PSs8Hashable", "selectedSegmentIndex"]
 - !private ["PSs8Hashable", "setBackgroundImage"]
 - !private ["PSs8Hashable", "setRegion"]
+- !private ["PSs8Hashable", "setTitle"]
 - !private ["PSs8Hashable", "shadowImage"]
 - ["PSs8Hashable", "showAlert0"]
 - ["PSs8Hashable", "showAlert1"]
@@ -1072,6 +1139,7 @@ depends-member:
 - !private ["CSo16MKAnnotationView", "annotation"]
 - !private ["CSo16MKAnnotationView", "canShowCallout"]
 - !private ["CSo16MKAnnotationView", "init"]
+- !private ["CSo16MKAnnotationView", "leftCalloutAccessoryView"]
 - !private ["CSo16MKAnnotationView", "pinColor"]
 - !private ["VSC18MKCoordinateRegion", "init"]
 - !private ["VSC16MKCoordinateSpan", "init"]
@@ -1092,12 +1160,18 @@ depends-member:
 - !private ["PSo17MKMapViewDelegate", "Person"]
 - ["PSo17MKMapViewDelegate", "String"]
 - !private ["PSo17MKMapViewDelegate", "UIAlertAction"]
+- !private ["PSo17MKMapViewDelegate", "UIAlertActionStyle"]
 - !private ["PSo17MKMapViewDelegate", "UIAlertController"]
+- !private ["PSo17MKMapViewDelegate", "UIAlertControllerStyle"]
 - !private ["PSo17MKMapViewDelegate", "UIBarMetrics"]
+- !private ["PSo17MKMapViewDelegate", "UIButton"]
+- !private ["PSo17MKMapViewDelegate", "UIButtonType"]
 - !private ["PSo17MKMapViewDelegate", "UIColor"]
+- !private ["PSo17MKMapViewDelegate", "UIControlState"]
 - !private ["PSo17MKMapViewDelegate", "UIImage"]
 - !private ["PSo17MKMapViewDelegate", "UINib"]
 - !private ["PSo17MKMapViewDelegate", "bgimg"]
+- !private ["PSo17MKMapViewDelegate", "button"]
 - !private ["PSo17MKMapViewDelegate", "createAnnotation"]
 - !private ["PSo17MKMapViewDelegate", "currentAmount"]
 - !private ["PSo17MKMapViewDelegate", "dataStr"]
@@ -1154,6 +1228,7 @@ depends-member:
 - !private ["CSo19MKPinAnnotationView", "annotation"]
 - !private ["CSo19MKPinAnnotationView", "canShowCallout"]
 - !private ["CSo19MKPinAnnotationView", "init"]
+- !private ["CSo19MKPinAnnotationView", "leftCalloutAccessoryView"]
 - !private ["CSo19MKPinAnnotationView", "pinColor"]
 - !private ["CSo17MKPointAnnotation", "coordinate"]
 - !private ["CSo17MKPointAnnotation", "init"]
@@ -1206,9 +1281,14 @@ depends-member:
 - !private ["PSo8NSCoding", "Person"]
 - ["PSo8NSCoding", "String"]
 - !private ["PSo8NSCoding", "UIAlertAction"]
+- !private ["PSo8NSCoding", "UIAlertActionStyle"]
 - !private ["PSo8NSCoding", "UIAlertController"]
+- !private ["PSo8NSCoding", "UIAlertControllerStyle"]
 - !private ["PSo8NSCoding", "UIBarMetrics"]
+- !private ["PSo8NSCoding", "UIButton"]
+- !private ["PSo8NSCoding", "UIButtonType"]
 - !private ["PSo8NSCoding", "UIColor"]
+- !private ["PSo8NSCoding", "UIControlState"]
 - !private ["PSo8NSCoding", "UIImage"]
 - !private ["PSo8NSCoding", "UINib"]
 - !private ["PSo8NSCoding", "addAction"]
@@ -1220,6 +1300,7 @@ depends-member:
 - !private ["PSo8NSCoding", "annotation"]
 - !private ["PSo8NSCoding", "backgroundColor"]
 - ["PSo8NSCoding", "bgimg"]
+- ["PSo8NSCoding", "button"]
 - !private ["PSo8NSCoding", "canShowCallout"]
 - !private ["PSo8NSCoding", "clearColor"]
 - !private ["PSo8NSCoding", "componentsSeparatedByString"]
@@ -1246,6 +1327,7 @@ depends-member:
 - ["PSo8NSCoding", "indexPathForPreferredFocusedViewInTableView"]
 - ["PSo8NSCoding", "init"]
 - !private ["PSo8NSCoding", "kCLLocationAccuracyBest"]
+- !private ["PSo8NSCoding", "leftCalloutAccessoryView"]
 - !private ["PSo8NSCoding", "localizedDescription"]
 - ["PSo8NSCoding", "locationManager"]
 - ["PSo8NSCoding", "locationManagerDidPauseLocationUpdates"]
@@ -1289,6 +1371,7 @@ depends-member:
 - !private ["PSo8NSCoding", "selectedSegmentIndex"]
 - !private ["PSo8NSCoding", "setBackgroundImage"]
 - !private ["PSo8NSCoding", "setRegion"]
+- !private ["PSo8NSCoding", "setTitle"]
 - !private ["PSo8NSCoding", "shadowImage"]
 - ["PSo8NSCoding", "showAlert0"]
 - ["PSo8NSCoding", "showAlert1"]
@@ -1322,15 +1405,21 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "Person"]
 - ["PSo26NSExtensionRequestHandling", "String"]
 - !private ["PSo26NSExtensionRequestHandling", "UIAlertAction"]
+- !private ["PSo26NSExtensionRequestHandling", "UIAlertActionStyle"]
 - !private ["PSo26NSExtensionRequestHandling", "UIAlertController"]
+- !private ["PSo26NSExtensionRequestHandling", "UIAlertControllerStyle"]
 - !private ["PSo26NSExtensionRequestHandling", "UIBarMetrics"]
+- !private ["PSo26NSExtensionRequestHandling", "UIButton"]
+- !private ["PSo26NSExtensionRequestHandling", "UIButtonType"]
 - !private ["PSo26NSExtensionRequestHandling", "UIColor"]
+- !private ["PSo26NSExtensionRequestHandling", "UIControlState"]
 - !private ["PSo26NSExtensionRequestHandling", "UIImage"]
 - !private ["PSo26NSExtensionRequestHandling", "UINib"]
 - !private ["PSo26NSExtensionRequestHandling", "addAction"]
 - ["PSo26NSExtensionRequestHandling", "addIdea"]
 - !private ["PSo26NSExtensionRequestHandling", "addTextFieldWithConfigurationHandler"]
 - ["PSo26NSExtensionRequestHandling", "bgimg"]
+- ["PSo26NSExtensionRequestHandling", "button"]
 - ["PSo26NSExtensionRequestHandling", "createAnnotation"]
 - ["PSo26NSExtensionRequestHandling", "currentAmount"]
 - ["PSo26NSExtensionRequestHandling", "dataStr"]
@@ -1416,9 +1505,15 @@ depends-member:
 - ["CSo8NSObject", "Person"]
 - ["CSo8NSObject", "String"]
 - !private ["CSo8NSObject", "UIAlertAction"]
+- !private ["CSo8NSObject", "UIAlertActionStyle"]
 - !private ["CSo8NSObject", "UIAlertController"]
+- !private ["CSo8NSObject", "UIAlertControllerStyle"]
 - !private ["CSo8NSObject", "UIBarMetrics"]
+- ["CSo8NSObject", "UIButton"]
+- !private ["CSo8NSObject", "UIButtonType"]
 - !private ["CSo8NSObject", "UIColor"]
+- ["CSo8NSObject", "UIControl"]
+- !private ["CSo8NSObject", "UIControlState"]
 - !private ["CSo8NSObject", "UIImage"]
 - ["CSo8NSObject", "UIImageView"]
 - !private ["CSo8NSObject", "UINib"]
@@ -1437,6 +1532,7 @@ depends-member:
 - !private ["CSo8NSObject", "backgroundColor"]
 - !private ["CSo8NSObject", "bgimage"]
 - ["CSo8NSObject", "bgimg"]
+- ["CSo8NSObject", "button"]
 - !private ["CSo8NSObject", "canShowCallout"]
 - !private ["CSo8NSObject", "childByAppendingPath"]
 - !private ["CSo8NSObject", "clearColor"]
@@ -1466,6 +1562,7 @@ depends-member:
 - ["CSo8NSObject", "indexPathForPreferredFocusedViewInTableView"]
 - ["CSo8NSObject", "init"]
 - !private ["CSo8NSObject", "kCLLocationAccuracyBest"]
+- !private ["CSo8NSObject", "leftCalloutAccessoryView"]
 - !private ["CSo8NSObject", "localizedDescription"]
 - ["CSo8NSObject", "locationManager"]
 - ["CSo8NSObject", "locationManagerDidPauseLocationUpdates"]
@@ -1511,6 +1608,7 @@ depends-member:
 - !private ["CSo8NSObject", "selectedSegmentIndex"]
 - !private ["CSo8NSObject", "setBackgroundImage"]
 - !private ["CSo8NSObject", "setRegion"]
+- !private ["CSo8NSObject", "setTitle"]
 - !private ["CSo8NSObject", "shadowImage"]
 - ["CSo8NSObject", "showAlert0"]
 - ["CSo8NSObject", "showAlert1"]
@@ -1540,9 +1638,14 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "Person"]
 - ["PSo16NSObjectProtocol", "String"]
 - !private ["PSo16NSObjectProtocol", "UIAlertAction"]
+- !private ["PSo16NSObjectProtocol", "UIAlertActionStyle"]
 - !private ["PSo16NSObjectProtocol", "UIAlertController"]
+- !private ["PSo16NSObjectProtocol", "UIAlertControllerStyle"]
 - !private ["PSo16NSObjectProtocol", "UIBarMetrics"]
+- !private ["PSo16NSObjectProtocol", "UIButton"]
+- !private ["PSo16NSObjectProtocol", "UIButtonType"]
 - !private ["PSo16NSObjectProtocol", "UIColor"]
+- !private ["PSo16NSObjectProtocol", "UIControlState"]
 - !private ["PSo16NSObjectProtocol", "UIImage"]
 - !private ["PSo16NSObjectProtocol", "UINib"]
 - !private ["PSo16NSObjectProtocol", "addAction"]
@@ -1555,6 +1658,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "backgroundColor"]
 - !private ["PSo16NSObjectProtocol", "bgimage"]
 - ["PSo16NSObjectProtocol", "bgimg"]
+- ["PSo16NSObjectProtocol", "button"]
 - !private ["PSo16NSObjectProtocol", "canShowCallout"]
 - !private ["PSo16NSObjectProtocol", "childByAppendingPath"]
 - !private ["PSo16NSObjectProtocol", "clearColor"]
@@ -1583,6 +1687,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "indexPathForPreferredFocusedViewInTableView"]
 - ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo16NSObjectProtocol", "kCLLocationAccuracyBest"]
+- !private ["PSo16NSObjectProtocol", "leftCalloutAccessoryView"]
 - !private ["PSo16NSObjectProtocol", "localizedDescription"]
 - ["PSo16NSObjectProtocol", "locationManager"]
 - ["PSo16NSObjectProtocol", "locationManagerDidPauseLocationUpdates"]
@@ -1628,6 +1733,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "selectedSegmentIndex"]
 - !private ["PSo16NSObjectProtocol", "setBackgroundImage"]
 - !private ["PSo16NSObjectProtocol", "setRegion"]
+- !private ["PSo16NSObjectProtocol", "setTitle"]
 - !private ["PSo16NSObjectProtocol", "shadowImage"]
 - ["PSo16NSObjectProtocol", "showAlert0"]
 - ["PSo16NSObjectProtocol", "showAlert1"]
@@ -1659,6 +1765,7 @@ depends-member:
 - !private ["CSo8NSString", "init"]
 - !private ["CSo7NSValue", "deinit"]
 - !private ["PSs21NilLiteralConvertible", "Stride"]
+- !private ["PSs13OptionSetType", "Normal"]
 - !private ["Sq", "deinit"]
 - !private ["PSs16OutputStreamType", "Stride"]
 - !private ["PSs16OutputStreamType", "componentsSeparatedByString"]
@@ -1681,7 +1788,10 @@ depends-member:
 - !private ["PSs30RangeReplaceableCollectionType", "last"]
 - !private ["PSs30RangeReplaceableCollectionType", "subscript"]
 - !private ["PSs16RawRepresentable", "Alert"]
+- !private ["PSs16RawRepresentable", "Cancel"]
 - !private ["PSs16RawRepresentable", "Default"]
+- !private ["PSs16RawRepresentable", "DetailDisclosure"]
+- !private ["PSs16RawRepresentable", "Normal"]
 - !private ["PSs16RawRepresentable", "Purple"]
 - !private ["PSs16RawRepresentable", "Value"]
 - !private ["PSs12SequenceType", "Element"]
@@ -1696,6 +1806,7 @@ depends-member:
 - ["PSs12SequenceType", "init"]
 - !private ["PSs12SequenceType", "last"]
 - !private ["PSs12SequenceType", "subscript"]
+- !private ["PSs14SetAlgebraType", "Normal"]
 - !private ["PSs17SignedIntegerType", "Distance"]
 - !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
 - !private ["PSs17SignedIntegerType", "Stride"]
@@ -1743,6 +1854,7 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "idea"]
 - !private ["PSo29UIAccessibilityIdentification", "image"]
 - !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "leftCalloutAccessoryView"]
 - !private ["PSo29UIAccessibilityIdentification", "name"]
 - !private ["PSo29UIAccessibilityIdentification", "pinColor"]
 - !private ["PSo29UIAccessibilityIdentification", "registerNib"]
@@ -1750,11 +1862,13 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "selectedSegmentIndex"]
 - !private ["PSo29UIAccessibilityIdentification", "setBackgroundImage"]
 - !private ["PSo29UIAccessibilityIdentification", "setRegion"]
+- !private ["PSo29UIAccessibilityIdentification", "setTitle"]
 - !private ["PSo29UIAccessibilityIdentification", "shadowImage"]
 - !private ["PSo29UIAccessibilityIdentification", "showsUserLocation"]
 - !private ["PSo29UIAccessibilityIdentification", "text"]
 - !private ["PSo29UIAccessibilityIdentification", "translucent"]
 - !private ["CSo13UIAlertAction", "init"]
+- !private ["OSC18UIAlertActionStyle", "Cancel"]
 - !private ["OSC18UIAlertActionStyle", "Default"]
 - !private ["CSo17UIAlertController", "addAction"]
 - !private ["CSo17UIAlertController", "addTextFieldWithConfigurationHandler"]
@@ -1776,6 +1890,7 @@ depends-member:
 - !private ["PSo12UIAppearance", "idea"]
 - !private ["PSo12UIAppearance", "image"]
 - !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "leftCalloutAccessoryView"]
 - !private ["PSo12UIAppearance", "name"]
 - !private ["PSo12UIAppearance", "pinColor"]
 - !private ["PSo12UIAppearance", "registerNib"]
@@ -1783,6 +1898,7 @@ depends-member:
 - !private ["PSo12UIAppearance", "selectedSegmentIndex"]
 - !private ["PSo12UIAppearance", "setBackgroundImage"]
 - !private ["PSo12UIAppearance", "setRegion"]
+- !private ["PSo12UIAppearance", "setTitle"]
 - !private ["PSo12UIAppearance", "shadowImage"]
 - !private ["PSo12UIAppearance", "showsUserLocation"]
 - !private ["PSo12UIAppearance", "text"]
@@ -1797,9 +1913,14 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "Person"]
 - ["PSo21UIAppearanceContainer", "String"]
 - !private ["PSo21UIAppearanceContainer", "UIAlertAction"]
+- !private ["PSo21UIAppearanceContainer", "UIAlertActionStyle"]
 - !private ["PSo21UIAppearanceContainer", "UIAlertController"]
+- !private ["PSo21UIAppearanceContainer", "UIAlertControllerStyle"]
 - !private ["PSo21UIAppearanceContainer", "UIBarMetrics"]
+- !private ["PSo21UIAppearanceContainer", "UIButton"]
+- !private ["PSo21UIAppearanceContainer", "UIButtonType"]
 - !private ["PSo21UIAppearanceContainer", "UIColor"]
+- !private ["PSo21UIAppearanceContainer", "UIControlState"]
 - !private ["PSo21UIAppearanceContainer", "UIImage"]
 - !private ["PSo21UIAppearanceContainer", "UINib"]
 - !private ["PSo21UIAppearanceContainer", "addAction"]
@@ -1811,6 +1932,7 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "annotation"]
 - !private ["PSo21UIAppearanceContainer", "backgroundColor"]
 - ["PSo21UIAppearanceContainer", "bgimg"]
+- ["PSo21UIAppearanceContainer", "button"]
 - !private ["PSo21UIAppearanceContainer", "canShowCallout"]
 - ["PSo21UIAppearanceContainer", "createAnnotation"]
 - ["PSo21UIAppearanceContainer", "currentAmount"]
@@ -1833,6 +1955,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "indexPathForPreferredFocusedViewInTableView"]
 - ["PSo21UIAppearanceContainer", "init"]
 - !private ["PSo21UIAppearanceContainer", "kCLLocationAccuracyBest"]
+- !private ["PSo21UIAppearanceContainer", "leftCalloutAccessoryView"]
 - ["PSo21UIAppearanceContainer", "locationManager"]
 - ["PSo21UIAppearanceContainer", "locationManagerDidPauseLocationUpdates"]
 - ["PSo21UIAppearanceContainer", "locationManagerDidResumeLocationUpdates"]
@@ -1874,6 +1997,7 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "selectedSegmentIndex"]
 - !private ["PSo21UIAppearanceContainer", "setBackgroundImage"]
 - !private ["PSo21UIAppearanceContainer", "setRegion"]
+- !private ["PSo21UIAppearanceContainer", "setTitle"]
 - !private ["PSo21UIAppearanceContainer", "shadowImage"]
 - ["PSo21UIAppearanceContainer", "showAlert0"]
 - ["PSo21UIAppearanceContainer", "showAlert1"]
@@ -1892,6 +2016,9 @@ depends-member:
 - !private ["PSo16UIBarPositioning", "setBackgroundImage"]
 - !private ["PSo16UIBarPositioning", "shadowImage"]
 - !private ["PSo16UIBarPositioning", "translucent"]
+- !private ["CSo8UIButton", "init"]
+- !private ["CSo8UIButton", "setTitle"]
+- !private ["OSC12UIButtonType", "DetailDisclosure"]
 - !private ["CSo7UIColor", "clearColor"]
 - !private ["PSo18UIContentContainer", "CLLocationCoordinate2D"]
 - ["PSo18UIContentContainer", "CLLocationManager"]
@@ -1903,15 +2030,21 @@ depends-member:
 - !private ["PSo18UIContentContainer", "Person"]
 - ["PSo18UIContentContainer", "String"]
 - !private ["PSo18UIContentContainer", "UIAlertAction"]
+- !private ["PSo18UIContentContainer", "UIAlertActionStyle"]
 - !private ["PSo18UIContentContainer", "UIAlertController"]
+- !private ["PSo18UIContentContainer", "UIAlertControllerStyle"]
 - !private ["PSo18UIContentContainer", "UIBarMetrics"]
+- !private ["PSo18UIContentContainer", "UIButton"]
+- !private ["PSo18UIContentContainer", "UIButtonType"]
 - !private ["PSo18UIContentContainer", "UIColor"]
+- !private ["PSo18UIContentContainer", "UIControlState"]
 - !private ["PSo18UIContentContainer", "UIImage"]
 - !private ["PSo18UIContentContainer", "UINib"]
 - !private ["PSo18UIContentContainer", "addAction"]
 - ["PSo18UIContentContainer", "addIdea"]
 - !private ["PSo18UIContentContainer", "addTextFieldWithConfigurationHandler"]
 - ["PSo18UIContentContainer", "bgimg"]
+- ["PSo18UIContentContainer", "button"]
 - ["PSo18UIContentContainer", "createAnnotation"]
 - ["PSo18UIContentContainer", "currentAmount"]
 - ["PSo18UIContentContainer", "dataStr"]
@@ -1970,8 +2103,11 @@ depends-member:
 - ["PSo18UIContentContainer", "viewDidLoad"]
 - ["PSo18UIContentContainer", "viewForZoomingInScrollView"]
 - ["PSo18UIContentContainer", ""]
+- !private ["CSo9UIControl", "init"]
 - !private ["CSo9UIControl", "selectedSegmentIndex"]
+- !private ["CSo9UIControl", "setTitle"]
 - !private ["CSo9UIControl", "text"]
+- !private ["VSC14UIControlState", "Normal"]
 - !private ["PSo17UICoordinateSpace", "addAnnotation"]
 - !private ["PSo17UICoordinateSpace", "addAnnotations"]
 - !private ["PSo17UICoordinateSpace", "animatesDrop"]
@@ -1987,6 +2123,7 @@ depends-member:
 - !private ["PSo17UICoordinateSpace", "idea"]
 - !private ["PSo17UICoordinateSpace", "image"]
 - !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "leftCalloutAccessoryView"]
 - !private ["PSo17UICoordinateSpace", "name"]
 - !private ["PSo17UICoordinateSpace", "pinColor"]
 - !private ["PSo17UICoordinateSpace", "registerNib"]
@@ -1994,6 +2131,7 @@ depends-member:
 - !private ["PSo17UICoordinateSpace", "selectedSegmentIndex"]
 - !private ["PSo17UICoordinateSpace", "setBackgroundImage"]
 - !private ["PSo17UICoordinateSpace", "setRegion"]
+- !private ["PSo17UICoordinateSpace", "setTitle"]
 - !private ["PSo17UICoordinateSpace", "shadowImage"]
 - !private ["PSo17UICoordinateSpace", "showsUserLocation"]
 - !private ["PSo17UICoordinateSpace", "text"]
@@ -2013,6 +2151,7 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "idea"]
 - !private ["PSo13UIDynamicItem", "image"]
 - !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "leftCalloutAccessoryView"]
 - !private ["PSo13UIDynamicItem", "name"]
 - !private ["PSo13UIDynamicItem", "pinColor"]
 - !private ["PSo13UIDynamicItem", "registerNib"]
@@ -2020,6 +2159,7 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "selectedSegmentIndex"]
 - !private ["PSo13UIDynamicItem", "setBackgroundImage"]
 - !private ["PSo13UIDynamicItem", "setRegion"]
+- !private ["PSo13UIDynamicItem", "setTitle"]
 - !private ["PSo13UIDynamicItem", "shadowImage"]
 - !private ["PSo13UIDynamicItem", "showsUserLocation"]
 - !private ["PSo13UIDynamicItem", "text"]
@@ -2034,9 +2174,14 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "Person"]
 - ["PSo18UIFocusEnvironment", "String"]
 - !private ["PSo18UIFocusEnvironment", "UIAlertAction"]
+- !private ["PSo18UIFocusEnvironment", "UIAlertActionStyle"]
 - !private ["PSo18UIFocusEnvironment", "UIAlertController"]
+- !private ["PSo18UIFocusEnvironment", "UIAlertControllerStyle"]
 - !private ["PSo18UIFocusEnvironment", "UIBarMetrics"]
+- !private ["PSo18UIFocusEnvironment", "UIButton"]
+- !private ["PSo18UIFocusEnvironment", "UIButtonType"]
 - !private ["PSo18UIFocusEnvironment", "UIColor"]
+- !private ["PSo18UIFocusEnvironment", "UIControlState"]
 - !private ["PSo18UIFocusEnvironment", "UIImage"]
 - !private ["PSo18UIFocusEnvironment", "UINib"]
 - !private ["PSo18UIFocusEnvironment", "addAction"]
@@ -2048,6 +2193,7 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "annotation"]
 - !private ["PSo18UIFocusEnvironment", "backgroundColor"]
 - ["PSo18UIFocusEnvironment", "bgimg"]
+- ["PSo18UIFocusEnvironment", "button"]
 - !private ["PSo18UIFocusEnvironment", "canShowCallout"]
 - ["PSo18UIFocusEnvironment", "createAnnotation"]
 - ["PSo18UIFocusEnvironment", "currentAmount"]
@@ -2070,6 +2216,7 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "indexPathForPreferredFocusedViewInTableView"]
 - ["PSo18UIFocusEnvironment", "init"]
 - !private ["PSo18UIFocusEnvironment", "kCLLocationAccuracyBest"]
+- !private ["PSo18UIFocusEnvironment", "leftCalloutAccessoryView"]
 - ["PSo18UIFocusEnvironment", "locationManager"]
 - ["PSo18UIFocusEnvironment", "locationManagerDidPauseLocationUpdates"]
 - ["PSo18UIFocusEnvironment", "locationManagerDidResumeLocationUpdates"]
@@ -2111,6 +2258,7 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "selectedSegmentIndex"]
 - !private ["PSo18UIFocusEnvironment", "setBackgroundImage"]
 - !private ["PSo18UIFocusEnvironment", "setRegion"]
+- !private ["PSo18UIFocusEnvironment", "setTitle"]
 - !private ["PSo18UIFocusEnvironment", "shadowImage"]
 - ["PSo18UIFocusEnvironment", "showAlert0"]
 - ["PSo18UIFocusEnvironment", "showAlert1"]
@@ -2161,9 +2309,15 @@ depends-member:
 - ["CSo11UIResponder", "Person"]
 - ["CSo11UIResponder", "String"]
 - !private ["CSo11UIResponder", "UIAlertAction"]
+- !private ["CSo11UIResponder", "UIAlertActionStyle"]
 - !private ["CSo11UIResponder", "UIAlertController"]
+- !private ["CSo11UIResponder", "UIAlertControllerStyle"]
 - !private ["CSo11UIResponder", "UIBarMetrics"]
+- ["CSo11UIResponder", "UIButton"]
+- !private ["CSo11UIResponder", "UIButtonType"]
 - !private ["CSo11UIResponder", "UIColor"]
+- ["CSo11UIResponder", "UIControl"]
+- !private ["CSo11UIResponder", "UIControlState"]
 - !private ["CSo11UIResponder", "UIImage"]
 - ["CSo11UIResponder", "UIImageView"]
 - !private ["CSo11UIResponder", "UINib"]
@@ -2181,6 +2335,7 @@ depends-member:
 - !private ["CSo11UIResponder", "annotation"]
 - !private ["CSo11UIResponder", "backgroundColor"]
 - ["CSo11UIResponder", "bgimg"]
+- ["CSo11UIResponder", "button"]
 - !private ["CSo11UIResponder", "canShowCallout"]
 - ["CSo11UIResponder", "createAnnotation"]
 - ["CSo11UIResponder", "currentAmount"]
@@ -2203,6 +2358,7 @@ depends-member:
 - ["CSo11UIResponder", "indexPathForPreferredFocusedViewInTableView"]
 - ["CSo11UIResponder", "init"]
 - !private ["CSo11UIResponder", "kCLLocationAccuracyBest"]
+- !private ["CSo11UIResponder", "leftCalloutAccessoryView"]
 - ["CSo11UIResponder", "locationManager"]
 - ["CSo11UIResponder", "locationManagerDidPauseLocationUpdates"]
 - ["CSo11UIResponder", "locationManagerDidResumeLocationUpdates"]
@@ -2244,6 +2400,7 @@ depends-member:
 - !private ["CSo11UIResponder", "selectedSegmentIndex"]
 - !private ["CSo11UIResponder", "setBackgroundImage"]
 - !private ["CSo11UIResponder", "setRegion"]
+- !private ["CSo11UIResponder", "setTitle"]
 - !private ["CSo11UIResponder", "shadowImage"]
 - ["CSo11UIResponder", "showAlert0"]
 - ["CSo11UIResponder", "showAlert1"]
@@ -2273,12 +2430,18 @@ depends-member:
 - !private ["PSo20UIScrollViewDelegate", "Person"]
 - ["PSo20UIScrollViewDelegate", "String"]
 - !private ["PSo20UIScrollViewDelegate", "UIAlertAction"]
+- !private ["PSo20UIScrollViewDelegate", "UIAlertActionStyle"]
 - !private ["PSo20UIScrollViewDelegate", "UIAlertController"]
+- !private ["PSo20UIScrollViewDelegate", "UIAlertControllerStyle"]
 - !private ["PSo20UIScrollViewDelegate", "UIBarMetrics"]
+- !private ["PSo20UIScrollViewDelegate", "UIButton"]
+- !private ["PSo20UIScrollViewDelegate", "UIButtonType"]
 - !private ["PSo20UIScrollViewDelegate", "UIColor"]
+- !private ["PSo20UIScrollViewDelegate", "UIControlState"]
 - !private ["PSo20UIScrollViewDelegate", "UIImage"]
 - !private ["PSo20UIScrollViewDelegate", "UINib"]
 - !private ["PSo20UIScrollViewDelegate", "bgimg"]
+- !private ["PSo20UIScrollViewDelegate", "button"]
 - !private ["PSo20UIScrollViewDelegate", "createAnnotation"]
 - !private ["PSo20UIScrollViewDelegate", "currentAmount"]
 - !private ["PSo20UIScrollViewDelegate", "dataStr"]
@@ -2341,15 +2504,21 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "Person"]
 - ["PSo16UIStateRestoring", "String"]
 - !private ["PSo16UIStateRestoring", "UIAlertAction"]
+- !private ["PSo16UIStateRestoring", "UIAlertActionStyle"]
 - !private ["PSo16UIStateRestoring", "UIAlertController"]
+- !private ["PSo16UIStateRestoring", "UIAlertControllerStyle"]
 - !private ["PSo16UIStateRestoring", "UIBarMetrics"]
+- !private ["PSo16UIStateRestoring", "UIButton"]
+- !private ["PSo16UIStateRestoring", "UIButtonType"]
 - !private ["PSo16UIStateRestoring", "UIColor"]
+- !private ["PSo16UIStateRestoring", "UIControlState"]
 - !private ["PSo16UIStateRestoring", "UIImage"]
 - !private ["PSo16UIStateRestoring", "UINib"]
 - !private ["PSo16UIStateRestoring", "addAction"]
 - ["PSo16UIStateRestoring", "addIdea"]
 - !private ["PSo16UIStateRestoring", "addTextFieldWithConfigurationHandler"]
 - ["PSo16UIStateRestoring", "bgimg"]
+- ["PSo16UIStateRestoring", "button"]
 - ["PSo16UIStateRestoring", "createAnnotation"]
 - ["PSo16UIStateRestoring", "currentAmount"]
 - ["PSo16UIStateRestoring", "dataStr"]
@@ -2427,12 +2596,18 @@ depends-member:
 - !private ["PSo21UITableViewDataSource", "Person"]
 - ["PSo21UITableViewDataSource", "String"]
 - !private ["PSo21UITableViewDataSource", "UIAlertAction"]
+- !private ["PSo21UITableViewDataSource", "UIAlertActionStyle"]
 - !private ["PSo21UITableViewDataSource", "UIAlertController"]
+- !private ["PSo21UITableViewDataSource", "UIAlertControllerStyle"]
 - !private ["PSo21UITableViewDataSource", "UIBarMetrics"]
+- !private ["PSo21UITableViewDataSource", "UIButton"]
+- !private ["PSo21UITableViewDataSource", "UIButtonType"]
 - !private ["PSo21UITableViewDataSource", "UIColor"]
+- !private ["PSo21UITableViewDataSource", "UIControlState"]
 - !private ["PSo21UITableViewDataSource", "UIImage"]
 - !private ["PSo21UITableViewDataSource", "UINib"]
 - !private ["PSo21UITableViewDataSource", "bgimg"]
+- !private ["PSo21UITableViewDataSource", "button"]
 - !private ["PSo21UITableViewDataSource", "createAnnotation"]
 - !private ["PSo21UITableViewDataSource", "currentAmount"]
 - !private ["PSo21UITableViewDataSource", "dataStr"]
@@ -2494,12 +2669,18 @@ depends-member:
 - !private ["PSo19UITableViewDelegate", "Person"]
 - ["PSo19UITableViewDelegate", "String"]
 - !private ["PSo19UITableViewDelegate", "UIAlertAction"]
+- !private ["PSo19UITableViewDelegate", "UIAlertActionStyle"]
 - !private ["PSo19UITableViewDelegate", "UIAlertController"]
+- !private ["PSo19UITableViewDelegate", "UIAlertControllerStyle"]
 - !private ["PSo19UITableViewDelegate", "UIBarMetrics"]
+- !private ["PSo19UITableViewDelegate", "UIButton"]
+- !private ["PSo19UITableViewDelegate", "UIButtonType"]
 - !private ["PSo19UITableViewDelegate", "UIColor"]
+- !private ["PSo19UITableViewDelegate", "UIControlState"]
 - !private ["PSo19UITableViewDelegate", "UIImage"]
 - !private ["PSo19UITableViewDelegate", "UINib"]
 - !private ["PSo19UITableViewDelegate", "bgimg"]
+- !private ["PSo19UITableViewDelegate", "button"]
 - !private ["PSo19UITableViewDelegate", "createAnnotation"]
 - !private ["PSo19UITableViewDelegate", "currentAmount"]
 - !private ["PSo19UITableViewDelegate", "dataStr"]
@@ -2564,9 +2745,14 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "Person"]
 - ["PSo18UITraitEnvironment", "String"]
 - !private ["PSo18UITraitEnvironment", "UIAlertAction"]
+- !private ["PSo18UITraitEnvironment", "UIAlertActionStyle"]
 - !private ["PSo18UITraitEnvironment", "UIAlertController"]
+- !private ["PSo18UITraitEnvironment", "UIAlertControllerStyle"]
 - !private ["PSo18UITraitEnvironment", "UIBarMetrics"]
+- !private ["PSo18UITraitEnvironment", "UIButton"]
+- !private ["PSo18UITraitEnvironment", "UIButtonType"]
 - !private ["PSo18UITraitEnvironment", "UIColor"]
+- !private ["PSo18UITraitEnvironment", "UIControlState"]
 - !private ["PSo18UITraitEnvironment", "UIImage"]
 - !private ["PSo18UITraitEnvironment", "UINib"]
 - !private ["PSo18UITraitEnvironment", "addAction"]
@@ -2578,6 +2764,7 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "annotation"]
 - !private ["PSo18UITraitEnvironment", "backgroundColor"]
 - ["PSo18UITraitEnvironment", "bgimg"]
+- ["PSo18UITraitEnvironment", "button"]
 - !private ["PSo18UITraitEnvironment", "canShowCallout"]
 - ["PSo18UITraitEnvironment", "createAnnotation"]
 - ["PSo18UITraitEnvironment", "currentAmount"]
@@ -2600,6 +2787,7 @@ depends-member:
 - ["PSo18UITraitEnvironment", "indexPathForPreferredFocusedViewInTableView"]
 - ["PSo18UITraitEnvironment", "init"]
 - !private ["PSo18UITraitEnvironment", "kCLLocationAccuracyBest"]
+- !private ["PSo18UITraitEnvironment", "leftCalloutAccessoryView"]
 - ["PSo18UITraitEnvironment", "locationManager"]
 - ["PSo18UITraitEnvironment", "locationManagerDidPauseLocationUpdates"]
 - ["PSo18UITraitEnvironment", "locationManagerDidResumeLocationUpdates"]
@@ -2641,6 +2829,7 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "selectedSegmentIndex"]
 - !private ["PSo18UITraitEnvironment", "setBackgroundImage"]
 - !private ["PSo18UITraitEnvironment", "setRegion"]
+- !private ["PSo18UITraitEnvironment", "setTitle"]
 - !private ["PSo18UITraitEnvironment", "shadowImage"]
 - ["PSo18UITraitEnvironment", "showAlert0"]
 - ["PSo18UITraitEnvironment", "showAlert1"]
@@ -2670,6 +2859,7 @@ depends-member:
 - !private ["CSo6UIView", "idea"]
 - !private ["CSo6UIView", "image"]
 - !private ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "leftCalloutAccessoryView"]
 - !private ["CSo6UIView", "name"]
 - !private ["CSo6UIView", "pinColor"]
 - !private ["CSo6UIView", "registerNib"]
@@ -2677,6 +2867,7 @@ depends-member:
 - !private ["CSo6UIView", "selectedSegmentIndex"]
 - !private ["CSo6UIView", "setBackgroundImage"]
 - !private ["CSo6UIView", "setRegion"]
+- !private ["CSo6UIView", "setTitle"]
 - !private ["CSo6UIView", "shadowImage"]
 - !private ["CSo6UIView", "showsUserLocation"]
 - !private ["CSo6UIView", "text"]
@@ -2704,9 +2895,15 @@ depends-member:
 - ["CSo16UIViewController", "Person"]
 - ["CSo16UIViewController", "String"]
 - !private ["CSo16UIViewController", "UIAlertAction"]
+- !private ["CSo16UIViewController", "UIAlertActionStyle"]
 - !private ["CSo16UIViewController", "UIAlertController"]
+- !private ["CSo16UIViewController", "UIAlertControllerStyle"]
 - !private ["CSo16UIViewController", "UIBarMetrics"]
+- ["CSo16UIViewController", "UIButton"]
+- !private ["CSo16UIViewController", "UIButtonType"]
 - !private ["CSo16UIViewController", "UIColor"]
+- ["CSo16UIViewController", "UIControl"]
+- !private ["CSo16UIViewController", "UIControlState"]
 - !private ["CSo16UIViewController", "UIImage"]
 - ["CSo16UIViewController", "UIImageView"]
 - !private ["CSo16UIViewController", "UINib"]
@@ -2719,6 +2916,7 @@ depends-member:
 - ["CSo16UIViewController", "addIdea"]
 - !private ["CSo16UIViewController", "addTextFieldWithConfigurationHandler"]
 - ["CSo16UIViewController", "bgimg"]
+- ["CSo16UIViewController", "button"]
 - ["CSo16UIViewController", "createAnnotation"]
 - ["CSo16UIViewController", "currentAmount"]
 - ["CSo16UIViewController", "dataStr"]
@@ -2945,6 +3143,7 @@ depends-member:
 - !private ["PSs12_Reflectable", "image"]
 - ["PSs12_Reflectable", "init"]
 - !private ["PSs12_Reflectable", "last"]
+- !private ["PSs12_Reflectable", "leftCalloutAccessoryView"]
 - !private ["PSs12_Reflectable", "name"]
 - !private ["PSs12_Reflectable", "pinColor"]
 - !private ["PSs12_Reflectable", "registerNib"]
@@ -2952,6 +3151,7 @@ depends-member:
 - !private ["PSs12_Reflectable", "selectedSegmentIndex"]
 - !private ["PSs12_Reflectable", "setBackgroundImage"]
 - !private ["PSs12_Reflectable", "setRegion"]
+- !private ["PSs12_Reflectable", "setTitle"]
 - !private ["PSs12_Reflectable", "shadowImage"]
 - !private ["PSs12_Reflectable", "showsUserLocation"]
 - !private ["PSs12_Reflectable", "subscript"]
@@ -3052,6 +3252,7 @@ depends-nominal:
 - !private "CSo8NSString"
 - !private "CSo7NSValue"
 - !private "PSs21NilLiteralConvertible"
+- !private "PSs13OptionSetType"
 - !private "Sq"
 - !private "PSs16OutputStreamType"
 - !private "C11CodeCollab26Person"
@@ -3060,6 +3261,7 @@ depends-nominal:
 - "PSs30RangeReplaceableCollectionType"
 - !private "PSs16RawRepresentable"
 - "PSs12SequenceType"
+- !private "PSs14SetAlgebraType"
 - !private "PSs17SignedIntegerType"
 - !private "PSs16SignedNumberType"
 - !private "VSs5Slice"
@@ -3077,9 +3279,12 @@ depends-nominal:
 - "PSo21UIAppearanceContainer"
 - !private "OSC12UIBarMetrics"
 - !private "PSo16UIBarPositioning"
+- !private "CSo8UIButton"
+- !private "OSC12UIButtonType"
 - !private "CSo7UIColor"
 - "PSo18UIContentContainer"
 - !private "CSo9UIControl"
+- !private "VSC14UIControlState"
 - !private "PSo17UICoordinateSpace"
 - !private "PSo13UIDynamicItem"
 - "PSo18UIFocusEnvironment"
@@ -3220,4 +3425,4 @@ depends-external:
 - "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
 - "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
 - "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Modules/module.modulemap"
-interface-hash: "6263aa50d5989b324c3b9895729123c4"
+interface-hash: "f48ca5503d8f4aba86ff3ff7e72b4e64"
