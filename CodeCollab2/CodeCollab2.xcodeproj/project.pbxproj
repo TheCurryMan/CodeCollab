@@ -26,6 +26,7 @@
 		E1847D601CC393AD00A7C471 /* HackCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1847D561CC393AD00A7C471 /* HackCardTableViewCell.swift */; };
 		E1847D631CC3B02000A7C471 /* IdeaCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1847D611CC3B02000A7C471 /* IdeaCardTableViewCell.swift */; };
 		E1847D641CC3B02000A7C471 /* IdeaCardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1847D621CC3B02000A7C471 /* IdeaCardTableViewCell.xib */; };
+		E1847D661CC3BE0700A7C471 /* RideShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1847D651CC3BE0700A7C471 /* RideShareViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		E1847D561CC393AD00A7C471 /* HackCardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HackCardTableViewCell.swift; sourceTree = "<group>"; };
 		E1847D611CC3B02000A7C471 /* IdeaCardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdeaCardTableViewCell.swift; sourceTree = "<group>"; };
 		E1847D621CC3B02000A7C471 /* IdeaCardTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IdeaCardTableViewCell.xib; sourceTree = "<group>"; };
+		E1847D651CC3BE0700A7C471 /* RideShareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideShareViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 				E1847D511CC393AD00A7C471 /* HackLeftTableViewCell.swift */,
 				E1847D521CC393AD00A7C471 /* HackathonViewController.swift */,
 				E1847D531CC393AD00A7C471 /* DetailedHackathonViewController.swift */,
+				E1847D651CC3BE0700A7C471 /* RideShareViewController.swift */,
 				E1847D541CC393AD00A7C471 /* Main.storyboard */,
 				E1847D551CC393AD00A7C471 /* ChatViewController.swift */,
 				E1847D561CC393AD00A7C471 /* HackCardTableViewCell.swift */,
@@ -368,6 +371,7 @@
 				E1847D5C1CC393AD00A7C471 /* HackathonViewController.swift in Sources */,
 				E1847D221CC3929900A7C471 /* ViewController.swift in Sources */,
 				E1847D631CC3B02000A7C471 /* IdeaCardTableViewCell.swift in Sources */,
+				E1847D661CC3BE0700A7C471 /* RideShareViewController.swift in Sources */,
 				E1847D201CC3929900A7C471 /* AppDelegate.swift in Sources */,
 				E1847D5A1CC393AD00A7C471 /* Classes.swift in Sources */,
 				E1847D5D1CC393AD00A7C471 /* DetailedHackathonViewController.swift in Sources */,

@@ -9,9 +9,10 @@
 
 
 import UIKit
+import MapKit
 import Firebase
 
-class DetailedHackathonViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class DetailedHackathonViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, CLLocationManagerDelegate {
 
     @IBOutlet var bgimg: UIImageView!
     
@@ -27,10 +28,8 @@ class DetailedHackathonViewController: UIViewController, UITableViewDelegate, UI
     
     var dataStr: NSString?
     
-    @IBAction func controlbutton(sender: AnyObject) {
-        
-        
-    }
+    @IBOutlet var mapView: MKMapView!
+    
     
     var firebaseData = [[String]]()
     var hackathonIndex : Int?
@@ -48,10 +47,23 @@ class DetailedHackathonViewController: UIViewController, UITableViewDelegate, UI
     }
     */
     
-    
+    let locationManager = CLLocationManager()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    
+        locationManager.requestWhenInUseAuthorization();
+        if CLLocationManager.locationServicesEnabled() {
+            locationManager.delegate = self
+            locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
+            locationManager.startUpdatingLocation()
+            
+        }
+        else{
+            print("Location service disabled");
+        }
+        
+        mapView.hidden = true
         
         tableView.delegate = self
         tableView.dataSource = self
@@ -204,7 +216,7 @@ class DetailedHackathonViewController: UIViewController, UITableViewDelegate, UI
         var info = firebaseData[indexPath.row]
         cell.name.text = info[0]
         cell.idea.text = info[1]
-            cell.group.text = info[2] + "/" + info[3] + "Members" }
+            cell.group.text = info[2] + "/" + info[3]}
         
         return cell
     }
@@ -220,5 +232,19 @@ class DetailedHackathonViewController: UIViewController, UITableViewDelegate, UI
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         return 120.0
     }
+    @IBOutlet var segmentedControl: UISegmentedControl!
 
+    @IBAction func indexChanged(sender: UISegmentedControl) {
+        
+        switch segmentedControl.selectedSegmentIndex {
+        case 0:
+           tableView.hidden = false
+            mapView.hidden = true
+        case 1:
+            tableView.hidden = true
+            mapView.hidden=false
+        default: print("Nothing")
+        }
+        
+    }
 }

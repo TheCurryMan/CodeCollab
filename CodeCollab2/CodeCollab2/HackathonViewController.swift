@@ -108,7 +108,9 @@ class HackathonViewController: UIViewController, UITableViewDataSource, UITableV
         
         else {
         
-            for i in hackathonData{
+            for j in 0...5{
+                
+                var i = hackathonData[j]
             
                         
                         print(i)

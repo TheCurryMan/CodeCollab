@@ -133,10 +133,12 @@ SWIFT_CLASS("_TtC11CodeCollab210Connection")
 
 @class UIImageView;
 @class NSString;
+@class MKMapView;
 @class Firebase;
 @class UITableView;
 @class NSIndexPath;
 @class UITableViewCell;
+@class UISegmentedControl;
 
 SWIFT_CLASS("_TtC11CodeCollab231DetailedHackathonViewController")
 @interface DetailedHackathonViewController : UIViewController <UIScrollViewDelegate, UITableViewDataSource, UITableViewDelegate>
@@ -147,7 +149,7 @@ SWIFT_CLASS("_TtC11CodeCollab231DetailedHackathonViewController")
 @property (nonatomic, copy) NSString * __nullable currentAmount;
 @property (nonatomic, copy) NSString * __nullable name;
 @property (nonatomic, strong) NSString * __nullable dataStr;
-- (IBAction)controlbutton:(id __nonnull)sender;
+@property (nonatomic, strong) IBOutlet MKMapView * __null_unspecified mapView;
 @property (nonatomic, copy) NSArray<NSArray<NSString *> *> * __nonnull firebaseData;
 @property (nonatomic, strong) Hackathon * __nullable hackathon;
 @property (nonatomic, strong) Firebase * __null_unspecified ref;
@@ -162,6 +164,8 @@ SWIFT_CLASS("_TtC11CodeCollab231DetailedHackathonViewController")
 - (void)tableView:(UITableView * __nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;
 - (NSInteger)tableView:(UITableView * __nonnull)tableView numberOfRowsInSection:(NSInteger)section;
 - (CGFloat)tableView:(UITableView * __nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;
+@property (nonatomic, strong) IBOutlet UISegmentedControl * __null_unspecified segmentedControl;
+- (IBAction)indexChanged:(UISegmentedControl * __nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -289,6 +293,13 @@ SWIFT_CLASS("_TtC11CodeCollab25Prize")
 @property (nonatomic, copy) NSString * __nonnull sponsor;
 @property (nonatomic, copy) NSString * __nonnull blurb;
 - (nonnull instancetype)initWithAmount:(NSInteger)amount sponsor:(NSString * __nonnull)sponsor blurb:(NSString * __nonnull)blurb OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC11CodeCollab223RideShareViewController")
+@interface RideShareViewController : UIViewController
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class UITouch;
