@@ -4,6 +4,8 @@
 <dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>We need your location to find nearby friends :)</string>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string>We need your location to find nearby friends! :) </string>
 	<key>CFBundleDevelopmentRegion</key>

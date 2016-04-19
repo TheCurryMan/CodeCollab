@@ -6,57 +6,58 @@ provides-nominal:
 provides-member:
 - ["C11CodeCollab223HackathonViewController", ""]
 provides-dynamic-lookup:
-- "chosenIndex"
-- "numberOfSectionsInTableView"
-- "hackathons"
+- "viewWillDisappear"
 - "viewDidLoad"
-- "viewWillAppear"
-- "tableView"
-- "tableView"
-- "tableView"
 - "didReceiveMemoryWarning"
+- "hackathonData"
+- "chosenHackathon"
+- "leftTable"
+- "chosenIndex"
+- "tableView"
+- "tableView"
+- "tableView"
+- "viewWillAppear"
 - "getHackathons"
 - "prepareForSegue"
-- "chosenHackathon"
-- "viewWillDisappear"
-- "hackathonData"
-- "leftTable"
+- "hackathons"
+- "numberOfSectionsInTableView"
 depends-top-level:
-- !private "UIImage"
-- !private "BooleanLiteralType"
-- "Bool"
-- "AnyObject"
-- !private "NSURL"
 - !private "DISPATCH_QUEUE_PRIORITY_DEFAULT"
-- "Hackathon"
-- !private "CLLocationCoordinate2D"
-- !private "String"
-- "Array"
-- "UnicodeScalarType"
-- !private "dispatch_get_global_queue"
+- "UIViewController"
 - "Int"
-- !private "DetailedHackathonViewController"
-- !private "NSData"
+- "UITableView"
+- !private "NSUTF8StringEncoding"
+- "UITableViewDelegate"
+- !private "print"
+- !private "BooleanLiteralType"
+- !private "UIImage"
+- "UITableViewDataSource"
+- !private "..."
 - "NSIndexPath"
 - "UITableViewCell"
-- !private "print"
-- "UITableView"
+- !private "CLLocationCoordinate2D"
+- !private "dispatch_get_global_queue"
 - "HackathonViewController"
-- !private "HackLeftTableViewCell"
-- !private "NSURLSession"
-- !private "Void"
 - !private "NSString"
-- "StringLiteralType"
+- !private "DetailedHackathonViewController"
+- "AnyObject"
+- !private "NSURL"
+- !private "NSData"
 - !private "dispatch_get_main_queue"
-- "UIViewController"
+- "StringLiteralType"
 - !private "dispatch_async"
+- !private "HackLeftTableViewCell"
+- "Bool"
+- !private "String"
+- "UnicodeScalarType"
+- "Hackathon"
+- "Array"
 - "UIStoryboardSegue"
 - !private "<"
-- !private "+"
-- "UITableViewDelegate"
-- "UITableViewDataSource"
+- !private "Void"
 - !private "=="
-- !private "NSUTF8StringEncoding"
+- !private "+"
+- !private "NSURLSession"
 depends-member:
 - !private ["PSs9AnyObject", "CLLocationCoordinate2D"]
 - !private ["PSs9AnyObject", "DISPATCH_QUEUE_PRIORITY_DEFAULT"]
@@ -152,9 +153,6 @@ depends-member:
 - !private ["PSs23ArrayLiteralConvertible", "subscript"]
 - !private ["VSs10ArraySlice", "Generator"]
 - !private ["VSs10ArraySlice", "Index"]
-- !private ["VSs10ArraySlice", "SubSequence"]
-- !private ["VSs10ArraySlice", "_Element"]
-- !private ["VSs10ArraySlice", "deinit"]
 - !private ["PSs22BidirectionalIndexType", "Distance"]
 - !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
 - !private ["PSs22BidirectionalIndexType", "_DisabledRangeIndex"]
@@ -165,6 +163,8 @@ depends-member:
 - !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
 - !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
 - !private ["VSC22CLLocationCoordinate2D", "init"]
+- !private ["PSo25CLLocationManagerDelegate", "hackathon"]
+- !private ["PSo25CLLocationManagerDelegate", "hackathonIndex"]
 - !private ["PSs11CVarArgType", "CLLocationCoordinate2D"]
 - !private ["PSs11CVarArgType", "DISPATCH_QUEUE_PRIORITY_DEFAULT"]
 - !private ["PSs11CVarArgType", "Distance"]
@@ -243,6 +243,7 @@ depends-member:
 - !private ["VSS13CharacterView", "_Element"]
 - !private ["VSS13CharacterView", "deinit"]
 - !private ["VSS13CharacterView", "dropFirst"]
+- !private ["VSs14ClosedInterval", "deinit"]
 - ["PSs14CollectionType", "Element"]
 - !private ["PSs14CollectionType", "Generator"]
 - !private ["PSs14CollectionType", "Index"]
@@ -364,6 +365,7 @@ depends-member:
 - !private ["PSs9Equatable", "CLLocationCoordinate2D"]
 - !private ["PSs9Equatable", "DISPATCH_QUEUE_PRIORITY_DEFAULT"]
 - !private ["PSs9Equatable", "Distance"]
+- !private ["PSs9Equatable", "Generator"]
 - !private ["PSs9Equatable", "Hackathon"]
 - !private ["PSs9Equatable", "IntegerLiteralType"]
 - !private ["PSs9Equatable", "NSData"]
@@ -605,6 +607,8 @@ depends-member:
 - !private ["PSs11IntegerType", "Distance"]
 - !private ["PSs11IntegerType", "IntegerLiteralType"]
 - !private ["PSs11IntegerType", "_DisabledRangeIndex"]
+- !private ["PSo17MKMapViewDelegate", "hackathon"]
+- !private ["PSo17MKMapViewDelegate", "hackathonIndex"]
 - !private ["PSs14MirrorPathType", "Distance"]
 - !private ["PSs14MirrorPathType", "IntegerLiteralType"]
 - !private ["PSs14MirrorPathType", "_DisabledRangeIndex"]
@@ -633,11 +637,6 @@ depends-member:
 - !private ["PSs16MutableIndexable", "removeFirst"]
 - !private ["PSs16MutableIndexable", "removeLast"]
 - !private ["PSs16MutableIndexable", "subscript"]
-- !private ["VSs12MutableSlice", "Generator"]
-- !private ["VSs12MutableSlice", "Index"]
-- !private ["VSs12MutableSlice", "SubSequence"]
-- !private ["VSs12MutableSlice", "_Element"]
-- !private ["VSs12MutableSlice", "deinit"]
 - ["PSs16MutableSliceable", "Element"]
 - !private ["PSs16MutableSliceable", "Generator"]
 - !private ["PSs16MutableSliceable", "Index"]
@@ -936,7 +935,8 @@ depends-member:
 - !private ["PSs21RandomAccessIndexType", "Distance"]
 - !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
 - !private ["PSs21RandomAccessIndexType", "_DisabledRangeIndex"]
-- !private ["VSs5Range", "deinit"]
+- !private ["VSs5Range", "Generator"]
+- !private ["VSs14RangeGenerator", "Element"]
 - ["PSs30RangeReplaceableCollectionType", "Element"]
 - !private ["PSs30RangeReplaceableCollectionType", "Generator"]
 - !private ["PSs30RangeReplaceableCollectionType", "Index"]
@@ -979,7 +979,6 @@ depends-member:
 - !private ["PSs10Strideable", "_DisabledRangeIndex"]
 - !private ["SS", "characters"]
 - !private ["SS", "componentsSeparatedByString"]
-- !private ["SS", "deinit"]
 - !private ["SS", "init"]
 - !private ["PSs30StringInterpolationConvertible", "characters"]
 - !private ["PSs30StringInterpolationConvertible", "componentsSeparatedByString"]
@@ -1265,7 +1264,9 @@ depends-member:
 - !private ["PSo20UIScrollViewDelegate", "dispatch_get_global_queue"]
 - !private ["PSo20UIScrollViewDelegate", "dispatch_get_main_queue"]
 - !private ["PSo20UIScrollViewDelegate", "getHackathons"]
+- !private ["PSo20UIScrollViewDelegate", "hackathon"]
 - !private ["PSo20UIScrollViewDelegate", "hackathonData"]
+- !private ["PSo20UIScrollViewDelegate", "hackathonIndex"]
 - !private ["PSo20UIScrollViewDelegate", "hackathons"]
 - ["PSo20UIScrollViewDelegate", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["PSo20UIScrollViewDelegate", "leftTable"]
@@ -1365,7 +1366,9 @@ depends-member:
 - !private ["PSo21UITableViewDataSource", "dispatch_get_global_queue"]
 - !private ["PSo21UITableViewDataSource", "dispatch_get_main_queue"]
 - !private ["PSo21UITableViewDataSource", "getHackathons"]
+- !private ["PSo21UITableViewDataSource", "hackathon"]
 - !private ["PSo21UITableViewDataSource", "hackathonData"]
+- !private ["PSo21UITableViewDataSource", "hackathonIndex"]
 - !private ["PSo21UITableViewDataSource", "hackathons"]
 - ["PSo21UITableViewDataSource", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["PSo21UITableViewDataSource", "leftTable"]
@@ -1406,7 +1409,9 @@ depends-member:
 - !private ["PSo19UITableViewDelegate", "dispatch_get_global_queue"]
 - !private ["PSo19UITableViewDelegate", "dispatch_get_main_queue"]
 - !private ["PSo19UITableViewDelegate", "getHackathons"]
+- !private ["PSo19UITableViewDelegate", "hackathon"]
 - !private ["PSo19UITableViewDelegate", "hackathonData"]
+- !private ["PSo19UITableViewDelegate", "hackathonIndex"]
 - !private ["PSo19UITableViewDelegate", "hackathons"]
 - ["PSo19UITableViewDelegate", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["PSo19UITableViewDelegate", "leftTable"]
@@ -1673,8 +1678,10 @@ depends-nominal:
 - !private "PSs25BooleanLiteralConvertible"
 - !private "PSs11BooleanType"
 - !private "VSC22CLLocationCoordinate2D"
+- !private "PSo25CLLocationManagerDelegate"
 - "PSs11CVarArgType"
 - !private "VSS13CharacterView"
+- !private "VSs14ClosedInterval"
 - "PSs14CollectionType"
 - !private "PSs10Comparable"
 - "PSs28CustomDebugStringConvertible"
@@ -1696,10 +1703,10 @@ depends-nominal:
 - !private "PSs21IntegerArithmeticType"
 - !private "PSs25IntegerLiteralConvertible"
 - !private "PSs11IntegerType"
+- !private "PSo17MKMapViewDelegate"
 - !private "PSs14MirrorPathType"
 - "PSs21MutableCollectionType"
 - "PSs16MutableIndexable"
-- !private "VSs12MutableSlice"
 - "PSs16MutableSliceable"
 - "PSo8NSCoding"
 - !private "PSo9NSCopying"
@@ -1719,6 +1726,7 @@ depends-nominal:
 - !private "PSs16OutputStreamType"
 - !private "PSs21RandomAccessIndexType"
 - !private "VSs5Range"
+- !private "VSs14RangeGenerator"
 - "PSs30RangeReplaceableCollectionType"
 - "PSs12SequenceType"
 - !private "PSs17SignedIntegerType"

@@ -6,23 +6,23 @@ provides-nominal:
 provides-member:
 - ["C11CodeCollab219LoginViewController", ""]
 provides-dynamic-lookup:
-- "viewDidLoad"
-- "didReceiveMemoryWarning"
-- "password"
 - "email"
-- "merchant"
+- "didReceiveMemoryWarning"
 - "login"
+- "merchant"
+- "password"
 - "ref"
+- "viewDidLoad"
 depends-top-level:
 - "BooleanLiteralType"
-- "Firebase"
+- !private "print"
 - "LoginViewController"
+- "UITextField"
+- "Firebase"
 - "UIViewController"
 - !private "!="
-- !private "print"
-- "StringLiteralType"
 - "UIButton"
-- "UITextField"
+- "StringLiteralType"
 depends-member:
 - ["PSs9AnyObject", "Firebase"]
 - !private ["PSs9AnyObject", "authUser"]
@@ -408,4 +408,4 @@ depends-external:
 - "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
 - "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
 - "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Modules/module.modulemap"
-interface-hash: "29a69afa11a7c29cc641fcd2cfee948f"
+interface-hash: "1b2bf19d855a3aa5623c7b126108e80c"

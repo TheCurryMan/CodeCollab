@@ -12,6 +12,28 @@ import UIKit
 import MapKit
 import Firebase
 
+extension UIImage{
+    
+    func alpha(value:CGFloat)->UIImage
+    {
+        UIGraphicsBeginImageContextWithOptions(self.size, false, 0.0)
+        
+        var ctx = UIGraphicsGetCurrentContext();
+        let area = CGRect(x: 0, y: 0, width: self.size.width, height: self.size.height);
+        
+        CGContextScaleCTM(ctx, 1, -1);
+        CGContextTranslateCTM(ctx, 0, -area.size.height);
+        CGContextSetBlendMode(ctx, CGBlendMode.Multiply);
+        CGContextSetAlpha(ctx, value);
+        CGContextDrawImage(ctx, area, self.CGImage);
+        
+        var newImage = UIGraphicsGetImageFromCurrentImageContext();
+        UIGraphicsEndImageContext();
+        
+        return newImage;
+    }
+}
+
 class DetailedHackathonViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, CLLocationManagerDelegate, MKMapViewDelegate {
 
     @IBOutlet var bgimg: UIImageView!
@@ -27,6 +49,9 @@ class DetailedHackathonViewController: UIViewController, UITableViewDelegate, UI
     var name: String?
     
     var dataStr: NSString?
+    
+    @IBOutlet var hackname: UILabel!
+    
     
     @IBOutlet var mapView: MKMapView!
     
@@ -51,6 +76,8 @@ class DetailedHackathonViewController: UIViewController, UITableViewDelegate, UI
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+            
     
             mapView.delegate = self
         
@@ -65,7 +92,7 @@ class DetailedHackathonViewController: UIViewController, UITableViewDelegate, UI
             getCoordinatePoints()
         
         
-        //mapView.hidden = true
+        mapView.hidden = true
         
         tableView.delegate = self
         tableView.dataSource = self
@@ -80,12 +107,19 @@ class DetailedHackathonViewController: UIViewController, UITableViewDelegate, UI
         self.navigationController!.navigationBar.translucent = true
         self.navigationController!.view.backgroundColor = UIColor.clearColor()
         
-        bgimg.image = hackathon?.bgimage
+        bgimg.image = hackathon?.bgimage.alpha(0.5)
         mainimg.image = hackathon?.image
+        self.hackname.text = hackathon?.name
         
         var ideaRef = ref.childByAppendingPath(hackathon!.name)
         
         ideaRef.observeEventType(.Value, withBlock: { snapshot in
+            
+            self.firebaseData.removeAll()
+            
+            if snapshot.value is NSNull {
+                print("Add new ideas!")
+            } else {
             
             var data = snapshot.value.objectForKey("Ideas") as! NSString
             
@@ -102,12 +136,15 @@ class DetailedHackathonViewController: UIViewController, UITableViewDelegate, UI
             }
             print(self.firebaseData)
             self.tableView.reloadData()
+                
+            }
             
             }, withCancelBlock: { error in
                 print(error.description)
         })
+            
+            
         
-        tableView.reloadData()
 
         
     }
@@ -137,7 +174,7 @@ class DetailedHackathonViewController: UIViewController, UITableViewDelegate, UI
         var location3 = CLLocationCoordinate2D(latitude: 37.3382080, longitude: -121.8863290)
         
         let center = CLLocationCoordinate2D(latitude: location.coordinate.latitude, longitude: location.coordinate.longitude)
-        let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1))
+        let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.5, longitudeDelta: 0.5))
         createAnnotation(location2, title: "", subtitle: "")
         
         self.mapView.setRegion(region, animated: true)

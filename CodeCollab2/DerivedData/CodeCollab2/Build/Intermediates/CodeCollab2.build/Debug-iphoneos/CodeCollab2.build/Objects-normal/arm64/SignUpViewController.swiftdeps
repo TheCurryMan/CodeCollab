@@ -6,47 +6,42 @@ provides-nominal:
 provides-member:
 - ["C11CodeCollab220SignUpViewController", ""]
 provides-dynamic-lookup:
-- "touchesBegan"
-- "prepareForSegue"
-- "signup"
-- "email"
-- "ref"
-- "textFieldShouldReturn"
-- "username"
-- "signUp"
-- "fbsignup"
-- "password"
 - "viewDidLoad"
-- "merchantLogIn"
 - "didReceiveMemoryWarning"
+- "signUp"
+- "password"
 - "fbLogin"
+- "fbsignup"
+- "touchesBegan"
 - "googsignup"
+- "textFieldShouldReturn"
+- "email"
+- "signup"
+- "ref"
+- "username"
 depends-top-level:
-- !private "NSError"
-- "StringLiteralType"
-- "UITextFieldDelegate"
-- !private "!="
-- !private "Void"
-- !private "FBSDKLoginManager"
-- !private "LoginViewController"
-- "UIStoryboardSegue"
-- !private "Array"
-- "UIButton"
-- "UIViewController"
-- "Bool"
-- "Set"
-- !private "=="
-- !private "BooleanLiteralType"
-- "SignUpViewController"
-- "Firebase"
-- !private "&&"
-- "Dictionary"
-- "UITouch"
-- "AnyObject"
-- !private "print"
 - !private "FBSDKAccessToken"
-- "UITextField"
+- "StringLiteralType"
+- "Set"
+- "SignUpViewController"
+- !private "&&"
+- "Firebase"
+- "UIButton"
 - "UIEvent"
+- "UITouch"
+- !private "print"
+- "Bool"
+- !private "FBSDKLoginManager"
+- "AnyObject"
+- !private "BooleanLiteralType"
+- "UITextField"
+- "UITextFieldDelegate"
+- !private "Array"
+- !private "Void"
+- "Dictionary"
+- "UIViewController"
+- !private "!="
+- !private "NSError"
 depends-member:
 - !private ["PSs9AnyObject", "FBSDKAccessToken"]
 - !private ["PSs9AnyObject", "FBSDKLoginManager"]
@@ -58,25 +53,20 @@ depends-member:
 - !private ["PSs9AnyObject", "createUser"]
 - !private ["PSs9AnyObject", "currentAccessToken"]
 - !private ["PSs9AnyObject", "deinit"]
-- !private ["PSs9AnyObject", "destinationViewController"]
 - ["PSs9AnyObject", "didReceiveMemoryWarning"]
 - ["PSs9AnyObject", "email"]
 - !private ["PSs9AnyObject", "endEditing"]
 - ["PSs9AnyObject", "fbLogin"]
 - ["PSs9AnyObject", "fbsignup"]
 - ["PSs9AnyObject", "googsignup"]
-- !private ["PSs9AnyObject", "identifier"]
 - ["PSs9AnyObject", "init"]
 - !private ["PSs9AnyObject", "isCancelled"]
 - !private ["PSs9AnyObject", "layer"]
 - !private ["PSs9AnyObject", "localizedDescription"]
 - !private ["PSs9AnyObject", "logInWithReadPermissions"]
 - !private ["PSs9AnyObject", "logOut"]
-- !private ["PSs9AnyObject", "merchant"]
-- ["PSs9AnyObject", "merchantLogIn"]
 - ["PSs9AnyObject", "password"]
 - !private ["PSs9AnyObject", "performSegueWithIdentifier"]
-- ["PSs9AnyObject", "prepareForSegue"]
 - !private ["PSs9AnyObject", "print"]
 - !private ["PSs9AnyObject", "provider"]
 - ["PSs9AnyObject", "ref"]
@@ -117,25 +107,20 @@ depends-member:
 - !private ["PSs11CVarArgType", "cornerRadius"]
 - !private ["PSs11CVarArgType", "createUser"]
 - !private ["PSs11CVarArgType", "currentAccessToken"]
-- !private ["PSs11CVarArgType", "destinationViewController"]
 - ["PSs11CVarArgType", "didReceiveMemoryWarning"]
 - ["PSs11CVarArgType", "email"]
 - !private ["PSs11CVarArgType", "endEditing"]
 - ["PSs11CVarArgType", "fbLogin"]
 - ["PSs11CVarArgType", "fbsignup"]
 - ["PSs11CVarArgType", "googsignup"]
-- !private ["PSs11CVarArgType", "identifier"]
 - ["PSs11CVarArgType", "init"]
 - !private ["PSs11CVarArgType", "isCancelled"]
 - !private ["PSs11CVarArgType", "layer"]
 - !private ["PSs11CVarArgType", "localizedDescription"]
 - !private ["PSs11CVarArgType", "logInWithReadPermissions"]
 - !private ["PSs11CVarArgType", "logOut"]
-- !private ["PSs11CVarArgType", "merchant"]
-- ["PSs11CVarArgType", "merchantLogIn"]
 - ["PSs11CVarArgType", "password"]
 - !private ["PSs11CVarArgType", "performSegueWithIdentifier"]
-- ["PSs11CVarArgType", "prepareForSegue"]
 - !private ["PSs11CVarArgType", "print"]
 - !private ["PSs11CVarArgType", "provider"]
 - ["PSs11CVarArgType", "ref"]
@@ -180,25 +165,20 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "cornerRadius"]
 - !private ["PSs23CustomStringConvertible", "createUser"]
 - !private ["PSs23CustomStringConvertible", "currentAccessToken"]
-- !private ["PSs23CustomStringConvertible", "destinationViewController"]
 - ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
 - ["PSs23CustomStringConvertible", "email"]
 - !private ["PSs23CustomStringConvertible", "endEditing"]
 - ["PSs23CustomStringConvertible", "fbLogin"]
 - ["PSs23CustomStringConvertible", "fbsignup"]
 - ["PSs23CustomStringConvertible", "googsignup"]
-- !private ["PSs23CustomStringConvertible", "identifier"]
 - ["PSs23CustomStringConvertible", "init"]
 - !private ["PSs23CustomStringConvertible", "isCancelled"]
 - !private ["PSs23CustomStringConvertible", "layer"]
 - !private ["PSs23CustomStringConvertible", "localizedDescription"]
 - !private ["PSs23CustomStringConvertible", "logInWithReadPermissions"]
 - !private ["PSs23CustomStringConvertible", "logOut"]
-- !private ["PSs23CustomStringConvertible", "merchant"]
-- ["PSs23CustomStringConvertible", "merchantLogIn"]
 - ["PSs23CustomStringConvertible", "password"]
 - !private ["PSs23CustomStringConvertible", "performSegueWithIdentifier"]
-- ["PSs23CustomStringConvertible", "prepareForSegue"]
 - !private ["PSs23CustomStringConvertible", "print"]
 - !private ["PSs23CustomStringConvertible", "provider"]
 - ["PSs23CustomStringConvertible", "ref"]
@@ -237,25 +217,20 @@ depends-member:
 - !private ["PSs9Equatable", "cornerRadius"]
 - !private ["PSs9Equatable", "createUser"]
 - !private ["PSs9Equatable", "currentAccessToken"]
-- !private ["PSs9Equatable", "destinationViewController"]
 - ["PSs9Equatable", "didReceiveMemoryWarning"]
 - ["PSs9Equatable", "email"]
 - !private ["PSs9Equatable", "endEditing"]
 - ["PSs9Equatable", "fbLogin"]
 - ["PSs9Equatable", "fbsignup"]
 - ["PSs9Equatable", "googsignup"]
-- !private ["PSs9Equatable", "identifier"]
 - ["PSs9Equatable", "init"]
 - !private ["PSs9Equatable", "isCancelled"]
 - !private ["PSs9Equatable", "layer"]
 - !private ["PSs9Equatable", "localizedDescription"]
 - !private ["PSs9Equatable", "logInWithReadPermissions"]
 - !private ["PSs9Equatable", "logOut"]
-- !private ["PSs9Equatable", "merchant"]
-- ["PSs9Equatable", "merchantLogIn"]
 - ["PSs9Equatable", "password"]
 - !private ["PSs9Equatable", "performSegueWithIdentifier"]
-- ["PSs9Equatable", "prepareForSegue"]
 - !private ["PSs9Equatable", "print"]
 - !private ["PSs9Equatable", "provider"]
 - ["PSs9Equatable", "ref"]
@@ -313,25 +288,20 @@ depends-member:
 - !private ["PSs8Hashable", "cornerRadius"]
 - !private ["PSs8Hashable", "createUser"]
 - !private ["PSs8Hashable", "currentAccessToken"]
-- !private ["PSs8Hashable", "destinationViewController"]
 - ["PSs8Hashable", "didReceiveMemoryWarning"]
 - ["PSs8Hashable", "email"]
 - !private ["PSs8Hashable", "endEditing"]
 - ["PSs8Hashable", "fbLogin"]
 - ["PSs8Hashable", "fbsignup"]
 - ["PSs8Hashable", "googsignup"]
-- !private ["PSs8Hashable", "identifier"]
 - ["PSs8Hashable", "init"]
 - !private ["PSs8Hashable", "isCancelled"]
 - !private ["PSs8Hashable", "layer"]
 - !private ["PSs8Hashable", "localizedDescription"]
 - !private ["PSs8Hashable", "logInWithReadPermissions"]
 - !private ["PSs8Hashable", "logOut"]
-- !private ["PSs8Hashable", "merchant"]
-- ["PSs8Hashable", "merchantLogIn"]
 - ["PSs8Hashable", "password"]
 - !private ["PSs8Hashable", "performSegueWithIdentifier"]
-- ["PSs8Hashable", "prepareForSegue"]
 - !private ["PSs8Hashable", "print"]
 - !private ["PSs8Hashable", "provider"]
 - ["PSs8Hashable", "ref"]
@@ -363,7 +333,6 @@ depends-member:
 - !private ["VSs5Int32", "deinit"]
 - !private ["VSs5Int64", "deinit"]
 - !private ["VSs4Int8", "deinit"]
-- !private ["C11CodeCollab219LoginViewController", "merchant"]
 - !private ["PSs14MirrorPathType", "init"]
 - !private ["PSs21MutableCollectionType", "Element"]
 - !private ["PSs16MutableIndexable", "Element"]
@@ -382,11 +351,8 @@ depends-member:
 - ["PSo8NSCoding", "init"]
 - !private ["PSo8NSCoding", "layer"]
 - !private ["PSo8NSCoding", "localizedDescription"]
-- !private ["PSo8NSCoding", "merchant"]
-- ["PSo8NSCoding", "merchantLogIn"]
 - ["PSo8NSCoding", "password"]
 - !private ["PSo8NSCoding", "performSegueWithIdentifier"]
-- ["PSo8NSCoding", "prepareForSegue"]
 - !private ["PSo8NSCoding", "print"]
 - ["PSo8NSCoding", "ref"]
 - !private ["PSo8NSCoding", "resignFirstResponder"]
@@ -421,11 +387,8 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "fbsignup"]
 - ["PSo26NSExtensionRequestHandling", "googsignup"]
 - ["PSo26NSExtensionRequestHandling", "init"]
-- !private ["PSo26NSExtensionRequestHandling", "merchant"]
-- ["PSo26NSExtensionRequestHandling", "merchantLogIn"]
 - ["PSo26NSExtensionRequestHandling", "password"]
 - !private ["PSo26NSExtensionRequestHandling", "performSegueWithIdentifier"]
-- ["PSo26NSExtensionRequestHandling", "prepareForSegue"]
 - !private ["PSo26NSExtensionRequestHandling", "print"]
 - ["PSo26NSExtensionRequestHandling", "ref"]
 - ["PSo26NSExtensionRequestHandling", "signUp"]
@@ -448,12 +411,10 @@ depends-member:
 - !private ["CSo8NSObject", "FBSDKAccessToken"]
 - !private ["CSo8NSObject", "FBSDKLoginManager"]
 - ["CSo8NSObject", "Firebase"]
-- !private ["CSo8NSObject", "LoginViewController"]
 - !private ["CSo8NSObject", "NSError"]
 - ["CSo8NSObject", "Set"]
 - ["CSo8NSObject", "UIButton"]
 - ["CSo8NSObject", "UIEvent"]
-- ["CSo8NSObject", "UIStoryboardSegue"]
 - ["CSo8NSObject", "UITextField"]
 - ["CSo8NSObject", "UITouch"]
 - !private ["CSo8NSObject", "Void"]
@@ -464,25 +425,20 @@ depends-member:
 - !private ["CSo8NSObject", "createUser"]
 - !private ["CSo8NSObject", "currentAccessToken"]
 - !private ["CSo8NSObject", "deinit"]
-- !private ["CSo8NSObject", "destinationViewController"]
 - ["CSo8NSObject", "didReceiveMemoryWarning"]
 - ["CSo8NSObject", "email"]
 - !private ["CSo8NSObject", "endEditing"]
 - ["CSo8NSObject", "fbLogin"]
 - ["CSo8NSObject", "fbsignup"]
 - ["CSo8NSObject", "googsignup"]
-- !private ["CSo8NSObject", "identifier"]
 - ["CSo8NSObject", "init"]
 - !private ["CSo8NSObject", "isCancelled"]
 - !private ["CSo8NSObject", "layer"]
 - !private ["CSo8NSObject", "localizedDescription"]
 - !private ["CSo8NSObject", "logInWithReadPermissions"]
 - !private ["CSo8NSObject", "logOut"]
-- !private ["CSo8NSObject", "merchant"]
-- ["CSo8NSObject", "merchantLogIn"]
 - ["CSo8NSObject", "password"]
 - !private ["CSo8NSObject", "performSegueWithIdentifier"]
-- ["CSo8NSObject", "prepareForSegue"]
 - !private ["CSo8NSObject", "print"]
 - !private ["CSo8NSObject", "provider"]
 - ["CSo8NSObject", "ref"]
@@ -513,25 +469,20 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "cornerRadius"]
 - !private ["PSo16NSObjectProtocol", "createUser"]
 - !private ["PSo16NSObjectProtocol", "currentAccessToken"]
-- !private ["PSo16NSObjectProtocol", "destinationViewController"]
 - ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
 - ["PSo16NSObjectProtocol", "email"]
 - !private ["PSo16NSObjectProtocol", "endEditing"]
 - ["PSo16NSObjectProtocol", "fbLogin"]
 - ["PSo16NSObjectProtocol", "fbsignup"]
 - ["PSo16NSObjectProtocol", "googsignup"]
-- !private ["PSo16NSObjectProtocol", "identifier"]
 - ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo16NSObjectProtocol", "isCancelled"]
 - !private ["PSo16NSObjectProtocol", "layer"]
 - !private ["PSo16NSObjectProtocol", "localizedDescription"]
 - !private ["PSo16NSObjectProtocol", "logInWithReadPermissions"]
 - !private ["PSo16NSObjectProtocol", "logOut"]
-- !private ["PSo16NSObjectProtocol", "merchant"]
-- ["PSo16NSObjectProtocol", "merchantLogIn"]
 - ["PSo16NSObjectProtocol", "password"]
 - !private ["PSo16NSObjectProtocol", "performSegueWithIdentifier"]
-- ["PSo16NSObjectProtocol", "prepareForSegue"]
 - !private ["PSo16NSObjectProtocol", "print"]
 - !private ["PSo16NSObjectProtocol", "provider"]
 - ["PSo16NSObjectProtocol", "ref"]
@@ -571,12 +522,10 @@ depends-member:
 - !private ["C11CodeCollab220SignUpViewController", "FBSDKAccessToken"]
 - !private ["C11CodeCollab220SignUpViewController", "FBSDKLoginManager"]
 - ["C11CodeCollab220SignUpViewController", "Firebase"]
-- !private ["C11CodeCollab220SignUpViewController", "LoginViewController"]
 - !private ["C11CodeCollab220SignUpViewController", "NSError"]
 - ["C11CodeCollab220SignUpViewController", "Set"]
 - ["C11CodeCollab220SignUpViewController", "UIButton"]
 - ["C11CodeCollab220SignUpViewController", "UIEvent"]
-- ["C11CodeCollab220SignUpViewController", "UIStoryboardSegue"]
 - ["C11CodeCollab220SignUpViewController", "UITextField"]
 - ["C11CodeCollab220SignUpViewController", "UITouch"]
 - !private ["C11CodeCollab220SignUpViewController", "Void"]
@@ -587,10 +536,8 @@ depends-member:
 - ["C11CodeCollab220SignUpViewController", "fbsignup"]
 - ["C11CodeCollab220SignUpViewController", "googsignup"]
 - ["C11CodeCollab220SignUpViewController", "init"]
-- ["C11CodeCollab220SignUpViewController", "merchantLogIn"]
 - ["C11CodeCollab220SignUpViewController", "password"]
 - !private ["C11CodeCollab220SignUpViewController", "performSegueWithIdentifier"]
-- ["C11CodeCollab220SignUpViewController", "prepareForSegue"]
 - !private ["C11CodeCollab220SignUpViewController", "print"]
 - ["C11CodeCollab220SignUpViewController", "ref"]
 - ["C11CodeCollab220SignUpViewController", "signUp"]
@@ -630,11 +577,8 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "googsignup"]
 - ["PSo21UIAppearanceContainer", "init"]
 - !private ["PSo21UIAppearanceContainer", "layer"]
-- !private ["PSo21UIAppearanceContainer", "merchant"]
-- ["PSo21UIAppearanceContainer", "merchantLogIn"]
 - ["PSo21UIAppearanceContainer", "password"]
 - !private ["PSo21UIAppearanceContainer", "performSegueWithIdentifier"]
-- ["PSo21UIAppearanceContainer", "prepareForSegue"]
 - !private ["PSo21UIAppearanceContainer", "print"]
 - ["PSo21UIAppearanceContainer", "ref"]
 - !private ["PSo21UIAppearanceContainer", "resignFirstResponder"]
@@ -663,11 +607,8 @@ depends-member:
 - ["PSo18UIContentContainer", "fbsignup"]
 - ["PSo18UIContentContainer", "googsignup"]
 - ["PSo18UIContentContainer", "init"]
-- !private ["PSo18UIContentContainer", "merchant"]
-- ["PSo18UIContentContainer", "merchantLogIn"]
 - ["PSo18UIContentContainer", "password"]
 - !private ["PSo18UIContentContainer", "performSegueWithIdentifier"]
-- ["PSo18UIContentContainer", "prepareForSegue"]
 - !private ["PSo18UIContentContainer", "print"]
 - ["PSo18UIContentContainer", "ref"]
 - ["PSo18UIContentContainer", "signUp"]
@@ -706,11 +647,8 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "googsignup"]
 - ["PSo18UIFocusEnvironment", "init"]
 - !private ["PSo18UIFocusEnvironment", "layer"]
-- !private ["PSo18UIFocusEnvironment", "merchant"]
-- ["PSo18UIFocusEnvironment", "merchantLogIn"]
 - ["PSo18UIFocusEnvironment", "password"]
 - !private ["PSo18UIFocusEnvironment", "performSegueWithIdentifier"]
-- ["PSo18UIFocusEnvironment", "prepareForSegue"]
 - !private ["PSo18UIFocusEnvironment", "print"]
 - ["PSo18UIFocusEnvironment", "ref"]
 - !private ["PSo18UIFocusEnvironment", "resignFirstResponder"]
@@ -736,12 +674,10 @@ depends-member:
 - !private ["CSo11UIResponder", "FBSDKAccessToken"]
 - !private ["CSo11UIResponder", "FBSDKLoginManager"]
 - ["CSo11UIResponder", "Firebase"]
-- !private ["CSo11UIResponder", "LoginViewController"]
 - !private ["CSo11UIResponder", "NSError"]
 - ["CSo11UIResponder", "Set"]
 - ["CSo11UIResponder", "UIButton"]
 - ["CSo11UIResponder", "UIEvent"]
-- ["CSo11UIResponder", "UIStoryboardSegue"]
 - ["CSo11UIResponder", "UITextField"]
 - ["CSo11UIResponder", "UITouch"]
 - !private ["CSo11UIResponder", "Void"]
@@ -753,11 +689,8 @@ depends-member:
 - ["CSo11UIResponder", "googsignup"]
 - ["CSo11UIResponder", "init"]
 - !private ["CSo11UIResponder", "layer"]
-- !private ["CSo11UIResponder", "merchant"]
-- ["CSo11UIResponder", "merchantLogIn"]
 - ["CSo11UIResponder", "password"]
 - !private ["CSo11UIResponder", "performSegueWithIdentifier"]
-- ["CSo11UIResponder", "prepareForSegue"]
 - !private ["CSo11UIResponder", "print"]
 - ["CSo11UIResponder", "ref"]
 - !private ["CSo11UIResponder", "resignFirstResponder"]
@@ -784,11 +717,8 @@ depends-member:
 - ["PSo16UIStateRestoring", "fbsignup"]
 - ["PSo16UIStateRestoring", "googsignup"]
 - ["PSo16UIStateRestoring", "init"]
-- !private ["PSo16UIStateRestoring", "merchant"]
-- ["PSo16UIStateRestoring", "merchantLogIn"]
 - ["PSo16UIStateRestoring", "password"]
 - !private ["PSo16UIStateRestoring", "performSegueWithIdentifier"]
-- ["PSo16UIStateRestoring", "prepareForSegue"]
 - !private ["PSo16UIStateRestoring", "print"]
 - ["PSo16UIStateRestoring", "ref"]
 - ["PSo16UIStateRestoring", "signUp"]
@@ -805,8 +735,6 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "view"]
 - ["PSo16UIStateRestoring", "viewDidLoad"]
 - ["PSo16UIStateRestoring", ""]
-- !private ["CSo17UIStoryboardSegue", "destinationViewController"]
-- !private ["CSo17UIStoryboardSegue", "identifier"]
 - !private ["CSo11UITextField", "resignFirstResponder"]
 - !private ["CSo11UITextField", "text"]
 - !private ["PSo19UITextFieldDelegate", "FBSDKAccessToken"]
@@ -845,11 +773,8 @@ depends-member:
 - ["PSo18UITraitEnvironment", "googsignup"]
 - ["PSo18UITraitEnvironment", "init"]
 - !private ["PSo18UITraitEnvironment", "layer"]
-- !private ["PSo18UITraitEnvironment", "merchant"]
-- ["PSo18UITraitEnvironment", "merchantLogIn"]
 - ["PSo18UITraitEnvironment", "password"]
 - !private ["PSo18UITraitEnvironment", "performSegueWithIdentifier"]
-- ["PSo18UITraitEnvironment", "prepareForSegue"]
 - !private ["PSo18UITraitEnvironment", "print"]
 - ["PSo18UITraitEnvironment", "ref"]
 - !private ["PSo18UITraitEnvironment", "resignFirstResponder"]
@@ -877,27 +802,21 @@ depends-member:
 - !private ["CSo16UIViewController", "FBSDKAccessToken"]
 - !private ["CSo16UIViewController", "FBSDKLoginManager"]
 - ["CSo16UIViewController", "Firebase"]
-- !private ["CSo16UIViewController", "LoginViewController"]
 - !private ["CSo16UIViewController", "NSError"]
 - ["CSo16UIViewController", "Set"]
 - ["CSo16UIViewController", "UIButton"]
 - ["CSo16UIViewController", "UIEvent"]
-- ["CSo16UIViewController", "UIStoryboardSegue"]
 - ["CSo16UIViewController", "UITextField"]
 - ["CSo16UIViewController", "UITouch"]
 - !private ["CSo16UIViewController", "Void"]
-- !private ["CSo16UIViewController", "deinit"]
 - ["CSo16UIViewController", "didReceiveMemoryWarning"]
 - ["CSo16UIViewController", "email"]
 - ["CSo16UIViewController", "fbLogin"]
 - ["CSo16UIViewController", "fbsignup"]
 - ["CSo16UIViewController", "googsignup"]
 - ["CSo16UIViewController", "init"]
-- !private ["CSo16UIViewController", "merchant"]
-- ["CSo16UIViewController", "merchantLogIn"]
 - ["CSo16UIViewController", "password"]
 - !private ["CSo16UIViewController", "performSegueWithIdentifier"]
-- ["CSo16UIViewController", "prepareForSegue"]
 - !private ["CSo16UIViewController", "print"]
 - ["CSo16UIViewController", "ref"]
 - ["CSo16UIViewController", "signUp"]
@@ -982,7 +901,6 @@ depends-nominal:
 - !private "VSs5Int32"
 - !private "VSs5Int64"
 - !private "VSs4Int8"
-- !private "C11CodeCollab219LoginViewController"
 - !private "PSs14MirrorPathType"
 - !private "PSs21MutableCollectionType"
 - !private "PSs16MutableIndexable"
@@ -1017,7 +935,6 @@ depends-nominal:
 - !private "PSo10UIKeyInput"
 - "CSo11UIResponder"
 - "PSo16UIStateRestoring"
-- !private "CSo17UIStoryboardSegue"
 - !private "CSo11UITextField"
 - "PSo19UITextFieldDelegate"
 - !private "PSo11UITextInput"
@@ -1120,4 +1037,4 @@ depends-external:
 - "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
 - "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
 - "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Modules/module.modulemap"
-interface-hash: "ce7a8d35c29098c470853b8f57da4f7f"
+interface-hash: "e6348d06526fc546d7ce64ed105019be"

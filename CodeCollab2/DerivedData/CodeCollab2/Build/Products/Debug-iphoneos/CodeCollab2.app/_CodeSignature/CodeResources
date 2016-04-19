@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		QshEAMsNojk4/1PPkKtmGdc8mS0=
+		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
@@ -31,36 +35,9 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			milhEi91Jc9G5Z23DrFLur6XKPs=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Base.lproj/Main.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MDrKFvFWroTb0+KEbQShBcoBvo4=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			U1712hTQO6VhfJlZbIkBfgMMIN8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Frameworks/AFNetworking.framework/AFNetworking</key>
 		<data>
-		hAxYwk4uJ0ruYoKBgyyU6Bir358=
+		Qe6dGb1KkclLnn2V1xhcf1B9N/A=
 		</data>
 		<key>Frameworks/AFNetworking.framework/Info.plist</key>
 		<data>
@@ -72,7 +49,7 @@
 		</data>
 		<key>Frameworks/BDBOAuth1Manager.framework/BDBOAuth1Manager</key>
 		<data>
-		gdylJ++zyRk+imSBfXWQaXBWuMs=
+		2Iy6yWa8FZXphEXeNMzaUcKCeIE=
 		</data>
 		<key>Frameworks/BDBOAuth1Manager.framework/Info.plist</key>
 		<data>
@@ -84,7 +61,7 @@
 		</data>
 		<key>Frameworks/Bolts.framework/Bolts</key>
 		<data>
-		OyvKUs92VTpK8/fgOA+E36LLDH8=
+		Je8NyrTz93LVc64PjPW8YvzKsZk=
 		</data>
 		<key>Frameworks/Bolts.framework/Info.plist</key>
 		<data>
@@ -96,7 +73,7 @@
 		</data>
 		<key>Frameworks/FBSDKCoreKit.framework/FBSDKCoreKit</key>
 		<data>
-		vOMa4x7NjWe7Z0xRKF1rn9XefPs=
+		RvmOBAoE7ZpDw+DNN7JW8zG3lD8=
 		</data>
 		<key>Frameworks/FBSDKCoreKit.framework/Info.plist</key>
 		<data>
@@ -108,7 +85,7 @@
 		</data>
 		<key>Frameworks/FBSDKLoginKit.framework/FBSDKLoginKit</key>
 		<data>
-		by0FePEut0+KaYR26htzvsnABp0=
+		kMk9ttPjlbzCGirkvpB8Fqg1ahM=
 		</data>
 		<key>Frameworks/FBSDKLoginKit.framework/Info.plist</key>
 		<data>
@@ -120,7 +97,7 @@
 		</data>
 		<key>Frameworks/FBSDKShareKit.framework/FBSDKShareKit</key>
 		<data>
-		WAaKUmcS9GGH+FFbCPnWNfhJneU=
+		dngDTdBKINAK6EvTZdqEBjB479M=
 		</data>
 		<key>Frameworks/FBSDKShareKit.framework/Info.plist</key>
 		<data>
@@ -132,7 +109,7 @@
 		</data>
 		<key>Frameworks/Firebase.framework/Firebase</key>
 		<data>
-		ZePSSKuApAPNhlWjNCXPlXX6vjo=
+		e+5kpSYZm4+PJgfz+cF1HhITP0M=
 		</data>
 		<key>Frameworks/Firebase.framework/Info.plist</key>
 		<data>
@@ -148,7 +125,7 @@
 		</data>
 		<key>Frameworks/SwiftQRCode.framework/SwiftQRCode</key>
 		<data>
-		tRab8cLYWaGoeiDKemHEGdzZx70=
+		kM1RfrBLCm324iwhWDTGdkEqci8=
 		</data>
 		<key>Frameworks/SwiftQRCode.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -178,6 +155,10 @@
 		<data>
 		xzANn8kOc9CK4Gx1teHLahUCHKA=
 		</data>
+		<key>Frameworks/libswiftCoreLocation.dylib</key>
+		<data>
+		L5yfQ3J38WzWmPctvahYiNKV2e8=
+		</data>
 		<key>Frameworks/libswiftCoreMedia.dylib</key>
 		<data>
 		9vPC05A3aAEt77Rju2CJavelK78=
@@ -202,9 +183,61 @@
 		<data>
 		rImtCcId9S+Z2id1lxcm6U5m8bw=
 		</data>
+		<key>IdeaCardTableViewCell.nib</key>
+		<data>
+		/E2w4/vzT75sIkTVQ41NjUK/+TU=
+		</data>
 		<key>Info.plist</key>
 		<data>
-		bIuuKEZaVeTnLtyeypeSURPfUQQ=
+		6nwJwSuhXtH4CJadAUtdI0+r3U0=
+		</data>
+		<key>Main.storyboardc/Dca-iI-2hg-view-kov-pg-Yn3.nib</key>
+		<data>
+		f1KhVsczFe7IxpW3otQYaUVcxcg=
+		</data>
+		<key>Main.storyboardc/Info.plist</key>
+		<data>
+		lRspKXpgH7PwhJOKmNodL8zmil8=
+		</data>
+		<key>Main.storyboardc/UINavigationController-PQS-nu-L5R.nib</key>
+		<data>
+		EVmIiSrU0kYsI+IamcKCYJhuNeg=
+		</data>
+		<key>Main.storyboardc/UINavigationController-eDy-bu-A1g.nib</key>
+		<data>
+		GwY9Mn3rufNvSaB//oeD+LstK0Y=
+		</data>
+		<key>Main.storyboardc/UIViewController-UgX-vc-wBC.nib</key>
+		<data>
+		Tm10+YftB5NpI5caTgIZ/qvDYY0=
+		</data>
+		<key>Main.storyboardc/UIViewController-bdc-MR-89l.nib</key>
+		<data>
+		gyT4PKJfmW7ddSoiMKBGnMln3Fg=
+		</data>
+		<key>Main.storyboardc/UIViewController-nlP-ZO-F5v.nib</key>
+		<data>
+		01CtuCjylH4SS6tDRBmzmUgRl6c=
+		</data>
+		<key>Main.storyboardc/UIViewController-p2T-Rl-uqP.nib</key>
+		<data>
+		Qv6cDglRkVadgUe0Mx/Nfzp0SaM=
+		</data>
+		<key>Main.storyboardc/UgX-vc-wBC-view-D41-dj-0Pv.nib</key>
+		<data>
+		4ir1rTXSFQ3UtFdr3/bZEwGoAWk=
+		</data>
+		<key>Main.storyboardc/bdc-MR-89l-view-JgO-GB-RGK.nib</key>
+		<data>
+		YgeptZWaPRH5CCqI0ZHm9AK9ptE=
+		</data>
+		<key>Main.storyboardc/nlP-ZO-F5v-view-8bY-P4-mgO.nib</key>
+		<data>
+		h7C7zmC91sC2hnMap7ZZzpXXdPk=
+		</data>
+		<key>Main.storyboardc/p2T-Rl-uqP-view-KqP-XS-boi.nib</key>
+		<data>
+		UpYo2UR0NwcKKBbrBjuIjP2z7tc=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -217,6 +250,10 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		QshEAMsNojk4/1PPkKtmGdc8mS0=
+		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
@@ -244,36 +281,9 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			milhEi91Jc9G5Z23DrFLur6XKPs=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Base.lproj/Main.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MDrKFvFWroTb0+KEbQShBcoBvo4=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			U1712hTQO6VhfJlZbIkBfgMMIN8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Frameworks/AFNetworking.framework/AFNetworking</key>
 		<data>
-		hAxYwk4uJ0ruYoKBgyyU6Bir358=
+		Qe6dGb1KkclLnn2V1xhcf1B9N/A=
 		</data>
 		<key>Frameworks/AFNetworking.framework/Info.plist</key>
 		<data>
@@ -285,7 +295,7 @@
 		</data>
 		<key>Frameworks/BDBOAuth1Manager.framework/BDBOAuth1Manager</key>
 		<data>
-		gdylJ++zyRk+imSBfXWQaXBWuMs=
+		2Iy6yWa8FZXphEXeNMzaUcKCeIE=
 		</data>
 		<key>Frameworks/BDBOAuth1Manager.framework/Info.plist</key>
 		<data>
@@ -297,7 +307,7 @@
 		</data>
 		<key>Frameworks/Bolts.framework/Bolts</key>
 		<data>
-		OyvKUs92VTpK8/fgOA+E36LLDH8=
+		Je8NyrTz93LVc64PjPW8YvzKsZk=
 		</data>
 		<key>Frameworks/Bolts.framework/Info.plist</key>
 		<data>
@@ -309,7 +319,7 @@
 		</data>
 		<key>Frameworks/FBSDKCoreKit.framework/FBSDKCoreKit</key>
 		<data>
-		vOMa4x7NjWe7Z0xRKF1rn9XefPs=
+		RvmOBAoE7ZpDw+DNN7JW8zG3lD8=
 		</data>
 		<key>Frameworks/FBSDKCoreKit.framework/Info.plist</key>
 		<data>
@@ -321,7 +331,7 @@
 		</data>
 		<key>Frameworks/FBSDKLoginKit.framework/FBSDKLoginKit</key>
 		<data>
-		by0FePEut0+KaYR26htzvsnABp0=
+		kMk9ttPjlbzCGirkvpB8Fqg1ahM=
 		</data>
 		<key>Frameworks/FBSDKLoginKit.framework/Info.plist</key>
 		<data>
@@ -333,7 +343,7 @@
 		</data>
 		<key>Frameworks/FBSDKShareKit.framework/FBSDKShareKit</key>
 		<data>
-		WAaKUmcS9GGH+FFbCPnWNfhJneU=
+		dngDTdBKINAK6EvTZdqEBjB479M=
 		</data>
 		<key>Frameworks/FBSDKShareKit.framework/Info.plist</key>
 		<data>
@@ -345,7 +355,7 @@
 		</data>
 		<key>Frameworks/Firebase.framework/Firebase</key>
 		<data>
-		ZePSSKuApAPNhlWjNCXPlXX6vjo=
+		e+5kpSYZm4+PJgfz+cF1HhITP0M=
 		</data>
 		<key>Frameworks/Firebase.framework/Info.plist</key>
 		<data>
@@ -361,7 +371,7 @@
 		</data>
 		<key>Frameworks/SwiftQRCode.framework/SwiftQRCode</key>
 		<data>
-		tRab8cLYWaGoeiDKemHEGdzZx70=
+		kM1RfrBLCm324iwhWDTGdkEqci8=
 		</data>
 		<key>Frameworks/SwiftQRCode.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -391,6 +401,10 @@
 		<data>
 		xzANn8kOc9CK4Gx1teHLahUCHKA=
 		</data>
+		<key>Frameworks/libswiftCoreLocation.dylib</key>
+		<data>
+		L5yfQ3J38WzWmPctvahYiNKV2e8=
+		</data>
 		<key>Frameworks/libswiftCoreMedia.dylib</key>
 		<data>
 		9vPC05A3aAEt77Rju2CJavelK78=
@@ -414,6 +428,58 @@
 		<key>Frameworks/libswiftUIKit.dylib</key>
 		<data>
 		rImtCcId9S+Z2id1lxcm6U5m8bw=
+		</data>
+		<key>IdeaCardTableViewCell.nib</key>
+		<data>
+		/E2w4/vzT75sIkTVQ41NjUK/+TU=
+		</data>
+		<key>Main.storyboardc/Dca-iI-2hg-view-kov-pg-Yn3.nib</key>
+		<data>
+		f1KhVsczFe7IxpW3otQYaUVcxcg=
+		</data>
+		<key>Main.storyboardc/Info.plist</key>
+		<data>
+		lRspKXpgH7PwhJOKmNodL8zmil8=
+		</data>
+		<key>Main.storyboardc/UINavigationController-PQS-nu-L5R.nib</key>
+		<data>
+		EVmIiSrU0kYsI+IamcKCYJhuNeg=
+		</data>
+		<key>Main.storyboardc/UINavigationController-eDy-bu-A1g.nib</key>
+		<data>
+		GwY9Mn3rufNvSaB//oeD+LstK0Y=
+		</data>
+		<key>Main.storyboardc/UIViewController-UgX-vc-wBC.nib</key>
+		<data>
+		Tm10+YftB5NpI5caTgIZ/qvDYY0=
+		</data>
+		<key>Main.storyboardc/UIViewController-bdc-MR-89l.nib</key>
+		<data>
+		gyT4PKJfmW7ddSoiMKBGnMln3Fg=
+		</data>
+		<key>Main.storyboardc/UIViewController-nlP-ZO-F5v.nib</key>
+		<data>
+		01CtuCjylH4SS6tDRBmzmUgRl6c=
+		</data>
+		<key>Main.storyboardc/UIViewController-p2T-Rl-uqP.nib</key>
+		<data>
+		Qv6cDglRkVadgUe0Mx/Nfzp0SaM=
+		</data>
+		<key>Main.storyboardc/UgX-vc-wBC-view-D41-dj-0Pv.nib</key>
+		<data>
+		4ir1rTXSFQ3UtFdr3/bZEwGoAWk=
+		</data>
+		<key>Main.storyboardc/bdc-MR-89l-view-JgO-GB-RGK.nib</key>
+		<data>
+		YgeptZWaPRH5CCqI0ZHm9AK9ptE=
+		</data>
+		<key>Main.storyboardc/nlP-ZO-F5v-view-8bY-P4-mgO.nib</key>
+		<data>
+		h7C7zmC91sC2hnMap7ZZzpXXdPk=
+		</data>
+		<key>Main.storyboardc/p2T-Rl-uqP-view-KqP-XS-boi.nib</key>
+		<data>
+		UpYo2UR0NwcKKBbrBjuIjP2z7tc=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>

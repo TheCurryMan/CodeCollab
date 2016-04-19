@@ -4,102 +4,128 @@ provides-top-level:
 provides-nominal:
 - "C11CodeCollab231DetailedHackathonViewController"
 provides-member:
+- ["CSo7UIImage", ""]
 - ["C11CodeCollab231DetailedHackathonViewController", ""]
+- ["CSo7UIImage", "alpha"]
 provides-dynamic-lookup:
-- "bgimg"
-- "groupnumber"
-- "showAlert2"
-- "indexChanged"
-- "currentAmount"
 - "viewDidLoad"
-- "mapView"
-- "mapView"
-- "mapView"
-- "tableView"
-- "tableView"
-- "tableView"
-- "tableView"
-- "tableView"
-- "hackathon"
-- "mainimg"
+- "groupnumber"
+- "dataStr"
+- "firebaseData"
+- "button"
+- "showAlert2"
+- "ideatext"
+- "alpha"
+- "bgimg"
 - "getCoordinatePoints"
 - "showAlert0"
-- "firebaseData"
-- "ref"
+- "hackathon"
+- "segmentedControl"
+- "showAlert1"
+- "tableView"
+- "tableView"
+- "tableView"
+- "tableView"
+- "tableView"
+- "mapView"
+- "mapView"
+- "mapView"
 - "showAlert3"
 - "locationManager"
 - "locationManager"
 - "locationManager"
-- "segmentedControl"
-- "ideatext"
-- "createAnnotation"
+- "name"
+- "hackname"
 - "points"
 - "addIdea"
-- "button"
-- "showAlert1"
-- "dataStr"
-- "name"
+- "indexChanged"
+- "currentAmount"
+- "ref"
+- "createAnnotation"
+- "mainimg"
 depends-top-level:
-- !private "kCLLocationAccuracyBest"
 - !private "UIControlState"
-- "Person"
-- "String"
-- "MKMapView"
-- "CLLocationCoordinate2D"
-- "Hackathon"
-- "MKAnnotation"
-- "NSString"
-- "UnicodeScalarType"
-- !private "UIAlertAction"
-- "NSError"
-- "Dictionary"
-- "UISegmentedControl"
-- !private "MKPointAnnotation"
-- "UITableView"
-- !private "print"
-- !private "Void"
-- !private "MKUserLocation"
-- "MKAnnotationView"
-- !private "UIColor"
-- !private "UINib"
-- !private "UIImage"
-- "CLLocation"
 - "DetailedHackathonViewController"
-- "StringLiteralType"
-- "UITableViewCell"
+- "NSString"
 - "UIImageView"
-- !private ">"
-- "CGFloat"
 - !private "BooleanLiteralType"
-- !private "UITextField"
-- !private "UIAlertControllerStyle"
-- !private "UIAlertController"
-- "Firebase"
-- "UIControl"
-- !private "MKCoordinateSpan"
-- !private "MKPinAnnotationView"
-- !private "UIButtonType"
-- "AnyObject"
-- !private "UIBarMetrics"
+- !private "UIColor"
 - "CLLocationManager"
-- !private "MKCoordinateRegion"
-- "UITableViewDataSource"
-- "UITableViewDelegate"
-- "CLLocationManagerDelegate"
-- !private "UIAlertActionStyle"
-- !private "+"
-- "UIViewController"
-- "UIButton"
-- !private "~="
-- !private "=="
-- "NSIndexPath"
-- "MKMapViewDelegate"
-- !private "IdeaCardTableViewCell"
+- !private "-"
+- !private "UIGraphicsGetImageFromCurrentImageContext"
 - "Int"
+- !private "MKPinAnnotationView"
+- !private "~="
+- !private "UIAlertActionStyle"
+- !private "UIGraphicsEndImageContext"
+- "CLLocationCoordinate2D"
+- !private "CGContextTranslateCTM"
+- "MKAnnotationView"
+- "UIControl"
+- "NSIndexPath"
+- "StringLiteralType"
+- !private "UIGraphicsGetCurrentContext"
+- "Hackathon"
+- !private "CGBlendMode"
+- !private "+"
+- !private "MKUserLocation"
+- !private "CGContextSetBlendMode"
+- "CLLocationManagerDelegate"
+- !private "UINib"
+- "CLLocation"
+- "UITableViewDataSource"
+- "UILabel"
+- "CGFloat"
+- "UITableView"
+- "UITableViewDelegate"
+- "AnyObject"
+- !private "CGRect"
+- "MKMapView"
+- !private "NSNull"
+- !private "IdeaCardTableViewCell"
+- !private "CGContextSetAlpha"
+- "UISegmentedControl"
+- "UIViewController"
+- "MKAnnotation"
+- "Firebase"
+- !private "UIAlertController"
+- "Person"
+- "UnicodeScalarType"
+- "NSError"
+- !private "MKCoordinateSpan"
+- !private "UITextField"
+- "MKMapViewDelegate"
+- !private "kCLLocationAccuracyBest"
+- !private "UIButtonType"
+- "Dictionary"
+- !private "UIGraphicsBeginImageContextWithOptions"
+- "UIButton"
+- "UITableViewCell"
+- !private ">"
+- !private "UIBarMetrics"
+- !private "CGContextDrawImage"
+- !private "print"
+- !private "UIAlertControllerStyle"
+- !private "MKCoordinateRegion"
+- !private "Void"
+- !private "MKPointAnnotation"
+- !private "UIAlertAction"
+- "String"
+- "UIImage"
+- !private "=="
+- !private "CGContextScaleCTM"
 depends-member:
 - !private ["PSs16AbsoluteValuable", "IntegerLiteralType"]
 - !private ["PSs16AbsoluteValuable", "Stride"]
 - !private ["PSs16AbsoluteValuable", "init"]
+- !private ["PSs9AnyObject", "CGBlendMode"]
+- !private ["PSs9AnyObject", "CGContextDrawImage"]
+- !private ["PSs9AnyObject", "CGContextScaleCTM"]
+- !private ["PSs9AnyObject", "CGContextSetAlpha"]
+- !private ["PSs9AnyObject", "CGContextSetBlendMode"]
+- !private ["PSs9AnyObject", "CGContextTranslateCTM"]
+- !private ["PSs9AnyObject", "CGImage"]
+- !private ["PSs9AnyObject", "CGRect"]
 - !private ["PSs9AnyObject", "CLLocationCoordinate2D"]
 - ["PSs9AnyObject", "CLLocationManager"]
 - ["PSs9AnyObject", "Firebase"]
@@ -118,6 +144,10 @@ depends-member:
 - !private ["PSs9AnyObject", "UIButtonType"]
 - !private ["PSs9AnyObject", "UIColor"]
 - !private ["PSs9AnyObject", "UIControlState"]
+- !private ["PSs9AnyObject", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["PSs9AnyObject", "UIGraphicsEndImageContext"]
+- !private ["PSs9AnyObject", "UIGraphicsGetCurrentContext"]
+- !private ["PSs9AnyObject", "UIGraphicsGetImageFromCurrentImageContext"]
 - !private ["PSs9AnyObject", "UIImage"]
 - !private ["PSs9AnyObject", "UINib"]
 - !private ["PSs9AnyObject", "addAction"]
@@ -125,6 +155,7 @@ depends-member:
 - !private ["PSs9AnyObject", "addAnnotations"]
 - ["PSs9AnyObject", "addIdea"]
 - !private ["PSs9AnyObject", "addTextFieldWithConfigurationHandler"]
+- ["PSs9AnyObject", "alpha"]
 - !private ["PSs9AnyObject", "animatesDrop"]
 - !private ["PSs9AnyObject", "annotation"]
 - !private ["PSs9AnyObject", "backgroundColor"]
@@ -152,6 +183,7 @@ depends-member:
 - ["PSs9AnyObject", "groupnumber"]
 - ["PSs9AnyObject", "hackathon"]
 - ["PSs9AnyObject", "hackathonIndex"]
+- ["PSs9AnyObject", "hackname"]
 - !private ["PSs9AnyObject", "hidden"]
 - !private ["PSs9AnyObject", "idea"]
 - ["PSs9AnyObject", "ideatext"]
@@ -214,6 +246,7 @@ depends-member:
 - ["PSs9AnyObject", "showAlert2"]
 - ["PSs9AnyObject", "showAlert3"]
 - !private ["PSs9AnyObject", "showsUserLocation"]
+- !private ["PSs9AnyObject", "size"]
 - !private ["PSs9AnyObject", "startUpdatingLocation"]
 - !private ["PSs9AnyObject", "stopUpdatingLocation"]
 - !private ["PSs9AnyObject", "subtitle"]
@@ -237,6 +270,7 @@ depends-member:
 - !private ["Sa", "deinit"]
 - ["Sa", "init"]
 - !private ["Sa", "last"]
+- !private ["Sa", "removeAll"]
 - !private ["Sa", "subscript"]
 - !private ["PSs23ArrayLiteralConvertible", "Generator"]
 - !private ["PSs23ArrayLiteralConvertible", "Index"]
@@ -247,6 +281,7 @@ depends-member:
 - !private ["PSs23ArrayLiteralConvertible", "count"]
 - ["PSs23ArrayLiteralConvertible", "init"]
 - !private ["PSs23ArrayLiteralConvertible", "last"]
+- !private ["PSs23ArrayLiteralConvertible", "removeAll"]
 - !private ["PSs23ArrayLiteralConvertible", "subscript"]
 - !private ["VSs10ArraySlice", "Generator"]
 - !private ["VSs10ArraySlice", "Index"]
@@ -264,10 +299,15 @@ depends-member:
 - !private ["Sb", "deinit"]
 - !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
 - !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["OSC11CGBlendMode", "Multiply"]
 - !private ["V12CoreGraphics7CGFloat", "IntegerLiteralType"]
 - !private ["V12CoreGraphics7CGFloat", "Stride"]
 - !private ["V12CoreGraphics7CGFloat", "deinit"]
 - !private ["V12CoreGraphics7CGFloat", "init"]
+- !private ["VSC6CGRect", "init"]
+- !private ["VSC6CGRect", "size"]
+- !private ["VSC6CGSize", "height"]
+- !private ["VSC6CGSize", "width"]
 - !private ["CSo10CLLocation", "coordinate"]
 - !private ["VSC22CLLocationCoordinate2D", "init"]
 - !private ["VSC22CLLocationCoordinate2D", "latitude"]
@@ -307,6 +347,7 @@ depends-member:
 - !private ["PSo25CLLocationManagerDelegate", "getCoordinatePoints"]
 - !private ["PSo25CLLocationManagerDelegate", "groupnumber"]
 - !private ["PSo25CLLocationManagerDelegate", "hackathon"]
+- !private ["PSo25CLLocationManagerDelegate", "hackname"]
 - !private ["PSo25CLLocationManagerDelegate", "ideatext"]
 - ["PSo25CLLocationManagerDelegate", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["PSo25CLLocationManagerDelegate", "kCLLocationAccuracyBest"]
@@ -351,6 +392,14 @@ depends-member:
 - ["PSo25CLLocationManagerDelegate", "tableView"]
 - ["PSo25CLLocationManagerDelegate", "viewForZoomingInScrollView"]
 - ["PSo25CLLocationManagerDelegate", ""]
+- !private ["PSs11CVarArgType", "CGBlendMode"]
+- !private ["PSs11CVarArgType", "CGContextDrawImage"]
+- !private ["PSs11CVarArgType", "CGContextScaleCTM"]
+- !private ["PSs11CVarArgType", "CGContextSetAlpha"]
+- !private ["PSs11CVarArgType", "CGContextSetBlendMode"]
+- !private ["PSs11CVarArgType", "CGContextTranslateCTM"]
+- !private ["PSs11CVarArgType", "CGImage"]
+- !private ["PSs11CVarArgType", "CGRect"]
 - !private ["PSs11CVarArgType", "CLLocationCoordinate2D"]
 - ["PSs11CVarArgType", "CLLocationManager"]
 - !private ["PSs11CVarArgType", "Distance"]
@@ -372,6 +421,10 @@ depends-member:
 - !private ["PSs11CVarArgType", "UIButtonType"]
 - !private ["PSs11CVarArgType", "UIColor"]
 - !private ["PSs11CVarArgType", "UIControlState"]
+- !private ["PSs11CVarArgType", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["PSs11CVarArgType", "UIGraphicsEndImageContext"]
+- !private ["PSs11CVarArgType", "UIGraphicsGetCurrentContext"]
+- !private ["PSs11CVarArgType", "UIGraphicsGetImageFromCurrentImageContext"]
 - !private ["PSs11CVarArgType", "UIImage"]
 - !private ["PSs11CVarArgType", "UINib"]
 - !private ["PSs11CVarArgType", "_DisallowMixedSignArithmetic"]
@@ -380,6 +433,7 @@ depends-member:
 - !private ["PSs11CVarArgType", "addAnnotations"]
 - ["PSs11CVarArgType", "addIdea"]
 - !private ["PSs11CVarArgType", "addTextFieldWithConfigurationHandler"]
+- ["PSs11CVarArgType", "alpha"]
 - !private ["PSs11CVarArgType", "animatesDrop"]
 - !private ["PSs11CVarArgType", "annotation"]
 - !private ["PSs11CVarArgType", "backgroundColor"]
@@ -406,6 +460,7 @@ depends-member:
 - ["PSs11CVarArgType", "groupnumber"]
 - ["PSs11CVarArgType", "hackathon"]
 - ["PSs11CVarArgType", "hackathonIndex"]
+- ["PSs11CVarArgType", "hackname"]
 - !private ["PSs11CVarArgType", "hidden"]
 - !private ["PSs11CVarArgType", "idea"]
 - ["PSs11CVarArgType", "ideatext"]
@@ -467,6 +522,7 @@ depends-member:
 - ["PSs11CVarArgType", "showAlert2"]
 - ["PSs11CVarArgType", "showAlert3"]
 - !private ["PSs11CVarArgType", "showsUserLocation"]
+- !private ["PSs11CVarArgType", "size"]
 - !private ["PSs11CVarArgType", "startUpdatingLocation"]
 - !private ["PSs11CVarArgType", "stopUpdatingLocation"]
 - !private ["PSs11CVarArgType", "subtitle"]
@@ -492,6 +548,7 @@ depends-member:
 - !private ["PSs14CollectionType", "count"]
 - ["PSs14CollectionType", "init"]
 - !private ["PSs14CollectionType", "last"]
+- !private ["PSs14CollectionType", "removeAll"]
 - !private ["PSs14CollectionType", "subscript"]
 - !private ["PSs10Comparable", "Distance"]
 - !private ["PSs10Comparable", "IntegerLiteralType"]
@@ -511,7 +568,16 @@ depends-member:
 - !private ["PSs28CustomDebugStringConvertible", "count"]
 - ["PSs28CustomDebugStringConvertible", "init"]
 - !private ["PSs28CustomDebugStringConvertible", "last"]
+- !private ["PSs28CustomDebugStringConvertible", "removeAll"]
 - !private ["PSs28CustomDebugStringConvertible", "subscript"]
+- !private ["PSs23CustomStringConvertible", "CGBlendMode"]
+- !private ["PSs23CustomStringConvertible", "CGContextDrawImage"]
+- !private ["PSs23CustomStringConvertible", "CGContextScaleCTM"]
+- !private ["PSs23CustomStringConvertible", "CGContextSetAlpha"]
+- !private ["PSs23CustomStringConvertible", "CGContextSetBlendMode"]
+- !private ["PSs23CustomStringConvertible", "CGContextTranslateCTM"]
+- !private ["PSs23CustomStringConvertible", "CGImage"]
+- !private ["PSs23CustomStringConvertible", "CGRect"]
 - !private ["PSs23CustomStringConvertible", "CLLocationCoordinate2D"]
 - ["PSs23CustomStringConvertible", "CLLocationManager"]
 - !private ["PSs23CustomStringConvertible", "Distance"]
@@ -537,6 +603,10 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "UIButtonType"]
 - !private ["PSs23CustomStringConvertible", "UIColor"]
 - !private ["PSs23CustomStringConvertible", "UIControlState"]
+- !private ["PSs23CustomStringConvertible", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["PSs23CustomStringConvertible", "UIGraphicsEndImageContext"]
+- !private ["PSs23CustomStringConvertible", "UIGraphicsGetCurrentContext"]
+- !private ["PSs23CustomStringConvertible", "UIGraphicsGetImageFromCurrentImageContext"]
 - !private ["PSs23CustomStringConvertible", "UIImage"]
 - !private ["PSs23CustomStringConvertible", "UINib"]
 - !private ["PSs23CustomStringConvertible", "Value"]
@@ -548,6 +618,7 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "addAnnotations"]
 - ["PSs23CustomStringConvertible", "addIdea"]
 - !private ["PSs23CustomStringConvertible", "addTextFieldWithConfigurationHandler"]
+- ["PSs23CustomStringConvertible", "alpha"]
 - !private ["PSs23CustomStringConvertible", "animatesDrop"]
 - !private ["PSs23CustomStringConvertible", "annotation"]
 - !private ["PSs23CustomStringConvertible", "append"]
@@ -576,6 +647,7 @@ depends-member:
 - ["PSs23CustomStringConvertible", "groupnumber"]
 - ["PSs23CustomStringConvertible", "hackathon"]
 - ["PSs23CustomStringConvertible", "hackathonIndex"]
+- ["PSs23CustomStringConvertible", "hackname"]
 - !private ["PSs23CustomStringConvertible", "hidden"]
 - !private ["PSs23CustomStringConvertible", "idea"]
 - ["PSs23CustomStringConvertible", "ideatext"]
@@ -612,6 +684,7 @@ depends-member:
 - ["PSs23CustomStringConvertible", "ref"]
 - !private ["PSs23CustomStringConvertible", "registerNib"]
 - !private ["PSs23CustomStringConvertible", "reloadData"]
+- !private ["PSs23CustomStringConvertible", "removeAll"]
 - !private ["PSs23CustomStringConvertible", "requestWhenInUseAuthorization"]
 - !private ["PSs23CustomStringConvertible", "row"]
 - ["PSs23CustomStringConvertible", "scrollViewDidEndDecelerating"]
@@ -638,6 +711,7 @@ depends-member:
 - ["PSs23CustomStringConvertible", "showAlert2"]
 - ["PSs23CustomStringConvertible", "showAlert3"]
 - !private ["PSs23CustomStringConvertible", "showsUserLocation"]
+- !private ["PSs23CustomStringConvertible", "size"]
 - !private ["PSs23CustomStringConvertible", "startUpdatingLocation"]
 - !private ["PSs23CustomStringConvertible", "stopUpdatingLocation"]
 - !private ["PSs23CustomStringConvertible", "subscript"]
@@ -672,6 +746,7 @@ depends-member:
 - !private ["C11CodeCollab231DetailedHackathonViewController", "MKUserLocation"]
 - ["C11CodeCollab231DetailedHackathonViewController", "NSError"]
 - ["C11CodeCollab231DetailedHackathonViewController", "NSIndexPath"]
+- !private ["C11CodeCollab231DetailedHackathonViewController", "NSNull"]
 - ["C11CodeCollab231DetailedHackathonViewController", "NSString"]
 - ["C11CodeCollab231DetailedHackathonViewController", "Person"]
 - ["C11CodeCollab231DetailedHackathonViewController", "String"]
@@ -687,6 +762,7 @@ depends-member:
 - !private ["C11CodeCollab231DetailedHackathonViewController", "UIControlState"]
 - !private ["C11CodeCollab231DetailedHackathonViewController", "UIImage"]
 - ["C11CodeCollab231DetailedHackathonViewController", "UIImageView"]
+- ["C11CodeCollab231DetailedHackathonViewController", "UILabel"]
 - !private ["C11CodeCollab231DetailedHackathonViewController", "UINib"]
 - ["C11CodeCollab231DetailedHackathonViewController", "UISegmentedControl"]
 - ["C11CodeCollab231DetailedHackathonViewController", "UITableView"]
@@ -705,6 +781,7 @@ depends-member:
 - ["C11CodeCollab231DetailedHackathonViewController", "groupnumber"]
 - ["C11CodeCollab231DetailedHackathonViewController", "hackathon"]
 - ["C11CodeCollab231DetailedHackathonViewController", "hackathonIndex"]
+- ["C11CodeCollab231DetailedHackathonViewController", "hackname"]
 - ["C11CodeCollab231DetailedHackathonViewController", "ideatext"]
 - ["C11CodeCollab231DetailedHackathonViewController", "indexChanged"]
 - ["C11CodeCollab231DetailedHackathonViewController", "indexPathForPreferredFocusedViewInTableView"]
@@ -760,6 +837,14 @@ depends-member:
 - !private ["Sd", "deinit"]
 - !private ["Sd", "init"]
 - !private ["PSs9Equatable", "Alert"]
+- !private ["PSs9Equatable", "CGBlendMode"]
+- !private ["PSs9Equatable", "CGContextDrawImage"]
+- !private ["PSs9Equatable", "CGContextScaleCTM"]
+- !private ["PSs9Equatable", "CGContextSetAlpha"]
+- !private ["PSs9Equatable", "CGContextSetBlendMode"]
+- !private ["PSs9Equatable", "CGContextTranslateCTM"]
+- !private ["PSs9Equatable", "CGImage"]
+- !private ["PSs9Equatable", "CGRect"]
 - !private ["PSs9Equatable", "CLLocationCoordinate2D"]
 - ["PSs9Equatable", "CLLocationManager"]
 - !private ["PSs9Equatable", "Cancel"]
@@ -772,6 +857,7 @@ depends-member:
 - !private ["PSs9Equatable", "MKCoordinateSpan"]
 - !private ["PSs9Equatable", "MKPinAnnotationView"]
 - !private ["PSs9Equatable", "MKPointAnnotation"]
+- !private ["PSs9Equatable", "Multiply"]
 - !private ["PSs9Equatable", "Normal"]
 - !private ["PSs9Equatable", "Person"]
 - !private ["PSs9Equatable", "Purple"]
@@ -786,6 +872,10 @@ depends-member:
 - !private ["PSs9Equatable", "UIButtonType"]
 - !private ["PSs9Equatable", "UIColor"]
 - !private ["PSs9Equatable", "UIControlState"]
+- !private ["PSs9Equatable", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["PSs9Equatable", "UIGraphicsEndImageContext"]
+- !private ["PSs9Equatable", "UIGraphicsGetCurrentContext"]
+- !private ["PSs9Equatable", "UIGraphicsGetImageFromCurrentImageContext"]
 - !private ["PSs9Equatable", "UIImage"]
 - !private ["PSs9Equatable", "UINib"]
 - !private ["PSs9Equatable", "Value"]
@@ -796,6 +886,7 @@ depends-member:
 - !private ["PSs9Equatable", "addAnnotations"]
 - ["PSs9Equatable", "addIdea"]
 - !private ["PSs9Equatable", "addTextFieldWithConfigurationHandler"]
+- ["PSs9Equatable", "alpha"]
 - !private ["PSs9Equatable", "animatesDrop"]
 - !private ["PSs9Equatable", "annotation"]
 - !private ["PSs9Equatable", "backgroundColor"]
@@ -822,6 +913,8 @@ depends-member:
 - ["PSs9Equatable", "groupnumber"]
 - ["PSs9Equatable", "hackathon"]
 - ["PSs9Equatable", "hackathonIndex"]
+- ["PSs9Equatable", "hackname"]
+- !private ["PSs9Equatable", "height"]
 - !private ["PSs9Equatable", "hidden"]
 - !private ["PSs9Equatable", "idea"]
 - ["PSs9Equatable", "ideatext"]
@@ -883,6 +976,7 @@ depends-member:
 - ["PSs9Equatable", "showAlert2"]
 - ["PSs9Equatable", "showAlert3"]
 - !private ["PSs9Equatable", "showsUserLocation"]
+- !private ["PSs9Equatable", "size"]
 - !private ["PSs9Equatable", "startUpdatingLocation"]
 - !private ["PSs9Equatable", "stopUpdatingLocation"]
 - !private ["PSs9Equatable", "subtitle"]
@@ -896,6 +990,7 @@ depends-member:
 - !private ["PSs9Equatable", "view"]
 - ["PSs9Equatable", "viewDidLoad"]
 - ["PSs9Equatable", "viewForZoomingInScrollView"]
+- !private ["PSs9Equatable", "width"]
 - ["PSs9Equatable", ""]
 - !private ["PSs9ErrorType", "description"]
 - !private ["PSs9ErrorType", "localizedDescription"]
@@ -936,6 +1031,14 @@ depends-member:
 - !private ["C11CodeCollab29Hackathon", "image"]
 - !private ["C11CodeCollab29Hackathon", "name"]
 - !private ["PSs8Hashable", "Alert"]
+- !private ["PSs8Hashable", "CGBlendMode"]
+- !private ["PSs8Hashable", "CGContextDrawImage"]
+- !private ["PSs8Hashable", "CGContextScaleCTM"]
+- !private ["PSs8Hashable", "CGContextSetAlpha"]
+- !private ["PSs8Hashable", "CGContextSetBlendMode"]
+- !private ["PSs8Hashable", "CGContextTranslateCTM"]
+- !private ["PSs8Hashable", "CGImage"]
+- !private ["PSs8Hashable", "CGRect"]
 - !private ["PSs8Hashable", "CLLocationCoordinate2D"]
 - ["PSs8Hashable", "CLLocationManager"]
 - !private ["PSs8Hashable", "Cancel"]
@@ -948,6 +1051,7 @@ depends-member:
 - !private ["PSs8Hashable", "MKCoordinateSpan"]
 - !private ["PSs8Hashable", "MKPinAnnotationView"]
 - !private ["PSs8Hashable", "MKPointAnnotation"]
+- !private ["PSs8Hashable", "Multiply"]
 - !private ["PSs8Hashable", "Person"]
 - !private ["PSs8Hashable", "Purple"]
 - !private ["PSs8Hashable", "Stride"]
@@ -961,6 +1065,10 @@ depends-member:
 - !private ["PSs8Hashable", "UIButtonType"]
 - !private ["PSs8Hashable", "UIColor"]
 - !private ["PSs8Hashable", "UIControlState"]
+- !private ["PSs8Hashable", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["PSs8Hashable", "UIGraphicsEndImageContext"]
+- !private ["PSs8Hashable", "UIGraphicsGetCurrentContext"]
+- !private ["PSs8Hashable", "UIGraphicsGetImageFromCurrentImageContext"]
 - !private ["PSs8Hashable", "UIImage"]
 - !private ["PSs8Hashable", "UINib"]
 - !private ["PSs8Hashable", "Value"]
@@ -971,6 +1079,7 @@ depends-member:
 - !private ["PSs8Hashable", "addAnnotations"]
 - ["PSs8Hashable", "addIdea"]
 - !private ["PSs8Hashable", "addTextFieldWithConfigurationHandler"]
+- ["PSs8Hashable", "alpha"]
 - !private ["PSs8Hashable", "animatesDrop"]
 - !private ["PSs8Hashable", "annotation"]
 - !private ["PSs8Hashable", "backgroundColor"]
@@ -997,6 +1106,7 @@ depends-member:
 - ["PSs8Hashable", "groupnumber"]
 - ["PSs8Hashable", "hackathon"]
 - ["PSs8Hashable", "hackathonIndex"]
+- ["PSs8Hashable", "hackname"]
 - !private ["PSs8Hashable", "hidden"]
 - !private ["PSs8Hashable", "idea"]
 - ["PSs8Hashable", "ideatext"]
@@ -1058,6 +1168,7 @@ depends-member:
 - ["PSs8Hashable", "showAlert2"]
 - ["PSs8Hashable", "showAlert3"]
 - !private ["PSs8Hashable", "showsUserLocation"]
+- !private ["PSs8Hashable", "size"]
 - !private ["PSs8Hashable", "startUpdatingLocation"]
 - !private ["PSs8Hashable", "stopUpdatingLocation"]
 - !private ["PSs8Hashable", "subtitle"]
@@ -1086,6 +1197,7 @@ depends-member:
 - !private ["PSs9Indexable", "count"]
 - ["PSs9Indexable", "init"]
 - !private ["PSs9Indexable", "last"]
+- !private ["PSs9Indexable", "removeAll"]
 - !private ["PSs9Indexable", "subscript"]
 - !private ["VSs17IndexingGenerator", "Element"]
 - !private ["Si", "Distance"]
@@ -1179,6 +1291,7 @@ depends-member:
 - !private ["PSo17MKMapViewDelegate", "getCoordinatePoints"]
 - !private ["PSo17MKMapViewDelegate", "groupnumber"]
 - !private ["PSo17MKMapViewDelegate", "hackathon"]
+- !private ["PSo17MKMapViewDelegate", "hackname"]
 - !private ["PSo17MKMapViewDelegate", "ideatext"]
 - ["PSo17MKMapViewDelegate", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["PSo17MKMapViewDelegate", "kCLLocationAccuracyBest"]
@@ -1252,6 +1365,7 @@ depends-member:
 - !private ["PSs21MutableCollectionType", "count"]
 - ["PSs21MutableCollectionType", "init"]
 - !private ["PSs21MutableCollectionType", "last"]
+- !private ["PSs21MutableCollectionType", "removeAll"]
 - !private ["PSs21MutableCollectionType", "subscript"]
 - !private ["PSs16MutableIndexable", "Generator"]
 - !private ["PSs16MutableIndexable", "Index"]
@@ -1261,6 +1375,7 @@ depends-member:
 - !private ["PSs16MutableIndexable", "count"]
 - ["PSs16MutableIndexable", "init"]
 - !private ["PSs16MutableIndexable", "last"]
+- !private ["PSs16MutableIndexable", "removeAll"]
 - !private ["PSs16MutableIndexable", "subscript"]
 - !private ["PSs16MutableSliceable", "Generator"]
 - !private ["PSs16MutableSliceable", "Index"]
@@ -1270,7 +1385,16 @@ depends-member:
 - !private ["PSs16MutableSliceable", "count"]
 - ["PSs16MutableSliceable", "init"]
 - !private ["PSs16MutableSliceable", "last"]
+- !private ["PSs16MutableSliceable", "removeAll"]
 - !private ["PSs16MutableSliceable", "subscript"]
+- !private ["PSo8NSCoding", "CGBlendMode"]
+- !private ["PSo8NSCoding", "CGContextDrawImage"]
+- !private ["PSo8NSCoding", "CGContextScaleCTM"]
+- !private ["PSo8NSCoding", "CGContextSetAlpha"]
+- !private ["PSo8NSCoding", "CGContextSetBlendMode"]
+- !private ["PSo8NSCoding", "CGContextTranslateCTM"]
+- !private ["PSo8NSCoding", "CGImage"]
+- !private ["PSo8NSCoding", "CGRect"]
 - !private ["PSo8NSCoding", "CLLocationCoordinate2D"]
 - ["PSo8NSCoding", "CLLocationManager"]
 - ["PSo8NSCoding", "Firebase"]
@@ -1289,6 +1413,10 @@ depends-member:
 - !private ["PSo8NSCoding", "UIButtonType"]
 - !private ["PSo8NSCoding", "UIColor"]
 - !private ["PSo8NSCoding", "UIControlState"]
+- !private ["PSo8NSCoding", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["PSo8NSCoding", "UIGraphicsEndImageContext"]
+- !private ["PSo8NSCoding", "UIGraphicsGetCurrentContext"]
+- !private ["PSo8NSCoding", "UIGraphicsGetImageFromCurrentImageContext"]
 - !private ["PSo8NSCoding", "UIImage"]
 - !private ["PSo8NSCoding", "UINib"]
 - !private ["PSo8NSCoding", "addAction"]
@@ -1296,6 +1424,7 @@ depends-member:
 - !private ["PSo8NSCoding", "addAnnotations"]
 - ["PSo8NSCoding", "addIdea"]
 - !private ["PSo8NSCoding", "addTextFieldWithConfigurationHandler"]
+- !private ["PSo8NSCoding", "alpha"]
 - !private ["PSo8NSCoding", "animatesDrop"]
 - !private ["PSo8NSCoding", "annotation"]
 - !private ["PSo8NSCoding", "backgroundColor"]
@@ -1319,6 +1448,7 @@ depends-member:
 - ["PSo8NSCoding", "groupnumber"]
 - ["PSo8NSCoding", "hackathon"]
 - ["PSo8NSCoding", "hackathonIndex"]
+- ["PSo8NSCoding", "hackname"]
 - !private ["PSo8NSCoding", "hidden"]
 - !private ["PSo8NSCoding", "idea"]
 - ["PSo8NSCoding", "ideatext"]
@@ -1378,6 +1508,7 @@ depends-member:
 - ["PSo8NSCoding", "showAlert2"]
 - ["PSo8NSCoding", "showAlert3"]
 - !private ["PSo8NSCoding", "showsUserLocation"]
+- !private ["PSo8NSCoding", "size"]
 - ["PSo8NSCoding", "tableView"]
 - !private ["PSo8NSCoding", "text"]
 - !private ["PSo8NSCoding", "textFields"]
@@ -1428,6 +1559,7 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "groupnumber"]
 - ["PSo26NSExtensionRequestHandling", "hackathon"]
 - ["PSo26NSExtensionRequestHandling", "hackathonIndex"]
+- ["PSo26NSExtensionRequestHandling", "hackname"]
 - ["PSo26NSExtensionRequestHandling", "ideatext"]
 - ["PSo26NSExtensionRequestHandling", "indexChanged"]
 - ["PSo26NSExtensionRequestHandling", "indexPathForPreferredFocusedViewInTableView"]
@@ -1483,7 +1615,15 @@ depends-member:
 - !private ["PSo16NSMutableCopying", "init"]
 - !private ["CSo8NSNumber", "deinit"]
 - ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "CGBlendMode"]
+- !private ["CSo8NSObject", "CGContextDrawImage"]
+- !private ["CSo8NSObject", "CGContextScaleCTM"]
+- !private ["CSo8NSObject", "CGContextSetAlpha"]
+- !private ["CSo8NSObject", "CGContextSetBlendMode"]
+- !private ["CSo8NSObject", "CGContextTranslateCTM"]
 - ["CSo8NSObject", "CGFloat"]
+- !private ["CSo8NSObject", "CGImage"]
+- !private ["CSo8NSObject", "CGRect"]
 - ["CSo8NSObject", "CLLocation"]
 - ["CSo8NSObject", "CLLocationCoordinate2D"]
 - ["CSo8NSObject", "CLLocationManager"]
@@ -1501,6 +1641,7 @@ depends-member:
 - !private ["CSo8NSObject", "MKUserLocation"]
 - ["CSo8NSObject", "NSError"]
 - ["CSo8NSObject", "NSIndexPath"]
+- !private ["CSo8NSObject", "NSNull"]
 - ["CSo8NSObject", "NSString"]
 - ["CSo8NSObject", "Person"]
 - ["CSo8NSObject", "String"]
@@ -1514,8 +1655,13 @@ depends-member:
 - !private ["CSo8NSObject", "UIColor"]
 - ["CSo8NSObject", "UIControl"]
 - !private ["CSo8NSObject", "UIControlState"]
-- !private ["CSo8NSObject", "UIImage"]
+- !private ["CSo8NSObject", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["CSo8NSObject", "UIGraphicsEndImageContext"]
+- !private ["CSo8NSObject", "UIGraphicsGetCurrentContext"]
+- !private ["CSo8NSObject", "UIGraphicsGetImageFromCurrentImageContext"]
+- ["CSo8NSObject", "UIImage"]
 - ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
 - !private ["CSo8NSObject", "UINib"]
 - ["CSo8NSObject", "UISegmentedControl"]
 - ["CSo8NSObject", "UITableView"]
@@ -1527,6 +1673,7 @@ depends-member:
 - !private ["CSo8NSObject", "addAnnotations"]
 - ["CSo8NSObject", "addIdea"]
 - !private ["CSo8NSObject", "addTextFieldWithConfigurationHandler"]
+- ["CSo8NSObject", "alpha"]
 - !private ["CSo8NSObject", "animatesDrop"]
 - !private ["CSo8NSObject", "annotation"]
 - !private ["CSo8NSObject", "backgroundColor"]
@@ -1554,6 +1701,7 @@ depends-member:
 - ["CSo8NSObject", "groupnumber"]
 - ["CSo8NSObject", "hackathon"]
 - ["CSo8NSObject", "hackathonIndex"]
+- ["CSo8NSObject", "hackname"]
 - !private ["CSo8NSObject", "hidden"]
 - !private ["CSo8NSObject", "idea"]
 - ["CSo8NSObject", "ideatext"]
@@ -1615,6 +1763,7 @@ depends-member:
 - ["CSo8NSObject", "showAlert2"]
 - ["CSo8NSObject", "showAlert3"]
 - !private ["CSo8NSObject", "showsUserLocation"]
+- !private ["CSo8NSObject", "size"]
 - !private ["CSo8NSObject", "startUpdatingLocation"]
 - !private ["CSo8NSObject", "stopUpdatingLocation"]
 - !private ["CSo8NSObject", "subtitle"]
@@ -1628,6 +1777,14 @@ depends-member:
 - !private ["CSo8NSObject", "view"]
 - ["CSo8NSObject", "viewDidLoad"]
 - ["CSo8NSObject", "viewForZoomingInScrollView"]
+- !private ["PSo16NSObjectProtocol", "CGBlendMode"]
+- !private ["PSo16NSObjectProtocol", "CGContextDrawImage"]
+- !private ["PSo16NSObjectProtocol", "CGContextScaleCTM"]
+- !private ["PSo16NSObjectProtocol", "CGContextSetAlpha"]
+- !private ["PSo16NSObjectProtocol", "CGContextSetBlendMode"]
+- !private ["PSo16NSObjectProtocol", "CGContextTranslateCTM"]
+- !private ["PSo16NSObjectProtocol", "CGImage"]
+- !private ["PSo16NSObjectProtocol", "CGRect"]
 - !private ["PSo16NSObjectProtocol", "CLLocationCoordinate2D"]
 - ["PSo16NSObjectProtocol", "CLLocationManager"]
 - ["PSo16NSObjectProtocol", "Firebase"]
@@ -1646,6 +1803,10 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "UIButtonType"]
 - !private ["PSo16NSObjectProtocol", "UIColor"]
 - !private ["PSo16NSObjectProtocol", "UIControlState"]
+- !private ["PSo16NSObjectProtocol", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["PSo16NSObjectProtocol", "UIGraphicsEndImageContext"]
+- !private ["PSo16NSObjectProtocol", "UIGraphicsGetCurrentContext"]
+- !private ["PSo16NSObjectProtocol", "UIGraphicsGetImageFromCurrentImageContext"]
 - !private ["PSo16NSObjectProtocol", "UIImage"]
 - !private ["PSo16NSObjectProtocol", "UINib"]
 - !private ["PSo16NSObjectProtocol", "addAction"]
@@ -1653,6 +1814,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "addAnnotations"]
 - ["PSo16NSObjectProtocol", "addIdea"]
 - !private ["PSo16NSObjectProtocol", "addTextFieldWithConfigurationHandler"]
+- ["PSo16NSObjectProtocol", "alpha"]
 - !private ["PSo16NSObjectProtocol", "animatesDrop"]
 - !private ["PSo16NSObjectProtocol", "annotation"]
 - !private ["PSo16NSObjectProtocol", "backgroundColor"]
@@ -1679,6 +1841,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "groupnumber"]
 - ["PSo16NSObjectProtocol", "hackathon"]
 - ["PSo16NSObjectProtocol", "hackathonIndex"]
+- ["PSo16NSObjectProtocol", "hackname"]
 - !private ["PSo16NSObjectProtocol", "hidden"]
 - !private ["PSo16NSObjectProtocol", "idea"]
 - ["PSo16NSObjectProtocol", "ideatext"]
@@ -1740,6 +1903,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "showAlert2"]
 - ["PSo16NSObjectProtocol", "showAlert3"]
 - !private ["PSo16NSObjectProtocol", "showsUserLocation"]
+- !private ["PSo16NSObjectProtocol", "size"]
 - !private ["PSo16NSObjectProtocol", "startUpdatingLocation"]
 - !private ["PSo16NSObjectProtocol", "stopUpdatingLocation"]
 - !private ["PSo16NSObjectProtocol", "subtitle"]
@@ -1754,6 +1918,19 @@ depends-member:
 - ["PSo16NSObjectProtocol", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", "viewForZoomingInScrollView"]
 - ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "CGBlendMode"]
+- !private ["PSo14NSSecureCoding", "CGContextDrawImage"]
+- !private ["PSo14NSSecureCoding", "CGContextScaleCTM"]
+- !private ["PSo14NSSecureCoding", "CGContextSetAlpha"]
+- !private ["PSo14NSSecureCoding", "CGContextSetBlendMode"]
+- !private ["PSo14NSSecureCoding", "CGContextTranslateCTM"]
+- !private ["PSo14NSSecureCoding", "CGImage"]
+- !private ["PSo14NSSecureCoding", "CGRect"]
+- !private ["PSo14NSSecureCoding", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["PSo14NSSecureCoding", "UIGraphicsEndImageContext"]
+- !private ["PSo14NSSecureCoding", "UIGraphicsGetCurrentContext"]
+- !private ["PSo14NSSecureCoding", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["PSo14NSSecureCoding", "alpha"]
 - !private ["PSo14NSSecureCoding", "clearColor"]
 - !private ["PSo14NSSecureCoding", "componentsSeparatedByString"]
 - !private ["PSo14NSSecureCoding", "coordinate"]
@@ -1761,6 +1938,7 @@ depends-member:
 - !private ["PSo14NSSecureCoding", "init"]
 - !private ["PSo14NSSecureCoding", "localizedDescription"]
 - !private ["PSo14NSSecureCoding", "row"]
+- !private ["PSo14NSSecureCoding", "size"]
 - !private ["CSo8NSString", "componentsSeparatedByString"]
 - !private ["CSo8NSString", "init"]
 - !private ["CSo7NSValue", "deinit"]
@@ -1786,11 +1964,13 @@ depends-member:
 - !private ["PSs30RangeReplaceableCollectionType", "count"]
 - ["PSs30RangeReplaceableCollectionType", "init"]
 - !private ["PSs30RangeReplaceableCollectionType", "last"]
+- !private ["PSs30RangeReplaceableCollectionType", "removeAll"]
 - !private ["PSs30RangeReplaceableCollectionType", "subscript"]
 - !private ["PSs16RawRepresentable", "Alert"]
 - !private ["PSs16RawRepresentable", "Cancel"]
 - !private ["PSs16RawRepresentable", "Default"]
 - !private ["PSs16RawRepresentable", "DetailDisclosure"]
+- !private ["PSs16RawRepresentable", "Multiply"]
 - !private ["PSs16RawRepresentable", "Normal"]
 - !private ["PSs16RawRepresentable", "Purple"]
 - !private ["PSs16RawRepresentable", "Value"]
@@ -1805,6 +1985,7 @@ depends-member:
 - !private ["PSs12SequenceType", "count"]
 - ["PSs12SequenceType", "init"]
 - !private ["PSs12SequenceType", "last"]
+- !private ["PSs12SequenceType", "removeAll"]
 - !private ["PSs12SequenceType", "subscript"]
 - !private ["PSs14SetAlgebraType", "Normal"]
 - !private ["PSs17SignedIntegerType", "Distance"]
@@ -1839,8 +2020,21 @@ depends-member:
 - !private ["PSs24StringLiteralConvertible", "Stride"]
 - !private ["PSs24StringLiteralConvertible", "componentsSeparatedByString"]
 - !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "CGBlendMode"]
+- !private ["PSo29UIAccessibilityIdentification", "CGContextDrawImage"]
+- !private ["PSo29UIAccessibilityIdentification", "CGContextScaleCTM"]
+- !private ["PSo29UIAccessibilityIdentification", "CGContextSetAlpha"]
+- !private ["PSo29UIAccessibilityIdentification", "CGContextSetBlendMode"]
+- !private ["PSo29UIAccessibilityIdentification", "CGContextTranslateCTM"]
+- !private ["PSo29UIAccessibilityIdentification", "CGImage"]
+- !private ["PSo29UIAccessibilityIdentification", "CGRect"]
+- !private ["PSo29UIAccessibilityIdentification", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["PSo29UIAccessibilityIdentification", "UIGraphicsEndImageContext"]
+- !private ["PSo29UIAccessibilityIdentification", "UIGraphicsGetCurrentContext"]
+- !private ["PSo29UIAccessibilityIdentification", "UIGraphicsGetImageFromCurrentImageContext"]
 - !private ["PSo29UIAccessibilityIdentification", "addAnnotation"]
 - !private ["PSo29UIAccessibilityIdentification", "addAnnotations"]
+- !private ["PSo29UIAccessibilityIdentification", "alpha"]
 - !private ["PSo29UIAccessibilityIdentification", "animatesDrop"]
 - !private ["PSo29UIAccessibilityIdentification", "annotation"]
 - !private ["PSo29UIAccessibilityIdentification", "backgroundColor"]
@@ -1865,6 +2059,7 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "setTitle"]
 - !private ["PSo29UIAccessibilityIdentification", "shadowImage"]
 - !private ["PSo29UIAccessibilityIdentification", "showsUserLocation"]
+- !private ["PSo29UIAccessibilityIdentification", "size"]
 - !private ["PSo29UIAccessibilityIdentification", "text"]
 - !private ["PSo29UIAccessibilityIdentification", "translucent"]
 - !private ["CSo13UIAlertAction", "init"]
@@ -1947,6 +2142,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "groupnumber"]
 - ["PSo21UIAppearanceContainer", "hackathon"]
 - ["PSo21UIAppearanceContainer", "hackathonIndex"]
+- ["PSo21UIAppearanceContainer", "hackname"]
 - !private ["PSo21UIAppearanceContainer", "hidden"]
 - !private ["PSo21UIAppearanceContainer", "idea"]
 - ["PSo21UIAppearanceContainer", "ideatext"]
@@ -2053,6 +2249,7 @@ depends-member:
 - ["PSo18UIContentContainer", "groupnumber"]
 - ["PSo18UIContentContainer", "hackathon"]
 - ["PSo18UIContentContainer", "hackathonIndex"]
+- ["PSo18UIContentContainer", "hackname"]
 - ["PSo18UIContentContainer", "ideatext"]
 - ["PSo18UIContentContainer", "indexChanged"]
 - ["PSo18UIContentContainer", "indexPathForPreferredFocusedViewInTableView"]
@@ -2208,6 +2405,7 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "groupnumber"]
 - ["PSo18UIFocusEnvironment", "hackathon"]
 - ["PSo18UIFocusEnvironment", "hackathonIndex"]
+- ["PSo18UIFocusEnvironment", "hackname"]
 - !private ["PSo18UIFocusEnvironment", "hidden"]
 - !private ["PSo18UIFocusEnvironment", "idea"]
 - ["PSo18UIFocusEnvironment", "ideatext"]
@@ -2276,7 +2474,23 @@ depends-member:
 - !private ["PSo27UIGestureRecognizerDelegate", "group"]
 - !private ["PSo27UIGestureRecognizerDelegate", "idea"]
 - !private ["PSo27UIGestureRecognizerDelegate", "name"]
+- !private ["CSo7UIImage", "CGBlendMode"]
+- !private ["CSo7UIImage", "CGContextDrawImage"]
+- !private ["CSo7UIImage", "CGContextScaleCTM"]
+- !private ["CSo7UIImage", "CGContextSetAlpha"]
+- !private ["CSo7UIImage", "CGContextSetBlendMode"]
+- !private ["CSo7UIImage", "CGContextTranslateCTM"]
+- ["CSo7UIImage", "CGFloat"]
+- !private ["CSo7UIImage", "CGImage"]
+- !private ["CSo7UIImage", "CGRect"]
+- !private ["CSo7UIImage", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["CSo7UIImage", "UIGraphicsEndImageContext"]
+- !private ["CSo7UIImage", "UIGraphicsGetCurrentContext"]
+- !private ["CSo7UIImage", "UIGraphicsGetImageFromCurrentImageContext"]
+- ["CSo7UIImage", "UIImage"]
+- ["CSo7UIImage", "alpha"]
 - !private ["CSo7UIImage", "init"]
+- !private ["CSo7UIImage", "size"]
 - !private ["CSo11UIImageView", "image"]
 - !private ["PSo10UIKeyInput", "text"]
 - !private ["CSo7UILabel", "text"]
@@ -2305,6 +2519,7 @@ depends-member:
 - !private ["CSo11UIResponder", "MKUserLocation"]
 - ["CSo11UIResponder", "NSError"]
 - ["CSo11UIResponder", "NSIndexPath"]
+- !private ["CSo11UIResponder", "NSNull"]
 - ["CSo11UIResponder", "NSString"]
 - ["CSo11UIResponder", "Person"]
 - ["CSo11UIResponder", "String"]
@@ -2320,6 +2535,7 @@ depends-member:
 - !private ["CSo11UIResponder", "UIControlState"]
 - !private ["CSo11UIResponder", "UIImage"]
 - ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UILabel"]
 - !private ["CSo11UIResponder", "UINib"]
 - ["CSo11UIResponder", "UISegmentedControl"]
 - ["CSo11UIResponder", "UITableView"]
@@ -2350,6 +2566,7 @@ depends-member:
 - ["CSo11UIResponder", "groupnumber"]
 - ["CSo11UIResponder", "hackathon"]
 - ["CSo11UIResponder", "hackathonIndex"]
+- ["CSo11UIResponder", "hackname"]
 - !private ["CSo11UIResponder", "hidden"]
 - !private ["CSo11UIResponder", "idea"]
 - ["CSo11UIResponder", "ideatext"]
@@ -2449,6 +2666,7 @@ depends-member:
 - !private ["PSo20UIScrollViewDelegate", "getCoordinatePoints"]
 - !private ["PSo20UIScrollViewDelegate", "groupnumber"]
 - !private ["PSo20UIScrollViewDelegate", "hackathon"]
+- !private ["PSo20UIScrollViewDelegate", "hackname"]
 - !private ["PSo20UIScrollViewDelegate", "ideatext"]
 - ["PSo20UIScrollViewDelegate", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["PSo20UIScrollViewDelegate", "kCLLocationAccuracyBest"]
@@ -2527,6 +2745,7 @@ depends-member:
 - ["PSo16UIStateRestoring", "groupnumber"]
 - ["PSo16UIStateRestoring", "hackathon"]
 - ["PSo16UIStateRestoring", "hackathonIndex"]
+- ["PSo16UIStateRestoring", "hackname"]
 - ["PSo16UIStateRestoring", "ideatext"]
 - ["PSo16UIStateRestoring", "indexChanged"]
 - ["PSo16UIStateRestoring", "indexPathForPreferredFocusedViewInTableView"]
@@ -2615,6 +2834,7 @@ depends-member:
 - !private ["PSo21UITableViewDataSource", "getCoordinatePoints"]
 - !private ["PSo21UITableViewDataSource", "groupnumber"]
 - !private ["PSo21UITableViewDataSource", "hackathon"]
+- !private ["PSo21UITableViewDataSource", "hackname"]
 - !private ["PSo21UITableViewDataSource", "ideatext"]
 - ["PSo21UITableViewDataSource", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["PSo21UITableViewDataSource", "kCLLocationAccuracyBest"]
@@ -2688,6 +2908,7 @@ depends-member:
 - !private ["PSo19UITableViewDelegate", "getCoordinatePoints"]
 - !private ["PSo19UITableViewDelegate", "groupnumber"]
 - !private ["PSo19UITableViewDelegate", "hackathon"]
+- !private ["PSo19UITableViewDelegate", "hackname"]
 - !private ["PSo19UITableViewDelegate", "ideatext"]
 - ["PSo19UITableViewDelegate", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["PSo19UITableViewDelegate", "kCLLocationAccuracyBest"]
@@ -2779,6 +3000,7 @@ depends-member:
 - ["PSo18UITraitEnvironment", "groupnumber"]
 - ["PSo18UITraitEnvironment", "hackathon"]
 - ["PSo18UITraitEnvironment", "hackathonIndex"]
+- ["PSo18UITraitEnvironment", "hackname"]
 - !private ["PSo18UITraitEnvironment", "hidden"]
 - !private ["PSo18UITraitEnvironment", "idea"]
 - ["PSo18UITraitEnvironment", "ideatext"]
@@ -2891,6 +3113,7 @@ depends-member:
 - !private ["CSo16UIViewController", "MKUserLocation"]
 - ["CSo16UIViewController", "NSError"]
 - ["CSo16UIViewController", "NSIndexPath"]
+- !private ["CSo16UIViewController", "NSNull"]
 - ["CSo16UIViewController", "NSString"]
 - ["CSo16UIViewController", "Person"]
 - ["CSo16UIViewController", "String"]
@@ -2906,6 +3129,7 @@ depends-member:
 - !private ["CSo16UIViewController", "UIControlState"]
 - !private ["CSo16UIViewController", "UIImage"]
 - ["CSo16UIViewController", "UIImageView"]
+- ["CSo16UIViewController", "UILabel"]
 - !private ["CSo16UIViewController", "UINib"]
 - ["CSo16UIViewController", "UISegmentedControl"]
 - ["CSo16UIViewController", "UITableView"]
@@ -2925,6 +3149,7 @@ depends-member:
 - ["CSo16UIViewController", "groupnumber"]
 - ["CSo16UIViewController", "hackathon"]
 - ["CSo16UIViewController", "hackathonIndex"]
+- ["CSo16UIViewController", "hackname"]
 - ["CSo16UIViewController", "ideatext"]
 - ["CSo16UIViewController", "indexChanged"]
 - ["CSo16UIViewController", "indexPathForPreferredFocusedViewInTableView"]
@@ -3026,6 +3251,7 @@ depends-member:
 - !private ["PSs10_ArrayType", "count"]
 - ["PSs10_ArrayType", "init"]
 - !private ["PSs10_ArrayType", "last"]
+- !private ["PSs10_ArrayType", "removeAll"]
 - !private ["PSs10_ArrayType", "subscript"]
 - !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
 - !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "Stride"]
@@ -3067,13 +3293,28 @@ depends-member:
 - !private ["PSs24_DestructorSafeContainer", "count"]
 - ["PSs24_DestructorSafeContainer", "init"]
 - !private ["PSs24_DestructorSafeContainer", "last"]
+- !private ["PSs24_DestructorSafeContainer", "removeAll"]
 - !private ["PSs24_DestructorSafeContainer", "subscript"]
 - !private ["PSs28_DisallowMixedSignArithmetic", "Distance"]
 - !private ["PSs28_DisallowMixedSignArithmetic", "IntegerLiteralType"]
 - !private ["PSs28_DisallowMixedSignArithmetic", "Stride"]
 - !private ["PSs28_DisallowMixedSignArithmetic", "_DisallowMixedSignArithmetic"]
 - !private ["PSs28_DisallowMixedSignArithmetic", "init"]
+- !private ["PSs24_ImageLiteralConvertible", "CGBlendMode"]
+- !private ["PSs24_ImageLiteralConvertible", "CGContextDrawImage"]
+- !private ["PSs24_ImageLiteralConvertible", "CGContextScaleCTM"]
+- !private ["PSs24_ImageLiteralConvertible", "CGContextSetAlpha"]
+- !private ["PSs24_ImageLiteralConvertible", "CGContextSetBlendMode"]
+- !private ["PSs24_ImageLiteralConvertible", "CGContextTranslateCTM"]
+- !private ["PSs24_ImageLiteralConvertible", "CGImage"]
+- !private ["PSs24_ImageLiteralConvertible", "CGRect"]
+- !private ["PSs24_ImageLiteralConvertible", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["PSs24_ImageLiteralConvertible", "UIGraphicsEndImageContext"]
+- !private ["PSs24_ImageLiteralConvertible", "UIGraphicsGetCurrentContext"]
+- !private ["PSs24_ImageLiteralConvertible", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["PSs24_ImageLiteralConvertible", "alpha"]
 - !private ["PSs24_ImageLiteralConvertible", "init"]
+- !private ["PSs24_ImageLiteralConvertible", "size"]
 - !private ["PSs14_Incrementable", "Distance"]
 - !private ["PSs14_Incrementable", "IntegerLiteralType"]
 - !private ["PSs14_Incrementable", "Stride"]
@@ -3105,6 +3346,7 @@ depends-member:
 - !private ["PSs21_ObjectiveCBridgeable", "count"]
 - ["PSs21_ObjectiveCBridgeable", "init"]
 - !private ["PSs21_ObjectiveCBridgeable", "last"]
+- !private ["PSs21_ObjectiveCBridgeable", "removeAll"]
 - !private ["PSs21_ObjectiveCBridgeable", "subscript"]
 - !private ["VSs26_OptionalNilComparisonType", "deinit"]
 - !private ["PSs12_PointerType", "Stride"]
@@ -3138,6 +3380,7 @@ depends-member:
 - !private ["PSs12_Reflectable", "dequeueReusableAnnotationViewWithIdentifier"]
 - !private ["PSs12_Reflectable", "dequeueReusableCellWithIdentifier"]
 - !private ["PSs12_Reflectable", "group"]
+- !private ["PSs12_Reflectable", "height"]
 - !private ["PSs12_Reflectable", "hidden"]
 - !private ["PSs12_Reflectable", "idea"]
 - !private ["PSs12_Reflectable", "image"]
@@ -3148,15 +3391,18 @@ depends-member:
 - !private ["PSs12_Reflectable", "pinColor"]
 - !private ["PSs12_Reflectable", "registerNib"]
 - !private ["PSs12_Reflectable", "reloadData"]
+- !private ["PSs12_Reflectable", "removeAll"]
 - !private ["PSs12_Reflectable", "selectedSegmentIndex"]
 - !private ["PSs12_Reflectable", "setBackgroundImage"]
 - !private ["PSs12_Reflectable", "setRegion"]
 - !private ["PSs12_Reflectable", "setTitle"]
 - !private ["PSs12_Reflectable", "shadowImage"]
 - !private ["PSs12_Reflectable", "showsUserLocation"]
+- !private ["PSs12_Reflectable", "size"]
 - !private ["PSs12_Reflectable", "subscript"]
 - !private ["PSs12_Reflectable", "text"]
 - !private ["PSs12_Reflectable", "translucent"]
+- !private ["PSs12_Reflectable", "width"]
 - !private ["PSs18_SignedIntegerType", "Distance"]
 - !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
 - !private ["PSs18_SignedIntegerType", "Stride"]
@@ -3183,7 +3429,10 @@ depends-nominal:
 - !private "Sb"
 - !private "PSs25BooleanLiteralConvertible"
 - !private "PSs11BooleanType"
+- !private "OSC11CGBlendMode"
 - !private "V12CoreGraphics7CGFloat"
+- !private "VSC6CGRect"
+- !private "VSC6CGSize"
 - !private "CSo10CLLocation"
 - !private "VSC22CLLocationCoordinate2D"
 - "CSo17CLLocationManager"
@@ -3289,7 +3538,7 @@ depends-nominal:
 - !private "PSo13UIDynamicItem"
 - "PSo18UIFocusEnvironment"
 - !private "PSo27UIGestureRecognizerDelegate"
-- !private "CSo7UIImage"
+- "CSo7UIImage"
 - !private "CSo11UIImageView"
 - !private "PSo10UIKeyInput"
 - !private "CSo7UILabel"
@@ -3425,4 +3674,4 @@ depends-external:
 - "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
 - "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
 - "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Modules/module.modulemap"
-interface-hash: "f48ca5503d8f4aba86ff3ff7e72b4e64"
+interface-hash: "7d94859b2a49049119378e0cffcb948c"

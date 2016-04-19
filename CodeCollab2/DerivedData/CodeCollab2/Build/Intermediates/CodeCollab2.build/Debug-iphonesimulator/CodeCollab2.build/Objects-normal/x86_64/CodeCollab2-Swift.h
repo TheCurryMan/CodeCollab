@@ -134,6 +134,7 @@ SWIFT_CLASS("_TtC11CodeCollab210Connection")
 
 @class UIImageView;
 @class NSString;
+@class UILabel;
 @class MKMapView;
 @class Firebase;
 @class UITableView;
@@ -158,6 +159,7 @@ SWIFT_CLASS("_TtC11CodeCollab231DetailedHackathonViewController")
 @property (nonatomic, copy) NSString * __nullable currentAmount;
 @property (nonatomic, copy) NSString * __nullable name;
 @property (nonatomic, strong) NSString * __nullable dataStr;
+@property (nonatomic, strong) IBOutlet UILabel * __null_unspecified hackname;
 @property (nonatomic, strong) IBOutlet MKMapView * __null_unspecified mapView;
 @property (nonatomic, copy) NSArray<NSArray<NSString *> *> * __nonnull firebaseData;
 @property (nonatomic, strong) Hackathon * __nullable hackathon;
@@ -198,7 +200,6 @@ SWIFT_CLASS("_TtC11CodeCollab221HackCardTableViewCell")
 @end
 
 @class UIImage;
-@class UILabel;
 
 SWIFT_CLASS("_TtC11CodeCollab221HackLeftTableViewCell")
 @interface HackLeftTableViewCell : UITableViewCell
@@ -355,6 +356,11 @@ SWIFT_CLASS("_TtC11CodeCollab24Team")
 @property (nonatomic, copy) NSArray<Member *> * __nonnull members;
 @property (nonatomic, strong) Hackathon * __nonnull forHack;
 - (nonnull instancetype)initWithMembers:(NSArray<Member *> * __nonnull)members forHack:(Hackathon * __nonnull)forHack OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface UIImage (SWIFT_EXTENSION(CodeCollab2))
+- (UIImage * __nonnull)alpha:(CGFloat)value;
 @end
 
 

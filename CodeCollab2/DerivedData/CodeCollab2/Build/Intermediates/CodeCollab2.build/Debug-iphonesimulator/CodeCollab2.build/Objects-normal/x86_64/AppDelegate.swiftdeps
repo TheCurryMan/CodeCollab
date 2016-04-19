@@ -6,24 +6,25 @@ provides-nominal:
 provides-member:
 - ["C11CodeCollab211AppDelegate", ""]
 provides-dynamic-lookup:
-- "applicationWillTerminate"
-- "applicationWillResignActive"
-- "applicationDidEnterBackground"
+- "applicationWillEnterForeground"
 - "applicationDidBecomeActive"
 - "application"
-- "applicationWillEnterForeground"
+- "applicationWillTerminate"
 - "window"
+- "applicationWillResignActive"
+- "applicationDidEnterBackground"
 depends-top-level:
+- "AnyObject"
+- "UIWindow"
+- "NSObject"
+- "UIApplication"
 - "AppDelegate"
 - "UIResponder"
-- "NSObject"
 - "Bool"
-- "UIApplication"
-- "UIWindow"
-- !private "BooleanLiteralType"
-- "AnyObject"
 - "UIApplicationDelegate"
+- !private "BooleanLiteralType"
 depends-member:
+- !private ["PSs9AnyObject", "UIApplication"]
 - ["PSs9AnyObject", "application"]
 - ["PSs9AnyObject", "applicationDidBecomeActive"]
 - ["PSs9AnyObject", "applicationDidEnterBackground"]
@@ -37,6 +38,8 @@ depends-member:
 - ["PSs9AnyObject", "applicationWillResignActive"]
 - ["PSs9AnyObject", "applicationWillTerminate"]
 - ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "sharedApplication"]
+- !private ["PSs9AnyObject", "statusBarStyle"]
 - ["PSs9AnyObject", "window"]
 - ["PSs9AnyObject", ""]
 - ["C11CodeCollab211AppDelegate", "AnyObject"]
@@ -59,6 +62,7 @@ depends-member:
 - ["C11CodeCollab211AppDelegate", "deinit"]
 - ["C11CodeCollab211AppDelegate", "init"]
 - ["C11CodeCollab211AppDelegate", "window"]
+- !private ["PSs11CVarArgType", "UIApplication"]
 - ["PSs11CVarArgType", "application"]
 - ["PSs11CVarArgType", "applicationDidBecomeActive"]
 - ["PSs11CVarArgType", "applicationDidEnterBackground"]
@@ -72,8 +76,11 @@ depends-member:
 - ["PSs11CVarArgType", "applicationWillResignActive"]
 - ["PSs11CVarArgType", "applicationWillTerminate"]
 - ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "sharedApplication"]
+- !private ["PSs11CVarArgType", "statusBarStyle"]
 - ["PSs11CVarArgType", "window"]
 - ["PSs11CVarArgType", ""]
+- !private ["PSs23CustomStringConvertible", "UIApplication"]
 - ["PSs23CustomStringConvertible", "application"]
 - ["PSs23CustomStringConvertible", "applicationDidBecomeActive"]
 - ["PSs23CustomStringConvertible", "applicationDidEnterBackground"]
@@ -87,8 +94,12 @@ depends-member:
 - ["PSs23CustomStringConvertible", "applicationWillResignActive"]
 - ["PSs23CustomStringConvertible", "applicationWillTerminate"]
 - ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "sharedApplication"]
+- !private ["PSs23CustomStringConvertible", "statusBarStyle"]
 - ["PSs23CustomStringConvertible", "window"]
 - ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "LightContent"]
+- !private ["PSs9Equatable", "UIApplication"]
 - ["PSs9Equatable", "application"]
 - ["PSs9Equatable", "applicationDidBecomeActive"]
 - ["PSs9Equatable", "applicationDidEnterBackground"]
@@ -102,8 +113,12 @@ depends-member:
 - ["PSs9Equatable", "applicationWillResignActive"]
 - ["PSs9Equatable", "applicationWillTerminate"]
 - ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "sharedApplication"]
+- !private ["PSs9Equatable", "statusBarStyle"]
 - ["PSs9Equatable", "window"]
 - ["PSs9Equatable", ""]
+- !private ["PSs8Hashable", "LightContent"]
+- !private ["PSs8Hashable", "UIApplication"]
 - ["PSs8Hashable", "application"]
 - ["PSs8Hashable", "applicationDidBecomeActive"]
 - ["PSs8Hashable", "applicationDidEnterBackground"]
@@ -117,6 +132,8 @@ depends-member:
 - ["PSs8Hashable", "applicationWillResignActive"]
 - ["PSs8Hashable", "applicationWillTerminate"]
 - ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "sharedApplication"]
+- !private ["PSs8Hashable", "statusBarStyle"]
 - ["PSs8Hashable", "window"]
 - ["PSs8Hashable", ""]
 - ["CSo8NSObject", "AnyObject"]
@@ -137,7 +154,10 @@ depends-member:
 - ["CSo8NSObject", "applicationWillResignActive"]
 - ["CSo8NSObject", "applicationWillTerminate"]
 - ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "sharedApplication"]
+- !private ["CSo8NSObject", "statusBarStyle"]
 - ["CSo8NSObject", "window"]
+- !private ["PSo16NSObjectProtocol", "UIApplication"]
 - ["PSo16NSObjectProtocol", "application"]
 - ["PSo16NSObjectProtocol", "applicationDidBecomeActive"]
 - ["PSo16NSObjectProtocol", "applicationDidEnterBackground"]
@@ -151,8 +171,14 @@ depends-member:
 - ["PSo16NSObjectProtocol", "applicationWillResignActive"]
 - ["PSo16NSObjectProtocol", "applicationWillTerminate"]
 - ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "sharedApplication"]
+- !private ["PSo16NSObjectProtocol", "statusBarStyle"]
 - ["PSo16NSObjectProtocol", "window"]
 - ["PSo16NSObjectProtocol", ""]
+- !private ["PSs16RawRepresentable", "LightContent"]
+- !private ["CSo13UIApplication", "sharedApplication"]
+- !private ["CSo13UIApplication", "statusBarStyle"]
+- !private ["PSo21UIApplicationDelegate", "UIApplication"]
 - ["PSo21UIApplicationDelegate", "application"]
 - ["PSo21UIApplicationDelegate", "applicationDidBecomeActive"]
 - ["PSo21UIApplicationDelegate", "applicationDidEnterBackground"]
@@ -185,8 +211,11 @@ depends-member:
 - ["CSo11UIResponder", "applicationWillResignActive"]
 - ["CSo11UIResponder", "applicationWillTerminate"]
 - ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "sharedApplication"]
+- !private ["CSo11UIResponder", "statusBarStyle"]
 - ["CSo11UIResponder", "window"]
 - ["CSo11UIResponder", ""]
+- !private ["OSC16UIStatusBarStyle", "LightContent"]
 depends-nominal:
 - "PSs9AnyObject"
 - "C11CodeCollab211AppDelegate"
@@ -196,8 +225,11 @@ depends-nominal:
 - "PSs8Hashable"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
+- !private "PSs16RawRepresentable"
+- !private "CSo13UIApplication"
 - "PSo21UIApplicationDelegate"
 - "CSo11UIResponder"
+- !private "OSC16UIStatusBarStyle"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"

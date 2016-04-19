@@ -6,22 +6,22 @@ provides-nominal:
 provides-member:
 - ["C11CodeCollab219LoginViewController", ""]
 provides-dynamic-lookup:
-- "ref"
-- "viewDidLoad"
-- "login"
 - "password"
+- "login"
+- "ref"
 - "merchant"
-- "email"
 - "didReceiveMemoryWarning"
+- "viewDidLoad"
+- "email"
 depends-top-level:
+- "UITextField"
+- "Firebase"
+- !private "print"
+- "LoginViewController"
+- "StringLiteralType"
+- !private "!="
 - "UIButton"
 - "UIViewController"
-- !private "!="
-- "StringLiteralType"
-- "UITextField"
-- "LoginViewController"
-- !private "print"
-- "Firebase"
 - "BooleanLiteralType"
 depends-member:
 - ["PSs9AnyObject", "Firebase"]

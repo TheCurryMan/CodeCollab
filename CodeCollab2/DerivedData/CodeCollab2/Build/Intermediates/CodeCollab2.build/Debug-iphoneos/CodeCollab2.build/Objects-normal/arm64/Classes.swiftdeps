@@ -5,54 +5,70 @@ provides-top-level:
 - "Prize"
 - "Member"
 - "Team"
+- "Person"
 provides-nominal:
 - "C11CodeCollab29Hackathon"
 - "C11CodeCollab210Connection"
 - "C11CodeCollab25Prize"
 - "C11CodeCollab26Member"
 - "C11CodeCollab24Team"
+- "C11CodeCollab26Person"
 provides-member:
 - ["C11CodeCollab29Hackathon", ""]
 - ["C11CodeCollab210Connection", ""]
 - ["C11CodeCollab25Prize", ""]
 - ["C11CodeCollab26Member", ""]
 - ["C11CodeCollab24Team", ""]
+- ["C11CodeCollab26Person", ""]
 provides-dynamic-lookup:
-- "fromTeam"
-- "date"
-- "sponsor"
-- "bgimage"
+- "toHack"
+- "email"
+- "name"
+- "name"
+- "prizes"
+- "coordinate"
 - "address"
 - "members"
 - "members"
-- "image"
-- "name"
-- "prizes"
-- "amount"
+- "bgimage"
+- "password"
+- "phone"
+- "profilePic"
+- "date"
+- "username"
 - "forHack"
 - "blurb"
 - "blurb"
-- "toHack"
+- "sponsor"
+- "image"
+- "fromTeam"
+- "location"
+- "title"
+- "amount"
 depends-top-level:
-- "UIImage"
-- "Team"
-- "String"
 - !private "??"
-- "Int"
-- "NSObject"
-- "Connection"
-- !private "StringLiteralType"
-- "Hackathon"
-- !private "Array"
-- "CLLocationCoordinate2D"
-- "Member"
+- "String"
+- "Team"
+- "UIImage"
 - "Prize"
+- "Int"
+- "Hackathon"
+- "NSObject"
+- "Member"
+- "Person"
+- !private "Array"
+- !private "StringLiteralType"
+- "CLLocationCoordinate2D"
+- "Connection"
+- "MKAnnotation"
 depends-member:
 - ["PSs9AnyObject", "address"]
 - ["PSs9AnyObject", "amount"]
 - ["PSs9AnyObject", "bgimage"]
 - ["PSs9AnyObject", "blurb"]
+- ["PSs9AnyObject", "coordinate"]
 - ["PSs9AnyObject", "date"]
+- ["PSs9AnyObject", "email"]
 - ["PSs9AnyObject", "forHack"]
 - ["PSs9AnyObject", "fromTeam"]
 - ["PSs9AnyObject", "image"]
@@ -60,10 +76,16 @@ depends-member:
 - ["PSs9AnyObject", "location"]
 - ["PSs9AnyObject", "members"]
 - ["PSs9AnyObject", "name"]
+- ["PSs9AnyObject", "password"]
+- ["PSs9AnyObject", "phone"]
 - ["PSs9AnyObject", "prizes"]
+- ["PSs9AnyObject", "profilePic"]
 - ["PSs9AnyObject", "sponsor"]
+- ["PSs9AnyObject", "subtitle"]
 - ["PSs9AnyObject", "teamSize"]
+- ["PSs9AnyObject", "title"]
 - ["PSs9AnyObject", "toHack"]
+- ["PSs9AnyObject", "username"]
 - ["PSs9AnyObject", ""]
 - !private ["Sa", "Element"]
 - !private ["PSs23ArrayLiteralConvertible", "Element"]
@@ -71,7 +93,9 @@ depends-member:
 - ["PSs11CVarArgType", "amount"]
 - ["PSs11CVarArgType", "bgimage"]
 - ["PSs11CVarArgType", "blurb"]
+- ["PSs11CVarArgType", "coordinate"]
 - ["PSs11CVarArgType", "date"]
+- ["PSs11CVarArgType", "email"]
 - ["PSs11CVarArgType", "forHack"]
 - ["PSs11CVarArgType", "fromTeam"]
 - ["PSs11CVarArgType", "image"]
@@ -79,10 +103,16 @@ depends-member:
 - ["PSs11CVarArgType", "location"]
 - ["PSs11CVarArgType", "members"]
 - ["PSs11CVarArgType", "name"]
+- ["PSs11CVarArgType", "password"]
+- ["PSs11CVarArgType", "phone"]
 - ["PSs11CVarArgType", "prizes"]
+- ["PSs11CVarArgType", "profilePic"]
 - ["PSs11CVarArgType", "sponsor"]
+- ["PSs11CVarArgType", "subtitle"]
 - ["PSs11CVarArgType", "teamSize"]
+- ["PSs11CVarArgType", "title"]
 - ["PSs11CVarArgType", "toHack"]
+- ["PSs11CVarArgType", "username"]
 - ["PSs11CVarArgType", ""]
 - !private ["PSs14CollectionType", "Element"]
 - ["C11CodeCollab210Connection", "Hackathon"]
@@ -97,7 +127,9 @@ depends-member:
 - ["PSs23CustomStringConvertible", "amount"]
 - ["PSs23CustomStringConvertible", "bgimage"]
 - ["PSs23CustomStringConvertible", "blurb"]
+- ["PSs23CustomStringConvertible", "coordinate"]
 - ["PSs23CustomStringConvertible", "date"]
+- ["PSs23CustomStringConvertible", "email"]
 - ["PSs23CustomStringConvertible", "forHack"]
 - ["PSs23CustomStringConvertible", "fromTeam"]
 - ["PSs23CustomStringConvertible", "image"]
@@ -105,16 +137,24 @@ depends-member:
 - ["PSs23CustomStringConvertible", "location"]
 - ["PSs23CustomStringConvertible", "members"]
 - ["PSs23CustomStringConvertible", "name"]
+- ["PSs23CustomStringConvertible", "password"]
+- ["PSs23CustomStringConvertible", "phone"]
 - ["PSs23CustomStringConvertible", "prizes"]
+- ["PSs23CustomStringConvertible", "profilePic"]
 - ["PSs23CustomStringConvertible", "sponsor"]
+- ["PSs23CustomStringConvertible", "subtitle"]
 - ["PSs23CustomStringConvertible", "teamSize"]
+- ["PSs23CustomStringConvertible", "title"]
 - ["PSs23CustomStringConvertible", "toHack"]
+- ["PSs23CustomStringConvertible", "username"]
 - ["PSs23CustomStringConvertible", ""]
 - ["PSs9Equatable", "address"]
 - ["PSs9Equatable", "amount"]
 - ["PSs9Equatable", "bgimage"]
 - ["PSs9Equatable", "blurb"]
+- ["PSs9Equatable", "coordinate"]
 - ["PSs9Equatable", "date"]
+- ["PSs9Equatable", "email"]
 - ["PSs9Equatable", "forHack"]
 - ["PSs9Equatable", "fromTeam"]
 - ["PSs9Equatable", "image"]
@@ -122,10 +162,16 @@ depends-member:
 - ["PSs9Equatable", "location"]
 - ["PSs9Equatable", "members"]
 - ["PSs9Equatable", "name"]
+- ["PSs9Equatable", "password"]
+- ["PSs9Equatable", "phone"]
 - ["PSs9Equatable", "prizes"]
+- ["PSs9Equatable", "profilePic"]
 - ["PSs9Equatable", "sponsor"]
+- ["PSs9Equatable", "subtitle"]
 - ["PSs9Equatable", "teamSize"]
+- ["PSs9Equatable", "title"]
 - ["PSs9Equatable", "toHack"]
+- ["PSs9Equatable", "username"]
 - ["PSs9Equatable", ""]
 - ["C11CodeCollab29Hackathon", "CLLocationCoordinate2D"]
 - ["C11CodeCollab29Hackathon", "Int"]
@@ -149,7 +195,9 @@ depends-member:
 - ["PSs8Hashable", "amount"]
 - ["PSs8Hashable", "bgimage"]
 - ["PSs8Hashable", "blurb"]
+- ["PSs8Hashable", "coordinate"]
 - ["PSs8Hashable", "date"]
+- ["PSs8Hashable", "email"]
 - ["PSs8Hashable", "forHack"]
 - ["PSs8Hashable", "fromTeam"]
 - ["PSs8Hashable", "image"]
@@ -157,15 +205,35 @@ depends-member:
 - ["PSs8Hashable", "location"]
 - ["PSs8Hashable", "members"]
 - ["PSs8Hashable", "name"]
+- ["PSs8Hashable", "password"]
+- ["PSs8Hashable", "phone"]
 - ["PSs8Hashable", "prizes"]
+- ["PSs8Hashable", "profilePic"]
 - ["PSs8Hashable", "sponsor"]
+- ["PSs8Hashable", "subtitle"]
 - ["PSs8Hashable", "teamSize"]
+- ["PSs8Hashable", "title"]
 - ["PSs8Hashable", "toHack"]
+- ["PSs8Hashable", "username"]
 - ["PSs8Hashable", ""]
 - !private ["SQ", "deinit"]
 - !private ["PSs9Indexable", "Element"]
+- ["PSo12MKAnnotation", "coordinate"]
+- ["PSo12MKAnnotation", "subtitle"]
+- ["PSo12MKAnnotation", "title"]
+- ["PSo12MKAnnotation", ""]
+- ["C11CodeCollab26Member", "CLLocationCoordinate2D"]
+- ["C11CodeCollab26Member", "String"]
+- ["C11CodeCollab26Member", "UIImage"]
 - ["C11CodeCollab26Member", "deinit"]
+- ["C11CodeCollab26Member", "email"]
 - ["C11CodeCollab26Member", "init"]
+- ["C11CodeCollab26Member", "location"]
+- ["C11CodeCollab26Member", "name"]
+- ["C11CodeCollab26Member", "password"]
+- ["C11CodeCollab26Member", "phone"]
+- ["C11CodeCollab26Member", "profilePic"]
+- ["C11CodeCollab26Member", "username"]
 - !private ["PSs21MutableCollectionType", "Element"]
 - !private ["PSs16MutableIndexable", "Element"]
 - !private ["PSs16MutableSliceable", "Element"]
@@ -181,7 +249,9 @@ depends-member:
 - ["CSo8NSObject", "amount"]
 - ["CSo8NSObject", "bgimage"]
 - ["CSo8NSObject", "blurb"]
+- ["CSo8NSObject", "coordinate"]
 - ["CSo8NSObject", "date"]
+- ["CSo8NSObject", "email"]
 - ["CSo8NSObject", "forHack"]
 - ["CSo8NSObject", "fromTeam"]
 - ["CSo8NSObject", "image"]
@@ -189,16 +259,24 @@ depends-member:
 - ["CSo8NSObject", "location"]
 - ["CSo8NSObject", "members"]
 - ["CSo8NSObject", "name"]
+- ["CSo8NSObject", "password"]
+- ["CSo8NSObject", "phone"]
 - ["CSo8NSObject", "prizes"]
+- ["CSo8NSObject", "profilePic"]
 - ["CSo8NSObject", "sponsor"]
+- ["CSo8NSObject", "subtitle"]
 - ["CSo8NSObject", "teamSize"]
+- ["CSo8NSObject", "title"]
 - ["CSo8NSObject", "toHack"]
+- ["CSo8NSObject", "username"]
 - ["CSo8NSObject", ""]
 - ["PSo16NSObjectProtocol", "address"]
 - ["PSo16NSObjectProtocol", "amount"]
 - ["PSo16NSObjectProtocol", "bgimage"]
 - ["PSo16NSObjectProtocol", "blurb"]
+- ["PSo16NSObjectProtocol", "coordinate"]
 - ["PSo16NSObjectProtocol", "date"]
+- ["PSo16NSObjectProtocol", "email"]
 - ["PSo16NSObjectProtocol", "forHack"]
 - ["PSo16NSObjectProtocol", "fromTeam"]
 - ["PSo16NSObjectProtocol", "image"]
@@ -206,12 +284,25 @@ depends-member:
 - ["PSo16NSObjectProtocol", "location"]
 - ["PSo16NSObjectProtocol", "members"]
 - ["PSo16NSObjectProtocol", "name"]
+- ["PSo16NSObjectProtocol", "password"]
+- ["PSo16NSObjectProtocol", "phone"]
 - ["PSo16NSObjectProtocol", "prizes"]
+- ["PSo16NSObjectProtocol", "profilePic"]
 - ["PSo16NSObjectProtocol", "sponsor"]
+- ["PSo16NSObjectProtocol", "subtitle"]
 - ["PSo16NSObjectProtocol", "teamSize"]
+- ["PSo16NSObjectProtocol", "title"]
 - ["PSo16NSObjectProtocol", "toHack"]
+- ["PSo16NSObjectProtocol", "username"]
 - ["PSo16NSObjectProtocol", ""]
 - !private ["Sq", "deinit"]
+- ["C11CodeCollab26Person", "CLLocationCoordinate2D"]
+- ["C11CodeCollab26Person", "String"]
+- ["C11CodeCollab26Person", "coordinate"]
+- ["C11CodeCollab26Person", "deinit"]
+- ["C11CodeCollab26Person", "init"]
+- ["C11CodeCollab26Person", "subtitle"]
+- ["C11CodeCollab26Person", "title"]
 - ["C11CodeCollab25Prize", "Int"]
 - ["C11CodeCollab25Prize", "String"]
 - ["C11CodeCollab25Prize", "amount"]
@@ -246,6 +337,7 @@ depends-nominal:
 - "PSs8Hashable"
 - !private "SQ"
 - !private "PSs9Indexable"
+- "PSo12MKAnnotation"
 - "C11CodeCollab26Member"
 - !private "PSs21MutableCollectionType"
 - !private "PSs16MutableIndexable"
@@ -253,6 +345,7 @@ depends-nominal:
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
 - !private "Sq"
+- "C11CodeCollab26Person"
 - "C11CodeCollab25Prize"
 - !private "PSs30RangeReplaceableCollectionType"
 - !private "PSs12SequenceType"
@@ -339,4 +432,4 @@ depends-external:
 - "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
 - "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
 - "/Users/Avinash/Documents/Code/CodeCollab/CodeCollab2/DerivedData/CodeCollab2/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Modules/module.modulemap"
-interface-hash: "89958b2b6a3ec3afefd017cf7240e396"
+interface-hash: "e6722c0001b61b1bb8177060dea08b0c"

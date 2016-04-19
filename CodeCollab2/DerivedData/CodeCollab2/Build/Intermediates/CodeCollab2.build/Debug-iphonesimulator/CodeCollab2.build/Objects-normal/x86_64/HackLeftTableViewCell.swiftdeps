@@ -6,25 +6,25 @@ provides-nominal:
 provides-member:
 - ["C11CodeCollab221HackLeftTableViewCell", ""]
 provides-dynamic-lookup:
+- "address"
+- "loadItems"
+- "button"
 - "cellDate"
 - "awakeFromNib"
 - "cellName"
 - "cellAddress"
-- "date"
-- "button"
-- "address"
-- "loadItems"
-- "title"
 - "setSelected"
+- "date"
+- "title"
 depends-top-level:
 - "String"
 - !private "UIControlState"
-- "UIImage"
-- "UILabel"
 - "UITableViewCell"
-- "HackLeftTableViewCell"
-- "UIButton"
 - "Bool"
+- "HackLeftTableViewCell"
+- "UILabel"
+- "UIImage"
+- "UIButton"
 depends-member:
 - !private ["PSs9AnyObject", "UIControlState"]
 - ["PSs9AnyObject", "address"]

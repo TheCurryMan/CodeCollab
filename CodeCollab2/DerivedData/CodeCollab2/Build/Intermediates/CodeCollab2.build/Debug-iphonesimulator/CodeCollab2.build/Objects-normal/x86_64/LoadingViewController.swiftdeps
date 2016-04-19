@@ -6,25 +6,25 @@ provides-nominal:
 provides-member:
 - ["C11CodeCollab221LoadingViewController", ""]
 provides-dynamic-lookup:
-- "didReceiveMemoryWarning"
-- "activityIndicator"
-- "nextpage"
-- "viewDidLoad"
 - "ref"
+- "activityIndicator"
+- "viewDidLoad"
+- "nextpage"
+- "didReceiveMemoryWarning"
 depends-top-level:
-- "Firebase"
+- !private "UIActivityIndicatorViewStyle"
+- "UIViewController"
 - !private "NSTimer"
 - "StringLiteralType"
+- !private "Selector"
+- !private "UIColor"
+- "Firebase"
+- "LoadingViewController"
 - !private "print"
 - "UIActivityIndicatorView"
-- !private "UIActivityIndicatorViewStyle"
-- !private "UIColor"
 - !private "BooleanLiteralType"
-- !private "!="
 - !private "CGRectMake"
-- !private "Selector"
-- "UIViewController"
-- "LoadingViewController"
+- !private "!="
 depends-member:
 - !private ["PSs9AnyObject", "CGRectMake"]
 - ["PSs9AnyObject", "Firebase"]

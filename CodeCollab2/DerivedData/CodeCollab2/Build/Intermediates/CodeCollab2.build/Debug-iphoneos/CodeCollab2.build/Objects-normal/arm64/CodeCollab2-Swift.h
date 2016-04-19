@@ -89,6 +89,8 @@ typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 @import UIKit;
 @import ObjectiveC;
 @import CoreLocation;
+@import MapKit;
+@import CoreGraphics;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -131,23 +133,57 @@ SWIFT_CLASS("_TtC11CodeCollab210Connection")
 @end
 
 @class UIImageView;
+@class NSString;
+@class MKMapView;
+@class Firebase;
 @class UITableView;
+@class CLLocationManager;
+@class Person;
+@class CLLocation;
+@class NSError;
+@class NSIndexPath;
+@class UITableViewCell;
+@class UIButton;
+@protocol MKAnnotation;
+@class MKAnnotationView;
+@class UIControl;
+@class UISegmentedControl;
 
 SWIFT_CLASS("_TtC11CodeCollab231DetailedHackathonViewController")
-@interface DetailedHackathonViewController : UIViewController
+@interface DetailedHackathonViewController : UIViewController <UIScrollViewDelegate, UITableViewDataSource, CLLocationManagerDelegate, MKMapViewDelegate, UITableViewDelegate>
 @property (nonatomic, strong) IBOutlet UIImageView * __null_unspecified bgimg;
 @property (nonatomic, strong) IBOutlet UIImageView * __null_unspecified mainimg;
 @property (nonatomic, copy) NSString * __nullable ideatext;
 @property (nonatomic, copy) NSString * __nullable groupnumber;
 @property (nonatomic, copy) NSString * __nullable currentAmount;
-- (IBAction)controlbutton:(id __nonnull)sender;
+@property (nonatomic, copy) NSString * __nullable name;
+@property (nonatomic, strong) NSString * __nullable dataStr;
+@property (nonatomic, strong) IBOutlet MKMapView * __null_unspecified mapView;
+@property (nonatomic, copy) NSArray<NSArray<NSString *> *> * __nonnull firebaseData;
 @property (nonatomic, strong) Hackathon * __nullable hackathon;
+@property (nonatomic, strong) Firebase * __null_unspecified ref;
 @property (nonatomic, strong) IBOutlet UITableView * __null_unspecified tableView;
+@property (nonatomic, readonly, strong) CLLocationManager * __nonnull locationManager;
 - (void)viewDidLoad;
+@property (nonatomic, copy) NSArray<Person *> * __nonnull points;
+- (void)getCoordinatePoints;
+- (void)locationManager:(CLLocationManager * __nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * __nonnull)locations;
+- (void)locationManager:(CLLocationManager * __nonnull)manager didFailWithError:(NSError * __nonnull)error;
+- (void)createAnnotation:(CLLocationCoordinate2D)location title:(NSString * __nonnull)title subtitle:(NSString * __nonnull)subtitle;
 - (IBAction)addIdea:(id __nonnull)sender;
+- (void)showAlert0;
 - (void)showAlert1;
 - (void)showAlert2;
 - (void)showAlert3;
+- (UITableViewCell * __nonnull)tableView:(UITableView * __nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;
+@property (nonatomic, strong) UIButton * __nullable button;
+- (MKAnnotationView * __null_unspecified)mapView:(MKMapView * __null_unspecified)mapView viewForAnnotation:(id <MKAnnotation> __null_unspecified)annotation;
+- (void)tableView:(UITableView * __nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;
+- (void)mapView:(MKMapView * __nonnull)mapView annotationView:(MKAnnotationView * __nonnull)view calloutAccessoryControlTapped:(UIControl * __nonnull)control;
+- (NSInteger)tableView:(UITableView * __nonnull)tableView numberOfRowsInSection:(NSInteger)section;
+- (CGFloat)tableView:(UITableView * __nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;
+@property (nonatomic, strong) IBOutlet UISegmentedControl * __null_unspecified segmentedControl;
+- (IBAction)indexChanged:(UISegmentedControl * __nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -161,7 +197,6 @@ SWIFT_CLASS("_TtC11CodeCollab221HackCardTableViewCell")
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIButton;
 @class UIImage;
 @class UILabel;
 
@@ -197,7 +232,6 @@ SWIFT_CLASS("_TtC11CodeCollab29Hackathon")
 - (nonnull instancetype)initWithName:(NSString * __nonnull)name image:(UIImage * __nonnull)image date:(NSString * __nonnull)date blurb:(NSString * __nonnull)blurb location:(CLLocationCoordinate2D)location teamSize:(NSInteger)teamSize prizes:(NSArray<Prize *> * __nonnull)prizes members:(NSArray<Member *> * __nonnull)members address:(NSString * __nonnull)address bgimg:(UIImage * __nonnull)bgimg OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSIndexPath;
 @class UIStoryboardSegue;
 
 SWIFT_CLASS("_TtC11CodeCollab223HackathonViewController")
@@ -221,8 +255,21 @@ SWIFT_CLASS("_TtC11CodeCollab223HackathonViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+SWIFT_CLASS("_TtC11CodeCollab221IdeaCardTableViewCell")
+@interface IdeaCardTableViewCell : UITableViewCell
+@property (nonatomic, strong) IBOutlet UIImageView * __null_unspecified profile;
+@property (nonatomic, strong) IBOutlet UILabel * __null_unspecified name;
+@property (nonatomic, strong) IBOutlet UILabel * __null_unspecified idea;
+- (IBAction)join:(id __nonnull)sender;
+@property (nonatomic, strong) IBOutlet UILabel * __null_unspecified group;
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * __nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UIActivityIndicatorView;
-@class Firebase;
 
 SWIFT_CLASS("_TtC11CodeCollab221LoadingViewController")
 @interface LoadingViewController : UIViewController
@@ -253,7 +300,22 @@ SWIFT_CLASS("_TtC11CodeCollab219LoginViewController")
 
 SWIFT_CLASS("_TtC11CodeCollab26Member")
 @interface Member : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@property (nonatomic, strong) UIImage * __nonnull profilePic;
+@property (nonatomic) CLLocationCoordinate2D location;
+@property (nonatomic, copy) NSString * __nonnull name;
+@property (nonatomic, copy) NSString * __nonnull username;
+@property (nonatomic, copy) NSString * __nonnull password;
+@property (nonatomic, copy) NSString * __nonnull email;
+@property (nonatomic, copy) NSString * __nonnull phone;
+- (nonnull instancetype)initWithProfilePic:(UIImage * __nonnull)profilePic location:(CLLocationCoordinate2D)location name:(NSString * __nonnull)name username:(NSString * __nonnull)username password:(NSString * __nonnull)password email:(NSString * __nonnull)email phone:(NSString * __nonnull)phone OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC11CodeCollab26Person")
+@interface Person : NSObject <MKAnnotation>
+@property (nonatomic) CLLocationCoordinate2D coordinate;
+@property (nonatomic, copy) NSString * __nullable title;
+- (nonnull instancetype)initWithCoordinate:(CLLocationCoordinate2D)coordinate title:(NSString * __nonnull)title OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -283,8 +345,6 @@ SWIFT_CLASS("_TtC11CodeCollab220SignUpViewController")
 - (void)touchesBegan:(NSSet<UITouch *> * __nonnull)touches withEvent:(UIEvent * __nullable)event;
 - (IBAction)signUp:(UIButton * __nonnull)sender;
 - (IBAction)fbLogin:(id __nonnull)sender;
-- (IBAction)merchantLogIn:(id __nonnull)sender;
-- (void)prepareForSegue:(UIStoryboardSegue * __nonnull)segue sender:(id __nullable)sender;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

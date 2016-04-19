@@ -6,20 +6,20 @@ provides-nominal:
 provides-member:
 - ["C11CodeCollab221IdeaCardTableViewCell", ""]
 provides-dynamic-lookup:
-- "idea"
-- "setSelected"
-- "profile"
-- "name"
-- "join"
 - "group"
+- "profile"
 - "awakeFromNib"
+- "join"
+- "setSelected"
+- "idea"
+- "name"
 depends-top-level:
-- "UILabel"
 - "IdeaCardTableViewCell"
-- "UITableViewCell"
-- "AnyObject"
-- "Bool"
 - "UIImageView"
+- "UITableViewCell"
+- "Bool"
+- "UILabel"
+- "AnyObject"
 depends-member:
 - ["PSs9AnyObject", "awakeFromNib"]
 - ["PSs9AnyObject", "group"]

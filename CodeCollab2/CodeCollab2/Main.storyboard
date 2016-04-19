@@ -102,23 +102,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blurrybg2" id="jjq-O2-Zv0">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="GXZ-1z-PMW">
+                                <rect key="frame" x="0.0" y="-64" width="320" height="203"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hack Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="I13-bE-7Gi">
+                                <rect key="frame" x="23" y="95" width="274" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blurrybg2" id="jjq-O2-Zv0">
+                                <rect key="frame" x="0.0" y="182" width="320" height="386"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="120" sectionHeaderHeight="28" sectionFooterHeight="28" id="6Fq-dM-R7i">
-                                <rect key="frame" x="0.0" y="223" width="320" height="345"/>
+                                <rect key="frame" x="0.0" y="182" width="320" height="386"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
                                 <edgeInsets key="layoutMargins" top="8" left="30" bottom="8" right="30"/>
                                 <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </tableView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="GXZ-1z-PMW">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="128"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="TPp-0Q-tEE">
+                                <rect key="frame" x="123" y="20" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="eFX-yP-EWU">
+                                <rect key="frame" x="0.0" y="182" width="320" height="318"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            </mapView>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="UVJ-Um-Jta">
-                                <rect key="frame" x="16" y="180" width="288" height="29"/>
+                                <rect key="frame" x="16" y="146" width="288" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="Teams"/>
                                     <segment title="Carpool"/>
@@ -127,16 +143,8 @@
                                     <action selector="indexChanged:" destination="bdc-MR-89l" eventType="valueChanged" id="ChD-um-vQA"/>
                                 </connections>
                             </segmentedControl>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="TPp-0Q-tEE">
-                                <rect key="frame" x="123" y="53" width="75" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
-                            </imageView>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="eFX-yP-EWU">
-                                <rect key="frame" x="0.0" y="225" width="320" height="275"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
-                            </mapView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="8xV-o5-LBL">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="RKg-Zp-dz2">
@@ -148,6 +156,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="bgimg" destination="GXZ-1z-PMW" id="zyc-Cx-AMd"/>
+                        <outlet property="hackname" destination="I13-bE-7Gi" id="elU-0c-q1z"/>
                         <outlet property="mainimg" destination="TPp-0Q-tEE" id="7Ld-JV-luL"/>
                         <outlet property="mapView" destination="eFX-yP-EWU" id="say-xv-kgA"/>
                         <outlet property="segmentedControl" destination="UVJ-Um-Jta" id="Cgk-ke-2QH"/>
@@ -156,7 +165,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WgW-6A-laD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1230" y="31"/>
+            <point key="canvasLocation" x="621" y="491"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Efy-WL-TOr">
@@ -174,7 +183,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZkX-M4-fO2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="265.06666666666666" y="-693.90666666666664"/>
+            <point key="canvasLocation" x="621" y="-149"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="yab-wd-cYL">
@@ -193,7 +202,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wr9-sF-GqF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="659" y="-15"/>
+            <point key="canvasLocation" x="232" y="-149"/>
         </scene>
         <!--Loading View Controller-->
         <scene sceneID="7v9-et-svk">
@@ -226,13 +235,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="rj3-qT-JjO"/>
                     <connections>
-                        <segue destination="p2T-Rl-uqP" kind="modal" identifier="signup" id="30J-Oj-QTl"/>
+                        <segue destination="p2T-Rl-uqP" kind="push" identifier="signup" id="30J-Oj-QTl"/>
                         <segue destination="UgX-vc-wBC" kind="push" identifier="goinghome" id="04L-V7-Ed5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b5z-cl-ksW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-255" y="172"/>
+            <point key="canvasLocation" x="-695" y="172"/>
         </scene>
         <!--Sign Up-->
         <scene sceneID="XMU-zk-2Up">
@@ -351,12 +360,12 @@
                         <outlet property="password" destination="WBW-Wg-2re" id="YMT-3r-4Us"/>
                         <outlet property="signup" destination="LKf-Jl-yJk" id="clC-Ko-58T"/>
                         <outlet property="username" destination="Dye-Dz-trl" id="nic-Ql-3X1"/>
-                        <segue destination="eDy-bu-A1g" kind="push" identifier="homescreen" id="WcL-nz-CAr"/>
+                        <segue destination="UgX-vc-wBC" kind="push" identifier="homescreen" id="2pP-Fg-7C4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ymv-sx-WBZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="324" y="1706"/>
+            <point key="canvasLocation" x="-262" y="491"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="QFv-Hj-3Ha">
@@ -434,12 +443,12 @@
                     <connections>
                         <outlet property="email" destination="Sew-XK-uoN" id="lSz-MM-cdJ"/>
                         <outlet property="password" destination="9bp-6i-2nu" id="zMT-Ar-Vm8"/>
-                        <segue destination="eDy-bu-A1g" kind="push" identifier="userloggedin" id="tJ5-JR-HfO"/>
+                        <segue destination="UgX-vc-wBC" kind="push" identifier="userloggedin" id="a3o-zT-e9V"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3gw-k0-hmu" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1060" y="915"/>
+            <point key="canvasLocation" x="-262" y="-149"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="yjF-dd-gh3">
@@ -457,7 +466,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gHI-8E-n6h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-787" y="172"/>
+            <point key="canvasLocation" x="-1091" y="172"/>
         </scene>
     </scenes>
     <resources>
@@ -465,10 +474,9 @@
         <image name="blurrybg2" width="618" height="957"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="a3o-zT-e9V"/>
         <segue reference="47O-Qg-B1X"/>
-        <segue reference="tJ5-JR-HfO"/>
-        <segue reference="Ykj-ty-x9B"/>
-        <segue reference="s1S-h9-nKE"/>
+        <segue reference="d6h-lk-PbT"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>

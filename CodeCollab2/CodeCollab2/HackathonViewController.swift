@@ -9,6 +9,8 @@
 import UIKit
 import MapKit
 
+
+
 class HackathonViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     var hackathons: [Hackathon] = []
@@ -108,7 +110,7 @@ class HackathonViewController: UIViewController, UITableViewDataSource, UITableV
         
         else {
         
-            for j in 0...5{
+            for j in 0...6{
                 
                 var i = hackathonData[j]
             

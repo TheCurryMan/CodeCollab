@@ -6,12 +6,12 @@ provides-nominal:
 provides-member:
 - ["C11CodeCollab221HackCardTableViewCell", ""]
 provides-dynamic-lookup:
-- "awakeFromNib"
 - "setSelected"
+- "awakeFromNib"
 depends-top-level:
+- "HackCardTableViewCell"
 - "UITableViewCell"
 - "Bool"
-- "HackCardTableViewCell"
 depends-member:
 - ["PSs9AnyObject", "awakeFromNib"]
 - ["PSs9AnyObject", "init"]
